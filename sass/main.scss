@@ -1,18 +1,21 @@
-/* Custom SCSS Files For ****
+/* Custom SCSS Files For Postife Upload System
  *
  * This files are using SASS (SCSS) preprocessor.
  * Files were created using Prepros
- * Author: ****
- * Website: https://****.com/
+ * Author: DevXenner
+ * Website: https://postife.com/
  * License: All rights reserved. Do not copy. Do not sell or distribute this file.
  * 
  */
 
 // Import Base
 @import "base/reset.scss";
+@import "base/typography.scss";
+@import "base/general.scss";
 
 // Import Sass Utils
 @import "sass-utils/mixins.scss";
+
 
 // Import Grid
 //@import "vendors/bootstrap-grid.min.css";
