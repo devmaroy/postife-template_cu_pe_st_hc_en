@@ -1,0 +1,72 @@
+// PX to REM
+// 
+// Usage: font-size: rem(37px);
+
+@function rem($px, $base: $base-font-size) {
+    @return ($px / $base) * 1rem;
+}
+
+
+
+// Box sixing
+// 
+// Defines how the width and height of an element are calculated based on user's decision
+// Usage : 
+// 		html {
+// 			@include box-sizing( border-box );
+// 		}
+//
+// 		*,
+// 		*:before,
+// 		*:after {
+// 			box-sizing: inherit;
+//  	}
+
+@mixin box-sizing( $value ) {
+	box-sizing: $value;
+}
+
+
+
+// Selection
+//
+// Set the ::selection selector for allowing to pass a content block into it
+// Usage: 
+// 		@include selection {
+//			background-color: $color-selection;
+//		}
+
+@mixin selection() {
+	::selection { @content };
+}
+
+
+
+// Lists
+// 
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+// Usage: 
+// 		.list-unstyled {
+//			@include list-unstyled;
+//		}
+
+@mixin list-unstyled {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+// Container
+//
+// Set the container width and center it
+// Usage: 
+// 		.container {
+//			@include container( $container-max-width );
+//		}
+ 
+@mixin container( $max-width ) {
+   max-width: $max-width;
+   margin: 0 auto;
+}
