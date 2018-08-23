@@ -13,9 +13,10 @@
 @import "base/typography.scss";
 @import "base/general.scss";
 
+
 // Import Sass Utils
 @import "sass-utils/mixins.scss";
 
 
-// Import Grid
-//@import "vendors/bootstrap-grid.min.css";
+//Import Bootstrap Grid
+@import "vendors/bootstrap-grid.min.css";
