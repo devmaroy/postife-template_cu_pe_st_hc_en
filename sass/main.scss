@@ -8,15 +8,29 @@
  * 
  */
 
+// Import Sass Utils
+@import "sass-utils/variables.scss";
+@import "sass-utils/mixins.scss";
+@import "sass-utils/functions.scss";
+
+
 // Import Base
 @import "base/reset.scss";
 @import "base/typography.scss";
 @import "base/general.scss";
 
 
-// Import Sass Utils
-@import "sass-utils/mixins.scss";
+// Import Layout
+@import "layout/header.scss";
+@import "layout/navigation.scss";
+@import "layout/forms.scss";
+@import "layout/footer.scss";
 
 
-//Import Bootstrap Grid
-@import "vendors/bootstrap-grid.min.css";
+// Import Components
+@import "components/logo.scss";
+@import "components/card.scss";
+
+
+// Import Pages
+@import "pages/home.scss";

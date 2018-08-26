@@ -22,7 +22,8 @@
 	<!-- END Import Favicon -->
 
 	<!-- Import Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Martel:400,700,800&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;subset=latin-ext" rel="stylesheet">
 	<!-- END Import Fonts -->
 	
 	<!-- Import Font Awesome -->
@@ -30,11 +31,272 @@
 	<!-- END Import Font Awesome -->
 
 	<!-- Import CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- END Import CSS -->
 </head>
-<body>
+<body class="body">
+	<!-- Site Header -->
+	<header class="site-header">
+		<!-- Site Logo -->
+		<div class="logo">
+			<a href="#"><i class="fas fa-cloud-upload-alt"></i> Postife</a>
+		</div>
+		<!-- END Site Logo -->
+
+		<!-- Hamburger Icon -->
+		<div class="nav-toggle">
+			<div class="hamburger-icon"></div>
+		</div>
+		<!-- END Hamburger Icon -->
+
+		<!-- Site Navigation -->
+		<div class="site-navigation">
+			<ul class="list-unstyled">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">About Us</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+				<li>
+					<a href="#">FAQ</a>
+				</li>
+			</ul>
+		</div>
+		<!-- END Site Navigation -->
+	</header>
+	<!-- END Site Header -->
+
+	<main class="main">
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="container-fluid">
+				<div class="row justify-content-around">
+					<div class="col-sm-4 col-lg-4">
+						<div class="intro">
+							<h1>But why Postife?</h1>
+
+							<p>
+								We provide free and very effective way to save your images, documents and much more!
+							</p>
+
+							<p>
+								Sign up and upload whatever you want.
+							</p>
+
+							<p>
+								After that you can manage your files inside our amazing administration environment.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-3">
+						<div class="join-us">
+							<form class="form form-sign-up">
+								<div class="form-head">
+									<h1 class="form-title no-boring-title">Sign Up</h1>
+								</div>	
+
+								<div class="form-group">
+									<label for="name">Your name: <sup>*</sup></label>
+									<input type="text" name="name" id="name" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<label for="email">Your email: <sup>*</sup></label>
+									<input type="email" name="email" id="email" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<label for="password">Your password: <sup>*</sup></label>
+									<input type="password" name="password" id="password" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<label for="password_confirm">Repeat your password: <sup>*</sup></label>
+									<input type="password" name="password_confirm" id="password_confirm" class="form-control">
+								</div>
+
+								<input type="submit" value="Sign Up" class="form-control form-btn">
+
+								<div class="form-meta">
+									Already have an account? <a href="#">Sign In</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END Hero Section -->
+
+		<!-- Testimonials Section -->
+		<section class="testimonials">
+			<div class="container-fluid">
+				<div class="row justify-content-around">
+					<div class="col-lg-6 col-xl-7">
+						<div class="testimonials-container">
+							<div class="testimonials-head">
+								<h1 class="no-boring-title">Testimonials</h1>
+							</div>	
+
+							<div class="row">
+								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
+									<div id="testimonial-1" class="card">
+										<div class="card-head">
+											<div class="card-image">
+												<img src="http://localhost:7887/img/testimonial-01.jpg" alt="Testimonal image" class="img-fluid">
+											</div>
+											
+											<h3 class="card-title">Josh Frederik</h3>
+										</div>
+
+										<div class="card-content">
+											<p>
+												Postife is absolutely awesome service!
+											</p>
+
+											<p>
+												As a professional web designer I need a place to store all my images.
+											</p>
+
+											<p>
+												I recommend this service to everybody!
+											</p>
+										</div>
+
+										<div class="card-meta">
+											<p>
+												Web designer at <a href="#" class="no-boring-link">Wrien Inc</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- d-flex align-items-stretch -->
+								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
+									<div id="testimonial-2" class="card">
+										<div class="card-head">
+											<div class="card-image">
+												<img src="http://localhost:7887/img/testimonial-02.jpg" alt="Testimonal image" class="img-fluid">
+											</div>
+											
+											<h3 class="card-title">Lucy Smith</h3>
+										</div>
+
+										<div class="card-content">
+											<p>
+												I was searching for place to store my documents. I've found Postife!
+											</p>
+
+											<p>
+												I fell in love with georgeous dashboard and anonymity.
+											</p>
+
+											<p>
+												I love it, love it! 
+											</p>
+
+										</div>
+
+										<div class="card-meta">
+											<p>
+												Copywriter at <a href="#" class="no-boring-link">Lucy Smith</a>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
+									<div id="testimonial-3" class="card">
+										<div class="card-head">
+											<div class="card-image">
+												<img src="http://localhost:7887/img/testimonial-03.jpg" alt="Testimonal image" class="img-fluid">
+											</div>
+											
+											<h3 class="card-title">George Sanders</h3>
+										</div>
+
+										<div class="card-content">
+											<p>
+												Anonymity of all my files is what I want!
+											</p>
+
+											<p>
+												Postife is here to solve my problem, really nice and neat.
+											</p>
+
+											<p>
+												Recommended!
+											</p>
+										</div>
+
+										<div class="card-meta">
+											<p>
+												Copywriter at <a href="#" class="no-boring-link">Lucy Smith</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							
+						</div>
+					</div>
+
+					<div class="col-lg-5 col-xl-3">
+						<div class="follow-us">
+							<div class="follow-us-head">
+								<h1 class="no-boring-title">Follow Us</h1>
+
+								<div class="latest-tweets">
+									<a class="twitter-timeline" data-theme="light" data-link-color="#6666ce" href="https://twitter.com/Postife1?ref_src=twsrc%5Etfw">Tweets by Postife1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</div>
+
+								<h3>
+									Wants more?
+								</h3>
+								
+								<ul class="list-unstyled social-list">
+									<li class="social-list-item">
+										<a href="#">
+											<i class="fab fa-facebook social-icon social-icon-brand social-icon-facebook"></i>
+										</a>
+									</li>
+									<li class="social-list-item">
+										<a href="#"><i class="fab fa-twitter social-icon social-icon-brand social-icon-twitter"></i></a>
+									</li>
+									<li class="social-list-item">
+										<a href="#"><i class="fab fa-instagram social-icon social-icon-brand social-icon-instagram"></i></a>
+									</li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END Testimonials Section -->
+	</main>
+
+	<footer class="site-footer">
+		<!-- Copyright -->
+		<div class="copyright">
+			<p>
+				Copyright © 2018 <span class="logo"><a href="index.html" class="logo">Postife</a></span>. <span class="copyright-rights">All rights reserved.</span>
+			</p>
+
+			<p>
+				Made with <i class="fas fa-heart heart-icon"></i> by <a href="https://devxenner.com/" class="copyright-brand">devxenner</a>
+			</p>
+		</div>
+		<!-- END Copyright -->
+	</footer>
 	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    # Footer Settings
+\*------------------------------------*/
+
+.site-footer {
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 2em;
+
+	.logo {
+		font-size: 1em;
+		margin: 0;
+	}
+}
+
+.copyright-brand {
+	color: #6666ce;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: darken( #6666ce, 15% );
+	}
+}

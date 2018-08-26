@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    # Forms Settings
+\*------------------------------------*/
+
+.form {
+	background-color: #fff;
+	color: #505050;
+	padding: 1.5em;
+	box-shadow: 2px 0px 6px 1px #505050;
+	border-radius: .1em;
+
+	sup {
+		color: #6666ce;
+	}
+}
+
+.form-title {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.form-group {
+	label {
+		display: block;
+		margin: 1.3em 0;
+	}
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	border: 1px solid #BBBBF2;
+	padding: .7em;
+	border-radius: .1em;
+
+	&:focus {
+		background-color: lighten( #6666ce, 37% );
+	}
+}
+
+.form-btn {
+	margin: 2em 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #6666ce;
+	
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: #fff;
+		background-color: #6666ce;
+	}
+}
+
+.form-meta {
+	text-align: center;
+
+	a {
+		color: #6666ce;
+	}
+}

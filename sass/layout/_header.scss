@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    # Header Settings
+\*------------------------------------*/
+
+.site-header {
+	background-color: #fff;
+	color: #333;
+	padding: 1.5em 0;
+
+	&.is-open {
+		padding-bottom: 0;
+	}
+	border-bottom: 1px solid darken( #fff, 50% );
+}
