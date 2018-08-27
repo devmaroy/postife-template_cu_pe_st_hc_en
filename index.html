@@ -38,46 +38,49 @@
 <body class="body">
 	<!-- Site Header -->
 	<header class="site-header">
-		<!-- Site Logo -->
-		<div class="logo">
-			<a href="#"><i class="fas fa-cloud-upload-alt"></i> Postife</a>
-		</div>
-		<!-- END Site Logo -->
+		<div class="site-header-content container-fluid">
+			<!-- Site Logo -->
+			<div class="logo">
+				<a href="#"><i class="fas fa-cloud-upload-alt"></i> Postife</a>
+			</div>
+			<!-- END Site Logo -->
 
-		<!-- Hamburger Icon -->
-		<div class="nav-toggle">
-			<div class="hamburger-icon"></div>
-		</div>
-		<!-- END Hamburger Icon -->
+			<!-- Hamburger Icon -->
+			<div class="nav-toggle">
+				<div class="hamburger-icon"></div>
+			</div>
+			<!-- END Hamburger Icon -->
 
-		<!-- Site Navigation -->
-		<div class="site-navigation">
-			<ul class="list-unstyled">
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">About Us</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
-				<li>
-					<a href="#">FAQ</a>
-				</li>
-			</ul>
+			<!-- Site Navigation -->
+			<div class="site-navigation">
+				<ul class="list-unstyled">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About Us</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+					<li>
+						<a href="#">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<!-- END Site Navigation -->
 		</div>
-		<!-- END Site Navigation -->
 	</header>
 	<!-- END Site Header -->
 
 	<main class="main">
 		<!-- Hero Section -->
-		<section class="hero">
+		<section class="hero content-spacing">
 			<div class="container-fluid">
-				<div class="row justify-content-around">
-					<div class="col-sm-4 col-lg-4">
-						<div class="intro">
+				<div class="row justify-content-between">
+					<div class="col-md-6 col-xl-8">
+						<!-- Intro -->
+						<section class="intro">
 							<h1>But why Postife?</h1>
 
 							<p>
@@ -91,11 +94,25 @@
 							<p>
 								After that you can manage your files inside our amazing administration environment.
 							</p>
-						</div>
+							
+							<ul class="list-unstyled overview-list">
+								<li class="overview-list-item">
+									<i class="fas fa-users overview-icon"></i>
+									17 
+								</li>
+
+								<li class="overview-list-item">
+									<i class="fas fa-file-alt overview-icon"></i>
+									174
+								</li>			
+							</ul>
+						</section>
+						<!-- END Intro -->
 					</div>
 
-					<div class="col-sm-4 col-lg-3">
-						<div class="join-us">
+					<div class="col-md-6 col-xl-4">
+						<!-- Join Us -->
+						<section class="join-us">
 							<form class="form form-sign-up">
 								<div class="form-head">
 									<h1 class="form-title no-boring-title">Sign Up</h1>
@@ -127,161 +144,197 @@
 									Already have an account? <a href="#">Sign In</a>
 								</div>
 							</form>
-						</div>
+							<!-- Join Us -->
+						</section>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- END Hero Section -->
 
-		<!-- Testimonials Section -->
-		<section class="testimonials">
+		<!-- Testimonials -->
+		<section class="testimonials content-spacing">
 			<div class="container-fluid">
-				<div class="row justify-content-around">
-					<div class="col-lg-6 col-xl-7">
-						<div class="testimonials-container">
-							<div class="testimonials-head">
-								<h1 class="no-boring-title">Testimonials</h1>
-							</div>	
+				<!-- Testimonials Head -->
+				<header class="testimonials-head">
+					<h1 class="no-boring-title">Testimonials</h1>
+				</header>
+				<!-- END Testimonials Head -->
 
-							<div class="row">
-								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
-									<div id="testimonial-1" class="card">
-										<div class="card-head">
-											<div class="card-image">
-												<img src="http://localhost:7887/img/testimonial-01.jpg" alt="Testimonal image" class="img-fluid">
-											</div>
-											
-											<h3 class="card-title">Josh Frederik</h3>
-										</div>
-
-										<div class="card-content">
-											<p>
-												Postife is absolutely awesome service!
-											</p>
-
-											<p>
-												As a professional web designer I need a place to store all my images.
-											</p>
-
-											<p>
-												I recommend this service to everybody!
-											</p>
-										</div>
-
-										<div class="card-meta">
-											<p>
-												Web designer at <a href="#" class="no-boring-link">Wrien Inc</a>
-											</p>
-										</div>
-									</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-3 d-flex">
+						<div class="card" id="testimonial-1">
+							<div class="card-head">
+								<div class="card-image">
+									<img src="http://localhost:7887/img/testimonial-01.jpg" alt="Testimonal image" class="img-fluid">
 								</div>
-								<!-- d-flex align-items-stretch -->
-								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
-									<div id="testimonial-2" class="card">
-										<div class="card-head">
-											<div class="card-image">
-												<img src="http://localhost:7887/img/testimonial-02.jpg" alt="Testimonal image" class="img-fluid">
-											</div>
-											
-											<h3 class="card-title">Lucy Smith</h3>
-										</div>
-
-										<div class="card-content">
-											<p>
-												I was searching for place to store my documents. I've found Postife!
-											</p>
-
-											<p>
-												I fell in love with georgeous dashboard and anonymity.
-											</p>
-
-											<p>
-												I love it, love it! 
-											</p>
-
-										</div>
-
-										<div class="card-meta">
-											<p>
-												Copywriter at <a href="#" class="no-boring-link">Lucy Smith</a>
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-sm-6 col-xl-4 d-flex align-items-stretch">
-									<div id="testimonial-3" class="card">
-										<div class="card-head">
-											<div class="card-image">
-												<img src="http://localhost:7887/img/testimonial-03.jpg" alt="Testimonal image" class="img-fluid">
-											</div>
-											
-											<h3 class="card-title">George Sanders</h3>
-										</div>
-
-										<div class="card-content">
-											<p>
-												Anonymity of all my files is what I want!
-											</p>
-
-											<p>
-												Postife is here to solve my problem, really nice and neat.
-											</p>
-
-											<p>
-												Recommended!
-											</p>
-										</div>
-
-										<div class="card-meta">
-											<p>
-												Copywriter at <a href="#" class="no-boring-link">Lucy Smith</a>
-											</p>
-										</div>
-									</div>
-								</div>
+								
+								<h3 class="card-title">Josh Frederik</h3>
 							</div>
 
-							
+							<div class="card-content">
+								<p>
+									Postife is absolutely awesome service!
+								</p>
+
+								<p>
+									As a professional web designer I need a place to store all my images.
+								</p>
+
+								<p>
+									I recommend this service to everybody!
+								</p>
+							</div>
+
+							<div class="card-meta">
+								<p>
+									Web designer at <a href="#" class="no-boring-link">Wrien Inc</a>
+								</p>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-5 col-xl-3">
-						<div class="follow-us">
-							<div class="follow-us-head">
-								<h1 class="no-boring-title">Follow Us</h1>
-
-								<div class="latest-tweets">
-									<a class="twitter-timeline" data-theme="light" data-link-color="#6666ce" href="https://twitter.com/Postife1?ref_src=twsrc%5Etfw">Tweets by Postife1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<div class="col-md-6 col-lg-3 d-flex">
+						<div class="card" id="testimonial-2">
+							<div class="card-head">
+								<div class="card-image">
+									<img src="http://localhost:7887/img/testimonial-02.jpg" alt="Testimonal image" class="img-fluid">
 								</div>
-
-								<h3>
-									Wants more?
-								</h3>
 								
-								<ul class="list-unstyled social-list">
-									<li class="social-list-item">
-										<a href="#">
-											<i class="fab fa-facebook social-icon social-icon-brand social-icon-facebook"></i>
-										</a>
-									</li>
-									<li class="social-list-item">
-										<a href="#"><i class="fab fa-twitter social-icon social-icon-brand social-icon-twitter"></i></a>
-									</li>
-									<li class="social-list-item">
-										<a href="#"><i class="fab fa-instagram social-icon social-icon-brand social-icon-instagram"></i></a>
-									</li>
-								</ul>
-							</div>	
+								<h3 class="card-title">Lucy Smith</h3>
+							</div>
+
+							<div class="card-content">
+								<p>
+									I was searching for place to store my documents. I've found Postife!
+								</p>
+
+								<p>
+									I fell in love with georgeous dashboard and anonymity.
+								</p>
+
+								<p>
+									I love it, love it! 
+								</p>
+
+							</div>
+
+							<div class="card-meta">
+								<p>
+									Copywriter at <a href="#" class="no-boring-link">Lucy Smith</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-3 d-flex">
+						<div class="card" id="testimonial-3">
+							<div class="card-head">
+								<div class="card-image">
+									<img src="http://localhost:7887/img/testimonial-03.jpg" alt="Testimonal image" class="img-fluid">
+								</div>
+								
+								<h3 class="card-title">George Sanders</h3>
+							</div>
+
+							<div class="card-content">
+								<p>
+									Anonymity of all my files is what I want!
+								</p>
+
+								<p>
+									Postife is here to solve my problem, really nice and neat.
+								</p>
+
+								<p>
+									Recommended!
+								</p>
+							</div>
+
+							<div class="card-meta">
+								<p>
+									Fitness instructor at <a href="#" class="no-boring-link">FLEX Studios</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-3 d-flex">
+						<div class="card" id="testimonial-4">
+							<div class="card-head">
+								<div class="card-image">
+									<img src="http://localhost:7887/img/testimonial-04.jpg" alt="Testimonal image" class="img-fluid">
+								</div>
+								
+								<h3 class="card-title">Michael A. Webster</h3>
+							</div>
+
+							<div class="card-content">
+								<p>
+									As an older person, I appreciate simplicity and straightforwardness.
+								</p>
+
+								<p>
+									Lovely support, great image management.
+								</p>
+
+								<p>
+									Michael recommends this!
+								</p>
+							</div>
+
+							<div class="card-meta">
+								<p>
+									Freelance writer at <a href="#" class="no-boring-link">Webster Writes Inc</a>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- END Testimonials Section -->
+		<!-- END Testimonials -->
+
+		<!-- Follow Us -->
+		<section class="follow-us content-spacing">
+			<div class="container-fluid">
+				<header class="follow-us-head">
+					<h1 class="no-boring-title">Follow Us</h1>
+				</header>
+
+				<!-- Latest Tweets -->
+				<div class="latest-tweets d-flex justify-content-center">
+					<a class="twitter-timeline" data-width="800" data-theme="light" href="https://twitter.com/Postife1?ref_src=twsrc%5Etfw">Tweets by Postife1</a> 
+				</div>
+				<!-- END Latest Tweets -->
+
+				<!-- More Social Links -->
+				<div class="social">
+					<h3>
+						Wants more?
+					</h3>
+					
+					<ul class="list-unstyled social-list">
+						<li class="social-list-item">
+							<a href="#">
+								<i class="fab fa-facebook social-icon social-icon-brand social-icon-facebook"></i>
+							</a>
+						</li>
+						<li class="social-list-item">
+							<a href="#"><i class="fab fa-twitter social-icon social-icon-brand social-icon-twitter"></i></a>
+						</li>
+						<li class="social-list-item">
+							<a href="#"><i class="fab fa-instagram social-icon social-icon-brand social-icon-instagram"></i></a>
+						</li>
+					</ul>
+				</div>
+				<!-- More Social Links -->
+			</div>
+		</section>
+		<!-- END Follow Us -->
 	</main>
 
+	<!-- Site Footer -->
 	<footer class="site-footer">
 		<!-- Copyright -->
 		<div class="copyright">
@@ -295,8 +348,10 @@
 		</div>
 		<!-- END Copyright -->
 	</footer>
+	<!-- END Site Footer -->
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

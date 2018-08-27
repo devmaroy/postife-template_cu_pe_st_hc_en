@@ -26,6 +26,10 @@
 	}
 }
 
+.form-sign-up {
+	// max-width: 35em;
+}
+
 .form-control {
 	display: block;
 	width: 100%;
@@ -34,6 +38,7 @@
 	border: 1px solid #BBBBF2;
 	padding: .7em;
 	border-radius: .1em;
+	color: inherit;
 
 	&:focus {
 		background-color: lighten( #6666ce, 37% );

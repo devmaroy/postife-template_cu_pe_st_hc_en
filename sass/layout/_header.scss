@@ -10,5 +10,18 @@
 	&.is-open {
 		padding-bottom: 0;
 	}
+
 	border-bottom: 1px solid darken( #fff, 50% );
+
+	.container-fluid {
+	
+	}
+}
+
+.site-header-content {
+	@media ( min-width: 768px ) {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
 }

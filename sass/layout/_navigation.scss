@@ -6,9 +6,31 @@
 	margin-top: 2em;
 	text-align: center;
 	display: none;
+	// background-color: hotpink;
+
+	@media ( min-width: 768px ) {
+		display: block;
+		margin-top: 0em;
+		// width: 100%;
+	}
+
+	
+	
 
 	li:not( :last-child ) {
 		border-bottom: 1px solid darken( #fff, 15% );
+
+		@media ( min-width: 768px ) {
+			border-bottom: none;
+		}
+	}
+
+	li {
+		@media ( min-width: 768px ) {
+			border-bottom: none;
+			display: inline-block;
+
+		}
 	}
 
 	a {
@@ -26,11 +48,17 @@
 		&:focus {
 			color: #6666ce;
 		}
+
+		@media ( min-width: 768px ) {
+			display: inline-block;
+			padding: 0 2em;
+		}
 	}
 	
 	&.is-open {
 		 display: block;
 	}
+
 }
 
 /* END Navigation Settings */
@@ -49,6 +77,10 @@
 	position: absolute;
 	top: 1.3em;
 	right: 1em;
+
+	@media ( min-width: 768px ) {
+		display: none;
+	}
 }
 
 .hamburger-icon,

@@ -5,16 +5,16 @@
 .card {
 
 	display: flex;
-	  flex-direction: column;
+	flex-direction: column;
 	// height: 500px;
 
-
+	flex: 1 1 auto;
 	box-shadow: 2px 0px 6px 1px #bdbdbd;
 	margin-top: 6em;
 	background-color: #6666ce;
 	padding: 1.5em;
 	border-radius: .1em;
-	margin-bottom: 8em;
+	// margin-bottom: 8em;
 	margin-bottom: 2em;
 
 	p {
@@ -74,12 +74,14 @@
 
 .card-content {
 	margin: 2em 0;
+	text-align: center;
 }
 
 
 .card-meta {
 	text-align: center;
 	margin-top: auto;
+
 	a {
 		color: #fff;
 		font-weight: 700;
@@ -99,9 +101,9 @@
 	text-align: center;
 }
 
-.follow-us {
-	margin-top: 3em;
-}
+// .follow-us {
+// 	margin-top: 3em;
+// }
 
 .follow-us-head {
 	text-align: center;
@@ -117,7 +119,7 @@
 
 .social-icon:hover,
 .social-icon:focus {
-	opacity: .8;
+	opacity: .7;
 }
 
 .social-icon-brand {
@@ -195,14 +197,18 @@
 
 
 
+.social {
+	text-align: center;
+	margin-top: 4em;
+}
+
 .social-list {
 	margin-top: 2em;
 }
 
-
 .social-list-item {
 	display: inline-block;
-	font-size: 2em;
+	font-size: 2.5em;
 
 	&:not(:last-child) {
 		margin-right: 1em;
@@ -217,3 +223,21 @@
 
 
 
+
+
+// .content-spacing {
+// 	padding: 6em 0;
+// }
+
+section {
+	// padding: 4em 0;
+}
+
+
+/// media for card
+
+.card-content { 
+	@media ( min-width: 768px ) {
+		// text-align: left;
+	}
+}
