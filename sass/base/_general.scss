@@ -10,7 +10,7 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
- }
+}
 
 .body {
 	display: flex; /* flex sticky footer */
@@ -26,11 +26,20 @@ html {
 	max-width: 1920px;
 }
 
-section {
-	// padding: 6em 0;
+// Generate text alignment classes -> e.g. .text-center
+@each $align in $text-alignment {
+	.text-#{$align} {
+		text-align: $align;
+	}
+}
 
+section {
 	h1 {
 		font-size: 2em;
+	}
+
+	h1, h2, h3, h4, h5, h6, p {
+		color: inherit;
 	}
 }
 

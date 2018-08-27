@@ -1,0 +1,109 @@
+/*------------------------------------*\
+    # Follow Us Settings
+\*------------------------------------*/
+
+
+.latest-tweets {
+	margin-top: $latest-tweets-margin-top;
+}
+
+.social {
+	text-align: center;
+	margin-top: $social-margin-top;
+}
+
+.social-list {
+	margin-top: $social-list-margin-top;
+}
+
+.social-list-item {
+	display: inline-block;
+	font-size: $social-list-item-font-size;
+
+	&:not(:last-child) {
+		margin-right: $social-list-item-margin-right;
+	}
+}
+
+.social-icon {
+	transition: $social-icon-animation;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+	opacity: $social-icon-opacity-hover;
+}
+
+
+// Social brand variants
+
+.social-icon-brand {
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff))10px 84%/10px 9px no-repeat,
+		-webkit-radial-gradient(center, circle, #fff 61%,transparent 0);
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff))10px 84%/10px 9px no-repeat,
+		-o-radial-gradient(center, circle, #fff 61%,transparent 0);
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff))10px 84%/10px 9px no-repeat,
+		radial-gradient(circle at center, #fff 61%,transparent 0);
+	background: 
+		-webkit-linear-gradient(#fff,#fff)10px 84%/10px 9px no-repeat,
+		-webkit-radial-gradient(center, circle, #fff 61%,transparent 0);
+	background: 
+		-o-linear-gradient(#fff,#fff)10px 84%/10px 9px no-repeat,
+		-o-radial-gradient(center, circle, #fff 61%,transparent 0);
+	background: 
+		linear-gradient(#fff,#fff)10px 84%/10px 9px no-repeat,
+		radial-gradient(circle at center, #fff 61%,transparent 0);	
+}
+
+.social-icon-youtube {
+	color: #fff;
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(red),to(red))10px 84%/10px 9px no-repeat,
+		-webkit-radial-gradient(center, circle, red 61%,transparent 0);
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(red),to(red))10px 84%/10px 9px no-repeat,
+		-o-radial-gradient(center, circle, red 61%,transparent 0);
+	background: 
+		-webkit-gradient(linear,left top, left bottom,from(red),to(red))10px 84%/10px 9px no-repeat,
+		radial-gradient(circle at center, red 61%,transparent 0);
+	background: 
+		-webkit-linear-gradient(red,red)10px 84%/10px 9px no-repeat,
+		-webkit-radial-gradient(center, circle, red 61%,transparent 0);
+	background: 
+		-o-linear-gradient(red,red)10px 84%/10px 9px no-repeat,
+		-o-radial-gradient(center, circle, red 61%,transparent 0);
+	background: 
+		linear-gradient(red,red)10px 84%/10px 9px no-repeat,
+		radial-gradient(circle at center, red 61%,transparent 0);	
+}
+
+.social-icon-instagram{ 
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.social-icon-linkedin {
+	color: #0077B5;
+}
+
+.social-icon-twitter {
+	color: #28aae1;
+}
+
+.social-icon-facebook {
+	color: #3c5a98;
+}
+
+.social-icon-github {
+	color: #323131;
+}
+
+.social-icon-google-plus {
+	color: #dd4b39;
+}
