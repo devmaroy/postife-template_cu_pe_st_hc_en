@@ -12,10 +12,15 @@ html {
 	box-sizing: inherit;
 }
 
+@include selection {
+	background-color: $color-selection;
+}
+
 .body {
 	display: flex; /* flex sticky footer */
 	min-height: 100vh; /* flex sticky footer */
 	flex-direction: column; /* flex sticky footer */
+	background-color: #fff;
 }
 
 .main {

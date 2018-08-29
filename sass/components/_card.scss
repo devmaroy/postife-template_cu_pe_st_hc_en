@@ -11,7 +11,8 @@
 	margin-bottom: $card-margin-bottom;
 	padding: $card-padding-y $card-padding-x;
 
-	background-color: $card-bg-color;
+	background: $card-bg;
+	background-size: cover;
 
 	box-shadow: $card-box-shadow;
 	border-radius: $card-border-radius;
@@ -55,13 +56,13 @@
 		bottom: -50%;
 		width: 40%;
 		left: 30%;
-		transition: $card-title-underline-animation;
+		transition: $card-title-underline-transition;
 		background-color: $card-title-underline-color;
 	}
 }
 
 .card-content {
-	margin: 2em 0;
+	margin: $card-content-margin-y $card-content-margin-x;
 	text-align: center;
 }
 

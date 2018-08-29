@@ -31,11 +31,13 @@
 }
 
 .form-control {
+	appearance: none;
 	display: block;
 	width: 100%;
 	border: none;
 	outline: none;
 	border: 1px solid #BBBBF2;
+	background-color: #fff;
 	padding: .7em;
 	border-radius: .1em;
 	color: inherit;

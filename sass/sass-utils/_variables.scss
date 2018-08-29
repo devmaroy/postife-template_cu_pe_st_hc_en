@@ -1,3 +1,5 @@
+// Hint: --xs, --sm, --md, ... these are variables for certain media queries.
+
 /*------------------------------------*\
     # Simple Typography Settings
 \*------------------------------------*/
@@ -53,6 +55,16 @@ $text-alignment: (
 // Basic colors
 $color-primary: #6666ce;
 $color-secondary: #fff;
+$color-selection: lighten( #6666ce, 32% );
+//$bg-primary: radial-gradient( darken( $color-primary, 2% ), darken( $color-primary, 5% ) );
+//$bg-primary: radial-gradient( darken( $color-primary, 1% ), darken( $color-primary, 3% ) );
+
+//$bg-primary: url('../../../img/stripes-light2.png') center center, radial-gradient( darken( $color-primary, 1% ), darken( $color-primary, 3% ) );
+
+//$bg-primary: url('../../../img/stripes-light2.png') center center, radial-gradient( darken( $color-primary, 10% ), darken( $color-primary, 15% ) );
+
+
+$bg-primary: url('../../../img/stripes-light.png') center center, radial-gradient( darken( $color-primary, 5% ), darken( $color-primary, 10% ) );
 $dark: #505050;
 $light: #fff;
 
@@ -72,7 +84,7 @@ $yiq-text-light: $light;
 \*------------------------------------*/
 
 // Card colors
-$card-bg-color: $color-primary;
+$card-bg: $bg-primary;
 $card-text-color: $light;
 $card-title-color: $light;
 $card-title-underline-color: $light;
@@ -93,9 +105,61 @@ $card-image-shape: 50%; /* border-radius */
 $card-image-border: 0.125em solid $light; /* 2/16 */
 
 $card-title-font-size: 1.3em;
-$card-title-underline-animation: 0.4s ease-out all .1s;
+$card-title-underline-transition: 0.4s ease-out all .1s;
 
 $card-meta-link-weight: 700;
+
+$card-content-margin-y: 2em;
+$card-content-margin-x: 0;
+
+
+
+
+
+/*------------------------------------*\
+    # Logo Settings
+\*------------------------------------*/
+
+// Logo colors
+$logo-color: $color-primary;
+
+// Logo settings
+$logo-font-family: 'Nunito', sans-serif;
+$logo-font-size: 2em;
+
+
+
+
+
+/*------------------------------------*\
+    # Navigation Settings
+\*------------------------------------*/
+
+// Navigation colors
+$navigation-link-color: $dark;
+$navigation-link-hover-color: $color-primary;
+$hamburger-bar-bg-color: $dark;
+
+// Navigation settings
+$navigation-margin-top: 2em;
+$navigation-border-bottom: 0.0625em solid darken( #fff, 15% ); /* 1/16 */
+
+$navigation-link-padding-y: 2em; 
+$navigation-link-padding-x: 2em;
+
+// Media breakpoint
+$navigation-link-padding-y--md: 0;
+$navigation-link-padding-x--md: 2em;
+
+$navigation-link-transition: all ease-in-out 250ms;
+
+$navtoggle-padding-y: 1em;
+$navtoggle-padding-x: 1em;
+
+$navtoggle-position-top: 1.6em;
+$navtoggle-position-right: 1em;
+
+$hamburger-bar-transition: all ease-in-out 250ms;
 
 
 
@@ -106,6 +170,7 @@ $card-meta-link-weight: 700;
 \*------------------------------------*/
 
 // Hero colors
+$hero-bg: $bg-primary;
 $overview-list-item-color: $light;
 
 // Hero settings
@@ -149,5 +214,5 @@ $social-list-margin-top: 2em;
 $social-list-item-font-size: 2.5em;
 $social-list-item-margin-right: 1em;
 
-$social-icon-animation: 0.4s ease-out all .1s;
+$social-icon-transition: 0.4s ease-out all .1s;
 $social-icon-opacity-hover: .7;

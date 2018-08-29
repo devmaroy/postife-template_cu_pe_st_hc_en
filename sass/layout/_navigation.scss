@@ -3,82 +3,63 @@
 \*------------------------------------*/
 
 .site-navigation {
-	margin-top: 2em;
-	text-align: center;
 	display: none;
-	// background-color: hotpink;
-
-	@media ( min-width: 768px ) {
-		display: block;
-		margin-top: 0em;
-		// width: 100%;
-	}
-
+	margin-top: $navigation-margin-top;
+	text-align: center;
 	
-	
-
-	li:not( :last-child ) {
-		border-bottom: 1px solid darken( #fff, 15% );
-
-		@media ( min-width: 768px ) {
-			border-bottom: none;
-		}
-	}
-
 	li {
 		@media ( min-width: 768px ) {
 			border-bottom: none;
 			display: inline-block;
+		}
+	}
 
+	li:not(:last-child) {
+		border-bottom: $navigation-border-bottom;
+
+		@media ( min-width: 768px ) {
+			border-bottom: none;
 		}
 	}
 
 	a {
 		display: block;
-		background-color: #fff;
-		padding: 2em;
+		padding: $navigation-link-padding-y $navigation-link-padding-x;
 		text-transform: uppercase;
 		text-decoration: none;
-		color: #505050;
+		color: $navigation-link-color;
 		font-weight: 700;
-
-		transition: all ease-in-out 250ms;
-
-		&:hover,
-		&:focus {
-			color: #6666ce;
-		}
+		transition: $navigation-link-transition;
 
 		@media ( min-width: 768px ) {
 			display: inline-block;
-			padding: 0 2em;
-
-
+			padding: $navigation-link-padding-y--md $navigation-link-padding-x--md;
+		}
+	
+		&:hover,
+		&:focus {
+			color: $navigation-link-hover-color;
 		}
 	}
-	
+
 	&.is-open {
 		 display: block;
 	}
-
+	
+	@media ( min-width: 768px ) {
+		display: block;
+		margin-top: 0;
+	}
 }
-
-/* END Navigation Settings */
-
-
-
-/*------------------------------------*\
-    # Hamburger Icon Settings
-\*------------------------------------*/
 
 .nav-toggle {
 	display: block;
-	padding: 1em;
+	padding: $navtoggle-padding-y $navtoggle-padding-x;
 	cursor: pointer;
 
 	position: absolute;
-	top: 1.3em;
-	right: 1em;
+	top: $navtoggle-position-top;
+	right: $navtoggle-position-right;
 
 	@media ( min-width: 768px ) {
 		display: none;
@@ -92,9 +73,9 @@
 	display: block;
 	width: 2em;
 	height: 3px;
-	background-color: #505050;
+	background-color: $hamburger-bar-bg-color;
 
-	transition: all ease-in-out 250ms;
+	transition: $hamburger-bar-transition;
 }
 
 .hamburger-icon::before {
@@ -116,5 +97,3 @@
 		opacity: 0;
 	}
 }
-
-/* END Hamburger Icon Settings */

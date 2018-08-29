@@ -3,16 +3,13 @@
 \*------------------------------------*/
 
 .logo {
-	font-family: 'Nunito', sans-serif;
-	font-size: 2em;
+	font-family: $logo-font-family;
+	font-size: $logo-font-size;
 	margin: 0;
-	// margin-left: .5em;
-
+	
 	a {
+		color: $logo-color;
 		text-decoration: none;
-		color: #6666ce;
 		font-weight: 700;
 	}
 }
-
-/* END Logo Settings */

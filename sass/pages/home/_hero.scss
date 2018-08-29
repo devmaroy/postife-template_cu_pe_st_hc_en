@@ -3,37 +3,115 @@
 \*------------------------------------*/
 
 .hero {
-	background-color: $color-primary;
+	background: $hero-bg;
+	background-size: cover;
 	color: color-yiq( $color-primary );
 	padding: $hero-padding-y $hero-padding-x;
 }
 
 .intro {
 	margin-bottom: $intro-margin-bottom;
-	text-align: center;
-
-	@media (min-width: 1200px) { 
-		text-align: left;
-	}
+	max-width: 55em;
 }
 
 .overview-list {
-	margin-top: $overview-list-margin-top;
+	margin-top: 4em;
+	// text-align: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .overview-list-item {
-	display: inline-block;
-	text-align: center;
+	color: #fff;
+	flex-basis: 100%;
 
-	color: $overview-list-item-color;
+	@media ( min-width: 380px ) {
+		flex-basis: 50%;
+	}
+
+	@media ( min-width: 1200px ) {
+		display: flex;
+		flex-basis: 33.333333333%;
+	}
 
 	&:not(:last-child) {
-		margin-right: $overview-list-item-margin-right;
+		margin-bottom: 2em;
 	}
 }
 
-.overview-icon {
-	display: block;
-	font-size: $overview-icon-font-size;
-	margin-bottom: $overview-icon-margin-bottom;
+.overview-list-item-head {
+	width: 4em;
+	height: 4em;
+	display: inline-block;
+	background-color: #fff;
+	color: #6666ce;
+	text-align: center;	
+	border-radius: 50%;
+	margin-bottom: 1em;
+
+	@media ( min-width: 1200px ) {
+		margin-right: 1em;
+	}
+
+	span {
+		font-size: 2em;
+		margin-top: .5em;
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
+
+.overview-list-item-content {
+	span {
+		display: block;
+		margin-top: .5em;
+	}
+}
+
+
+
+// .overview-list {
+// 	margin-top: 4em;
+// 	display: flex;
+
+// 	li {
+// 		display: flex;
+// 		flex-direction: row;
+
+// 		color: #fff;
+
+// 		&:not(:last-child) {
+// 			margin-right: 4em;
+// 		}
+
+// 		span {
+// 			display: block;
+// 			margin-top: .5em;
+// 		}
+// 	}
+
+// 	.overview-list-item-head {
+// 		width: 4em;
+// 		height: 4em;
+		
+// 		margin-right: 1em;
+
+
+// 		background-color: #fff;
+// 		color: #6666ce;
+// 		text-align: center;
+// 		border-radius: 50%;
+
+// 		span {
+// 			vertical-align: middle;
+// 			font-size: 2em;
+// 		}
+
+// 	}
+	
+// 	.overview-list-item-content {
+// 		display: flex;
+// 		align-items: center;
+// 	}
+// }
+
