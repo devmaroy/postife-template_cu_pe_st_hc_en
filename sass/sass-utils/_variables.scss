@@ -8,25 +8,31 @@
 $font-family: 'Martel', serif;
 
 // Base Font for HTML
-$base-font-size: 16px;
+$base-font-size: 100%;
+
+// Font Weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
 
 // Paragraph Styles
-$paragraph-color      : #505050;
-$paragraph-size       : rem(17px);
+$paragraph-color: #505050;
+$paragraph-size: rem(17px);
 $paragraph-line-height: 1.5em;
-$paragraph-margin     : 20px;
+$paragraph-margin: 20px;
 
 // Header Styles
-$header-color      : #000000;
-$header-size       : rem(40px);
+$header-color: #000000;
+$header-size: rem(40px);
 $header-line-height: 1.25em;
-$header-margin     : $paragraph-margin * 1.2;
+$header-margin : $paragraph-margin * 1.2;
 
 // Blockquote Styles
-$blockquote-color      : #505050;
-$blockquote-size       : rem(23px);
+$blockquote-color: #505050;
+$blockquote-size: rem(23px);
 $blockquote-line-height: 1.5em;
-$blockquote-margin     : $paragraph-margin * 1.5;
+$blockquote-margin: $paragraph-margin * 1.5;
 
 // Links
 $link-color: #459bd9;
@@ -48,6 +54,7 @@ $text-alignment: (
 
 
 
+
 /*------------------------------------*\
     # Color Settings
 \*------------------------------------*/
@@ -56,15 +63,7 @@ $text-alignment: (
 $color-primary: #6666ce;
 $color-secondary: #fff;
 $color-selection: lighten( #6666ce, 32% );
-//$bg-primary: radial-gradient( darken( $color-primary, 2% ), darken( $color-primary, 5% ) );
-//$bg-primary: radial-gradient( darken( $color-primary, 1% ), darken( $color-primary, 3% ) );
 
-//$bg-primary: url('../../../img/stripes-light2.png') center center, radial-gradient( darken( $color-primary, 1% ), darken( $color-primary, 3% ) );
-
-//$bg-primary: url('../../../img/stripes-light2.png') center center, radial-gradient( darken( $color-primary, 10% ), darken( $color-primary, 15% ) );
-
-
-$bg-primary: url('../../../img/stripes-light.png') center center, radial-gradient( darken( $color-primary, 5% ), darken( $color-primary, 10% ) );
 $dark: #505050;
 $light: #fff;
 
@@ -75,7 +74,9 @@ $yiq-contrasted-threshold: 150;
 $yiq-text-dark: $dark;
 $yiq-text-light: $light;
 
-
+// Background
+$bg-primary: url('../../../img/stripes-light.png') center center, 
+    radial-gradient( darken( $color-primary, 5% ), darken( $color-primary, 10% ) );
 
 
 
@@ -126,7 +127,7 @@ $logo-color: $color-primary;
 // Logo settings
 $logo-font-family: 'Nunito', sans-serif;
 $logo-font-size: 2em;
-
+$logo-font-weight: $font-weight-bold;
 
 
 

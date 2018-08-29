@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: $header-margin * 1.5;
     color: $header-color;
     line-height: $header-line-height;
-    font-weight: 700;
+    font-weight: $font-weight-bold;
 
     &:first-child {
         margin-top: 0;

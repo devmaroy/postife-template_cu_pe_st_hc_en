@@ -72,7 +72,7 @@ table {
 /*------------------------------------*    # Typography Settings
 \*------------------------------------*/
 *, html, body {
-  font-size: 16px;
+  font-size: 100%;
   font-family: "Martel", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 36px;
   color: #000000;
   line-height: 1.25em;
-  font-weight: 700; }
+  font-weight: 800; }
   h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0; }
 
@@ -528,7 +528,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   .logo a {
     color: #6666ce;
     text-decoration: none;
-    font-weight: 700; }
+    font-weight: 800; }
 
 /*------------------------------------*    # Card Settings
 \*------------------------------------*/
