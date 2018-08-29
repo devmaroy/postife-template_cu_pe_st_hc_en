@@ -9,22 +9,33 @@
  */
 /*------------------------------------*    # Simple Typography Settings
 \*------------------------------------*/
+/*------------------------------------*    # General Settings
+\*------------------------------------*/
+/* limit container fluid width, we don't want to go too wide */
 /*------------------------------------*    # Color Settings
 \*------------------------------------*/
 /*------------------------------------*    # Card Settings
 \*------------------------------------*/
 /* border-radius */
 /* 2/16 */
+/*------------------------------------*    # Form Settings
+\*------------------------------------*/
 /*------------------------------------*    # Logo Settings
 \*------------------------------------*/
 /*------------------------------------*    # Navigation Settings
 \*------------------------------------*/
 /* 1/16 */
+/*------------------------------------*    # Header Settings
+\*------------------------------------*/
+/* 1/16 */
 /*------------------------------------*    # Home | Hero Settings
 \*------------------------------------*/
+/* border-radius */
 /*------------------------------------*    # Home | Testimonials Settings
 \*------------------------------------*/
 /*------------------------------------*    # Home | Follow Us Settings
+\*------------------------------------*/
+/*------------------------------------*    # Footer Settings
 \*------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -301,48 +312,43 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   height: auto;
   vertical-align: middle; }
 
-.no-boring-title {
-  text-transform: uppercase;
-  position: relative;
-  display: inline-block; }
-  .no-boring-title::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    height: 2px !important;
-    bottom: 0;
-    width: 40%;
-    left: 30%;
-    -webkit-transition: 0.4s ease-out all .1s;
-    -o-transition: 0.4s ease-out all .1s;
-    transition: 0.4s ease-out all .1s;
-    background-color: #6666ce; }
-  .no-boring-title:hover::after, .no-boring-title:focus::after {
-    width: 90%;
-    left: 5%;
-    -webkit-transition: 0.5s ease all;
-    -o-transition: 0.5s ease all;
-    transition: 0.5s ease all; }
-
+.no-boring-title,
 .no-boring-link {
-  text-decoration: none;
-  position: relative;
-  display: inline-block; }
+  display: inline-block;
+  position: relative; }
+  .no-boring-title::after,
   .no-boring-link::after {
     content: '';
-    height: 2px;
-    width: 0;
-    background-color: #fff;
-    margin: 0 auto;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 2px;
     -webkit-transition: 0.4s ease-out all .1s;
     -o-transition: 0.4s ease-out all .1s;
     transition: 0.4s ease-out all .1s; }
-  .no-boring-link:hover::after, .no-boring-link:focus::after {
+  .no-boring-title:hover::after, .no-boring-title:focus::after,
+  .no-boring-link:hover::after,
+  .no-boring-link:focus::after {
     width: 90%; }
+
+.no-boring-title {
+  text-transform: uppercase; }
+  .no-boring-title::after {
+    top: 100%;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    background-color: #6666ce; }
+  .no-boring-title:hover::after, .no-boring-title:focus::after {
+    left: 5%; }
+
+.no-boring-link {
+  text-decoration: none; }
+  .no-boring-link::after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    margin: 0 auto;
+    background-color: #fff; }
 
 /*------------------------------------*    # Header Settings
 \*------------------------------------*/
@@ -350,7 +356,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   background-color: #fff;
   color: #333;
   padding: 1.5em 0;
-  border-bottom: 1px solid gray; }
+  border-bottom: 0.0625em solid gray; }
   .site-header.is-open {
     padding-bottom: 0; }
 
@@ -387,10 +393,10 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
     text-transform: uppercase;
     text-decoration: none;
     color: #505050;
-    font-weight: 700;
-    -webkit-transition: all ease-in-out 250ms;
-    -o-transition: all ease-in-out 250ms;
-    transition: all ease-in-out 250ms; }
+    font-weight: 800;
+    -webkit-transition: all ease-in-out 0.25s;
+    -o-transition: all ease-in-out 0.25s;
+    transition: all ease-in-out 0.25s; }
     @media (min-width: 768px) {
       .site-navigation a {
         display: inline-block;
@@ -423,9 +429,9 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   width: 2em;
   height: 3px;
   background-color: #505050;
-  -webkit-transition: all ease-in-out 250ms;
-  -o-transition: all ease-in-out 250ms;
-  transition: all ease-in-out 250ms; }
+  -webkit-transition: all ease-in-out 0.25s;
+  -o-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s; }
 
 .hamburger-icon::before {
   -webkit-transform: translateY(-6px);
@@ -451,14 +457,8 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
 /*------------------------------------*    # Forms Settings
 \*------------------------------------*/
 .form {
-  background-color: #fff;
-  color: #505050;
-  padding: 1.5em;
-  -webkit-box-shadow: 2px 0px 6px 1px #505050;
-  box-shadow: 2px 0px 6px 1px #505050;
-  border-radius: .1em; }
-  .form sup {
-    color: #6666ce; }
+  padding: 1.5em 1.5em;
+  border-radius: 0.1em; }
 
 .form-title {
   text-align: center;
@@ -476,31 +476,39 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   width: 100%;
   border: none;
   outline: none;
-  border: 1px solid #BBBBF2;
-  background-color: #fff;
-  padding: .7em;
-  border-radius: .1em;
-  color: inherit; }
-  .form-control:focus {
-    background-color: #f5f5fc; }
+  color: inherit;
+  padding: 0.7em 0.7em;
+  border-radius: 0.1em; }
 
 .form-btn {
   margin: 2em 0;
   text-transform: uppercase;
   cursor: pointer;
-  color: #6666ce;
-  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out; }
-  .form-btn:hover, .form-btn:focus {
-    color: #fff;
-    background-color: #6666ce; }
+  -webkit-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s; }
 
 .form-meta {
   text-align: center; }
-  .form-meta a {
+
+.form-auth {
+  background-color: #fff;
+  color: #505050;
+  -webkit-box-shadow: 0.125em 0 0.375em 0.0625em #505050;
+  box-shadow: 0.125em 0 0.375em 0.0625em #505050; }
+  .form-auth sup {
+    color: #6666ce; }
+  .form-auth .form-control {
+    background-color: #fff;
+    border: 0.0625em solid #BBBBF2; }
+    .form-auth .form-control:focus {
+      background-color: white; }
+  .form-auth .form-btn {
+    color: #6666ce; }
+    .form-auth .form-btn:hover, .form-auth .form-btn:focus {
+      color: #fff;
+      background-color: #6666ce; }
+  .form-auth .form-meta a {
     color: #6666ce; }
 
 /*------------------------------------*    # Footer Settings
@@ -639,33 +647,33 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   .overview-list-item:not(:last-child) {
     margin-bottom: 2em; }
 
-.overview-list-item-head {
+.overview-icon {
+  display: inline-block;
   width: 4em;
   height: 4em;
-  display: inline-block;
   background-color: #fff;
   color: #6666ce;
   text-align: center;
   border-radius: 50%;
   margin-bottom: 1em; }
   @media (min-width: 1200px) {
-    .overview-list-item-head {
+    .overview-icon {
       margin-right: 1em; } }
-  .overview-list-item-head span {
-    font-size: 2em;
-    margin-top: .5em;
+  .overview-icon span {
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-size: 2em;
+    margin-top: .5em; }
 
-.overview-list-item-content span {
+.overview-text span {
   display: block;
   margin-top: .5em; }
 
 /*------------------------------------*    # Testimonials Settings
 \*------------------------------------*/
 .testimonials {
-  padding-top: 6em;
-  padding-bottom: 4em; }
+  padding-top: 8em;
+  padding-bottom: 6em; }
 
 /*------------------------------------*    # Follow Us Settings
 \*------------------------------------*/

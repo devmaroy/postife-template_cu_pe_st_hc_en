@@ -13,11 +13,11 @@
 }
 
 
-// Headers
+// Headings
 h1, h2, h3, h4, h5, h6 {
-    margin-top: $header-margin * 1.5;
-    color: $header-color;
-    line-height: $header-line-height;
+    margin-top: $heading-margin * 1.5;
+    color: $heading-color;
+    line-height: $heading-line-height;
     font-weight: $font-weight-bold;
 
     &:first-child {
@@ -26,33 +26,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: $header-size;
-    margin-bottom: $header-margin;
+    font-size: $heading-size;
+    margin-bottom: $heading-margin;
 }
 
 h2 {
-    font-size: $header-size / 1.3;
-    margin-bottom: $header-margin / 1.3;
+    font-size: $heading-size / 1.3;
+    margin-bottom: $heading-margin / 1.3;
 }
 
 h3 {
-    font-size: $header-size / 1.5;
-    margin-bottom: $header-margin / 1.5;
+    font-size: $heading-size / 1.5;
+    margin-bottom: $heading-margin / 1.5;
 }
 
 h4 {
-    font-size: $header-size / 1.7;
-    margin-bottom: $header-margin / 1.7;
+    font-size: $heading-size / 1.7;
+    margin-bottom: $heading-margin / 1.7;
 }
 
 h5 {
-    font-size: $header-size / 1.8;
-    margin-bottom: $header-margin / 1.8;
+    font-size: $heading-size / 1.8;
+    margin-bottom: $heading-margin / 1.8;
 }
 
 h6 {
-    font-size: $header-size / 2;
-    margin-bottom: $header-margin / 2;
+    font-size: $heading-size / 2;
+    margin-bottom: $heading-margin / 2;
 }
 
 

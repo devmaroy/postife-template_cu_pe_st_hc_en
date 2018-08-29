@@ -11,18 +11,17 @@
 
 .intro {
 	margin-bottom: $intro-margin-bottom;
-	max-width: 55em;
+	max-width: $intro-max-width;
 }
 
 .overview-list {
-	margin-top: 4em;
-	// text-align: center;
+	margin-top: $overview-list-margin-top;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .overview-list-item {
-	color: #fff;
+	color: $overview-list-item-color;
 	flex-basis: 100%;
 
 	@media ( min-width: 380px ) {
@@ -35,83 +34,37 @@
 	}
 
 	&:not(:last-child) {
-		margin-bottom: 2em;
+		margin-bottom: $overview-list-item-margin-bottom;
 	}
 }
 
-.overview-list-item-head {
-	width: 4em;
-	height: 4em;
+.overview-icon {
 	display: inline-block;
-	background-color: #fff;
-	color: #6666ce;
-	text-align: center;	
-	border-radius: 50%;
-	margin-bottom: 1em;
+	width: $overview-icon-width;
+	height: $overview-icon-height;
+	
+	background-color: $overview-icon-bg;
+	color: $overview-icon-color;
+
+	text-align: center;
+	border-radius: $overview-icon-shape;
+	margin-bottom: $overview-icon-margin-bottom;
 
 	@media ( min-width: 1200px ) {
-		margin-right: 1em;
+		margin-right: $overview-icon-margin-right--xl;
 	}
 
 	span {
-		font-size: 2em;
-		margin-top: .5em;
 		display: inline-block;
 		vertical-align: middle;
+		font-size: $overview-icon-font-size;
+		margin-top: .5em;
 	}
 }
 
-.overview-list-item-content {
+.overview-text {
 	span {
 		display: block;
 		margin-top: .5em;
 	}
 }
-
-
-
-// .overview-list {
-// 	margin-top: 4em;
-// 	display: flex;
-
-// 	li {
-// 		display: flex;
-// 		flex-direction: row;
-
-// 		color: #fff;
-
-// 		&:not(:last-child) {
-// 			margin-right: 4em;
-// 		}
-
-// 		span {
-// 			display: block;
-// 			margin-top: .5em;
-// 		}
-// 	}
-
-// 	.overview-list-item-head {
-// 		width: 4em;
-// 		height: 4em;
-		
-// 		margin-right: 1em;
-
-
-// 		background-color: #fff;
-// 		color: #6666ce;
-// 		text-align: center;
-// 		border-radius: 50%;
-
-// 		span {
-// 			vertical-align: middle;
-// 			font-size: 2em;
-// 		}
-
-// 	}
-	
-// 	.overview-list-item-content {
-// 		display: flex;
-// 		align-items: center;
-// 	}
-// }
-

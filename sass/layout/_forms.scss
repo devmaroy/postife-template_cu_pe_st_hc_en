@@ -2,70 +2,81 @@
     # Forms Settings
 \*------------------------------------*/
 
-.form {
-	background-color: #fff;
-	color: #505050;
-	padding: 1.5em;
-	box-shadow: 2px 0px 6px 1px #505050;
-	border-radius: .1em;
-
-	sup {
-		color: #6666ce;
-	}
+.form {	
+	padding: $form-padding-y $form-padding-x;
+	border-radius: $form-border-radius;
 }
 
 .form-title {
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: $form-title-margin-bottom;
 }
 
 .form-group {
 	label {
 		display: block;
-		margin: 1.3em 0;
+		margin: $form-label-margin-y $form-label-margin-x;
 	}
-}
-
-.form-sign-up {
-	// max-width: 35em;
 }
 
 .form-control {
 	appearance: none;
+
 	display: block;
 	width: 100%;
+
 	border: none;
 	outline: none;
-	border: 1px solid #BBBBF2;
-	background-color: #fff;
-	padding: .7em;
-	border-radius: .1em;
 	color: inherit;
 
-	&:focus {
-		background-color: lighten( #6666ce, 37% );
-	}
+	padding: $form-control-padding-y $form-control-padding-x;
+	border-radius: $form-control-border-radius;
 }
 
 .form-btn {
-	margin: 2em 0;
+	margin: $form-btn-margin-y $form-btn-margin-x;
 	text-transform: uppercase;
 	cursor: pointer;
-	color: #6666ce;
-	
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
-	&:hover,
-	&:focus {
-		color: #fff;
-		background-color: #6666ce;
-	}
+	transition: $form-btn-transition;
+//	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .form-meta {
 	text-align: center;
+}
 
-	a {
-		color: #6666ce;
+
+// Form variants
+
+.form-auth {
+	background-color: $form-auth-bg;
+	color: $form-auth-color;
+	box-shadow: $form-auth-box-shadow;
+
+	sup {
+		color: $form-required-asterisk-color;
+	}
+
+	.form-control {
+		background-color: $form-auth-control-bg;
+		border: $form-auth-control-border;
+
+		&:focus {
+			background-color: $form-auth-control-hover-bg;
+		}
+	}
+	
+	.form-btn {
+		color: $form-auth-btn-color;
+
+		&:hover,
+		&:focus {
+			color: $form-auth-btn-hover-color;
+			background-color: $form-auth-btn-hover-bg;
+		}
+	}
+	
+	.form-meta a {
+		color: $form-meta-link-color;
 	}
 }

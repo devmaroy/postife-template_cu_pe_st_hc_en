@@ -28,7 +28,7 @@
 		text-transform: uppercase;
 		text-decoration: none;
 		color: $navigation-link-color;
-		font-weight: 700;
+		font-weight: $navigation-link-font-weight;
 		transition: $navigation-link-transition;
 
 		@media ( min-width: 768px ) {

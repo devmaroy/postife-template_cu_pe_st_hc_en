@@ -22,11 +22,11 @@ $paragraph-size: rem(17px);
 $paragraph-line-height: 1.5em;
 $paragraph-margin: 20px;
 
-// Header Styles
-$header-color: #000000;
-$header-size: rem(40px);
-$header-line-height: 1.25em;
-$header-margin : $paragraph-margin * 1.2;
+// Heading Styles
+$heading-color: #000000;
+$heading-size: rem(40px);
+$heading-line-height: 1.25em;
+$heading-margin : $paragraph-margin * 1.2;
 
 // Blockquote Styles
 $blockquote-color: #505050;
@@ -56,10 +56,21 @@ $text-alignment: (
 
 
 /*------------------------------------*\
+    # General Settings
+\*------------------------------------*/
+
+$container-fluid-max-width: 1920px; /* limit container fluid width, we don't want to go too wide */
+$transition-base: 0.4s ease-out all 0.1s;
+
+
+
+
+
+/*------------------------------------*\
     # Color Settings
 \*------------------------------------*/
 
-// Basic colors
+// Basic Colors
 $color-primary: #6666ce;
 $color-secondary: #fff;
 $color-selection: lighten( #6666ce, 32% );
@@ -74,9 +85,11 @@ $yiq-contrasted-threshold: 150;
 $yiq-text-dark: $dark;
 $yiq-text-light: $light;
 
-// Background
+// Basic Backgrounds
 $bg-primary: url('../../../img/stripes-light.png') center center, 
     radial-gradient( darken( $color-primary, 5% ), darken( $color-primary, 10% ) );
+
+
 
 
 
@@ -84,14 +97,14 @@ $bg-primary: url('../../../img/stripes-light.png') center center,
     # Card Settings
 \*------------------------------------*/
 
-// Card colors
+// Card Colors
 $card-bg: $bg-primary;
 $card-text-color: $light;
 $card-title-color: $light;
 $card-title-underline-color: $light;
 $card-meta-link-color: $light;
 
-// Card settings
+// Card Settings
 $card-box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
 $card-border-radius: .1em;
 
@@ -106,7 +119,7 @@ $card-image-shape: 50%; /* border-radius */
 $card-image-border: 0.125em solid $light; /* 2/16 */
 
 $card-title-font-size: 1.3em;
-$card-title-underline-transition: 0.4s ease-out all .1s;
+$card-title-underline-transition: $transition-base;
 
 $card-meta-link-weight: 700;
 
@@ -118,16 +131,59 @@ $card-content-margin-x: 0;
 
 
 /*------------------------------------*\
+    # Form Settings
+\*------------------------------------*/
+
+// Form Settings
+$form-padding-y: 1.5em;
+$form-padding-x: 1.5em;
+$form-border-radius: .1em;
+
+$form-title-margin-bottom: 1em;
+
+$form-label-margin-y: 1.3em;
+$form-label-margin-x: 0;
+
+$form-control-padding-y: .7em;
+$form-control-padding-x: .7em;
+$form-control-border-radius: .1em;
+
+$form-btn-margin-y: 2em;
+$form-btn-margin-x: 0;
+$form-btn-transition: all ease-in-out 0.15s;
+
+
+// Form Auth Colors
+$form-auth-bg: $color-secondary;
+$form-auth-color: $dark;
+$form-auth-control-bg: $color-secondary;
+$form-auth-control-hover-bg: lighten( $form-auth-control-bg, 37% );
+$form-auth-btn-color: $color-primary;
+$form-auth-btn-hover-color: $light;
+$form-auth-btn-hover-bg: $color-primary;
+$form-meta-link-color: $color-primary;
+$form-required-asterisk-color: $color-primary;
+
+// Form Auth Settings
+$form-auth-box-shadow: 0.125em 0 0.375em 0.0625em $dark;
+$form-auth-control-border: 0.0625em solid #BBBBF2;
+
+
+
+
+
+/*------------------------------------*\
     # Logo Settings
 \*------------------------------------*/
 
-// Logo colors
+// Logo Colors
 $logo-color: $color-primary;
 
-// Logo settings
+// Logo Settings
 $logo-font-family: 'Nunito', sans-serif;
 $logo-font-size: 2em;
 $logo-font-weight: $font-weight-bold;
+
 
 
 
@@ -136,23 +192,26 @@ $logo-font-weight: $font-weight-bold;
     # Navigation Settings
 \*------------------------------------*/
 
-// Navigation colors
+// Navigation Colors
 $navigation-link-color: $dark;
 $navigation-link-hover-color: $color-primary;
 $hamburger-bar-bg-color: $dark;
 
-// Navigation settings
+// Navigation Settings
+$navigation-transition: all ease-in-out 0.25s;
 $navigation-margin-top: 2em;
 $navigation-border-bottom: 0.0625em solid darken( #fff, 15% ); /* 1/16 */
 
 $navigation-link-padding-y: 2em; 
 $navigation-link-padding-x: 2em;
 
-// Media breakpoint
+// Media Breakpoint
 $navigation-link-padding-y--md: 0;
 $navigation-link-padding-x--md: 2em;
 
-$navigation-link-transition: all ease-in-out 250ms;
+$navigation-link-transition: $navigation-transition;
+
+$navigation-link-font-weight: $font-weight-bold;
 
 $navtoggle-padding-y: 1em;
 $navtoggle-padding-x: 1em;
@@ -160,7 +219,24 @@ $navtoggle-padding-x: 1em;
 $navtoggle-position-top: 1.6em;
 $navtoggle-position-right: 1em;
 
-$hamburger-bar-transition: all ease-in-out 250ms;
+$hamburger-bar-transition: $navigation-transition;
+
+
+
+
+
+/*------------------------------------*\
+    # Header Settings
+\*------------------------------------*/
+// Header Colors
+$header-bg: $color-secondary;
+$header-color: #333;
+
+// Header Settings
+$header-padding-y: 1.5em;
+$header-padding-x: 0;
+
+$header-border-bottom: 0.0625em solid darken( $header-bg, 50% ); /* 1/16 */
 
 
 
@@ -170,21 +246,32 @@ $hamburger-bar-transition: all ease-in-out 250ms;
     # Home | Hero Settings
 \*------------------------------------*/
 
-// Hero colors
+// Hero Colors
 $hero-bg: $bg-primary;
-$overview-list-item-color: $light;
+$overview-icon-bg: $color-secondary;
 
-// Hero settings
+$overview-list-item-color: $light;
+$overview-icon-color: $color-primary;
+
+// Hero Settings
 $hero-padding-y: 6em;
 $hero-padding-x: 0;
 
 $intro-margin-bottom: 6em;
+$intro-max-width: 55em;
 
 $overview-list-margin-top: 4em;
-$overview-list-item-margin-right: 4em;
 
-$overview-icon-font-size: 2.5em;
-$overview-icon-margin-bottom: .2em;
+$overview-list-item-margin-right: 4em;
+$overview-list-item-margin-bottom: 2em;
+
+$overview-icon-width: 4em;
+$overview-icon-height: 4em;
+
+$overview-icon-shape: 50%; /* border-radius */
+$overview-icon-margin-bottom: 1em;
+$overview-icon-margin-right--xl: 1em;
+$overview-icon-font-size: 2em;
 
 
 
@@ -194,9 +281,11 @@ $overview-icon-margin-bottom: .2em;
     # Home | Testimonials Settings
 \*------------------------------------*/
 
-// Hero settings
-$testimonials-padding-top: 6em;
-$testimonials-padding-bottom: 4em;
+// Hero Settings
+//$testimonials-padding-top: 6em;
+$testimonials-padding-top: 8em;
+//$testimonials-padding-bottom: 4em;
+$testimonials-padding-bottom: 6em;
 
 
 
@@ -206,7 +295,7 @@ $testimonials-padding-bottom: 4em;
     # Home | Follow Us Settings
 \*------------------------------------*/
 
-// Follow Us settings
+// Follow Us Settings
 $latest-tweets-margin-top: 3em;
 
 $social-margin-top: 4em;
@@ -215,5 +304,21 @@ $social-list-margin-top: 2em;
 $social-list-item-font-size: 2.5em;
 $social-list-item-margin-right: 1em;
 
-$social-icon-transition: 0.4s ease-out all .1s;
+$social-icon-transition: $transition-base;
 $social-icon-opacity-hover: .7;
+
+
+
+
+
+/*------------------------------------*\
+    # Footer Settings
+\*------------------------------------*/
+
+// Footer Colors
+$copyright-brand-color: #6666ce;
+$copyright-brand-hover-color: darken( $copyright-brand-color, 15% );
+
+// Footer Settings
+$site-footer-margin-top: 4em;
+$site-footer-margin-bottom: 2em;

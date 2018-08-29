@@ -3,21 +3,20 @@
 \*------------------------------------*/
 
 .site-header {
-	background-color: #fff;
-	color: #333;
-	padding: 1.5em 0;
+	background-color: $header-bg;
+	color: $header-color;
+	padding: $header-padding-y $header-padding-x;
+	border-bottom: $header-border-bottom;
 
 	&.is-open {
 		padding-bottom: 0;
 	}
-
-	border-bottom: 1px solid darken( #fff, 50% );
 }
 
 .site-header-content {
 	@media ( min-width: 768px ) {
-			display: flex;
-			justify-content: space-between;
-			align-items: flex-end;
-		}
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
 }
