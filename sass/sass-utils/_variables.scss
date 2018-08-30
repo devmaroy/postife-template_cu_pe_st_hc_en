@@ -60,7 +60,9 @@ $text-alignment: (
 \*------------------------------------*/
 
 $container-fluid-max-width: 1920px; /* limit container fluid width, we don't want to go too wide */
-$transition-base: 0.4s ease-out all 0.1s;
+
+$transition-base: all ease-in-out 0.25s;
+$transition-no-boring: 0.4s ease-out all 0.1s;
 
 
 
@@ -119,7 +121,7 @@ $card-image-shape: 50%; /* border-radius */
 $card-image-border: 0.125em solid $light; /* 2/16 */
 
 $card-title-font-size: 1.3em;
-$card-title-underline-transition: $transition-base;
+//$card-title-underline-transition: $transition-base;
 
 $card-meta-link-weight: 700;
 
@@ -150,7 +152,7 @@ $form-control-border-radius: .1em;
 
 $form-btn-margin-y: 2em;
 $form-btn-margin-x: 0;
-$form-btn-transition: all ease-in-out 0.15s;
+$form-btn-transition: $transition-base;
 
 
 // Form Auth Colors
@@ -198,9 +200,8 @@ $navigation-link-hover-color: $color-primary;
 $hamburger-bar-bg-color: $dark;
 
 // Navigation Settings
-$navigation-transition: all ease-in-out 0.25s;
 $navigation-margin-top: 2em;
-$navigation-border-bottom: 0.0625em solid darken( #fff, 15% ); /* 1/16 */
+$navigation-border-bottom: 0.0625em solid darken( $color-secondary, 15% ); /* 1/16 */
 
 $navigation-link-padding-y: 2em; 
 $navigation-link-padding-x: 2em;
@@ -209,7 +210,7 @@ $navigation-link-padding-x: 2em;
 $navigation-link-padding-y--md: 0;
 $navigation-link-padding-x--md: 2em;
 
-$navigation-link-transition: $navigation-transition;
+$navigation-link-transition: $transition-base;
 
 $navigation-link-font-weight: $font-weight-bold;
 
@@ -219,7 +220,7 @@ $navtoggle-padding-x: 1em;
 $navtoggle-position-top: 1.6em;
 $navtoggle-position-right: 1em;
 
-$hamburger-bar-transition: $navigation-transition;
+$hamburger-bar-transition: $transition-base;
 
 
 
@@ -304,7 +305,7 @@ $social-list-margin-top: 2em;
 $social-list-item-font-size: 2.5em;
 $social-list-item-margin-right: 1em;
 
-$social-icon-transition: $transition-base;
+$social-icon-transition: $transition-no-boring;
 $social-icon-opacity-hover: .7;
 
 
@@ -316,7 +317,7 @@ $social-icon-opacity-hover: .7;
 \*------------------------------------*/
 
 // Footer Colors
-$copyright-brand-color: #6666ce;
+$copyright-brand-color: $color-primary;
 $copyright-brand-hover-color: darken( $copyright-brand-color, 15% );
 
 // Footer Settings
