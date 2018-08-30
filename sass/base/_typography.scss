@@ -4,7 +4,7 @@
 
 // Make type normal across browsers
 *, html, body {
-    font-size: $base-font-size;
+    font-size: $base-font-size-document;
     font-family: $font-family;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -69,6 +69,11 @@ p {
     }
 }
 
+
+// Small
+small {
+    font-size: $paragraph-size / 1.3;
+}
 
 
 // Links

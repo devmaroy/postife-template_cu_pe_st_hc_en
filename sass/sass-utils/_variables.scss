@@ -8,7 +8,8 @@
 $font-family: 'Martel', serif;
 
 // Base Font for HTML
-$base-font-size: 100%;
+$base-font-size-document: 100%;
+$base-font-size: 16px;
 
 // Font Weight
 $font-weight-light: 300;
@@ -18,19 +19,19 @@ $font-weight-base: $font-weight-normal;
 
 // Paragraph Styles
 $paragraph-color: #505050;
-$paragraph-size: rem(17px);
+$paragraph-size: em(17px);
 $paragraph-line-height: 1.5em;
-$paragraph-margin: 20px;
+$paragraph-margin: em(20px);
 
 // Heading Styles
-$heading-color: #000000;
-$heading-size: rem(40px);
+$heading-color: #333;
+$heading-size: em(40px);
 $heading-line-height: 1.25em;
 $heading-margin : $paragraph-margin * 1.2;
 
 // Blockquote Styles
 $blockquote-color: #505050;
-$blockquote-size: rem(23px);
+$blockquote-size: em(23px);
 $blockquote-line-height: 1.5em;
 $blockquote-margin: $paragraph-margin * 1.5;
 
@@ -38,7 +39,7 @@ $blockquote-margin: $paragraph-margin * 1.5;
 $link-color: #459bd9;
 
 // hr
-$hr-margin: 30px;
+$hr-margin: em(30px);
 
 // Type Misc
 $border-color: #DADADA;
@@ -136,8 +137,9 @@ $card-content-margin-x: 0;
 \*------------------------------------*/
 
 // Form Colors
+$form-color: $dark;
 $form-control-bg: $color-secondary;
-$form-control-hover-bg: lighten( $form-control-bg, 37% );
+$form-control-hover-bg: lighten( $color-primary, 37% );
 
 $form-btn-color: $color-primary;
 $form-btn-hover-color: $light;
@@ -152,7 +154,7 @@ $form-padding-x: 1.5em;
 $form-border-radius: .1em;
 
 $form-control-border: 0.0625em solid #BBBBF2;
-$form-title-margin-bottom: 1em;
+$form-head-margin-bottom: 3em;
 
 $form-label-margin-y: 1.3em;
 $form-label-margin-x: 0;
@@ -172,7 +174,7 @@ $form-auth-color: $dark;
 
 // Form Auth Settings
 $form-auth-box-shadow: 0.125em 0 0.375em 0.0625em $dark;
-
+$form-auth-head-margin-bottom: 1em;
 
 
 
@@ -311,6 +313,24 @@ $social-list-item-margin-right: 1em;
 
 $social-icon-transition: $transition-no-boring;
 $social-icon-opacity-hover: .7;
+
+
+
+
+
+/*------------------------------------*\
+    # About Settings
+\*------------------------------------*/
+$about-padding-top: 8em;
+
+
+
+
+
+/*------------------------------------*\
+    # Contact Settings
+\*------------------------------------*/
+$contact-padding-top: 8em;
 
 
 

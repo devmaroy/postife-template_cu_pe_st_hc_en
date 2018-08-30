@@ -15,3 +15,11 @@
     @return $yiq-text-light;
   }
 }
+
+// EM
+// 
+// Returns em unit based on base-font-size and font size in pixels
+// PX to EM - Usage: font-size: em(37px);
+@function em( $px, $base: $base-font-size ) {
+    @return ( $px / $base ) * 1em;
+}

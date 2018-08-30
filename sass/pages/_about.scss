@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    # About Settings
+\*------------------------------------*/
+
+.about {
+	padding-top: $about-padding-top;
+}
+
+.about-us-img-container {
+	position: relative;
+	margin-bottom: 35%;
+	
+	img {
+		width: 75%;
+		border: 0.0625em solid $color-primary; /* 1/16 */
+	}
+
+	img:nth-child(2) {
+		position: absolute;
+		top: 35%;
+		right: 0;
+	}
+}

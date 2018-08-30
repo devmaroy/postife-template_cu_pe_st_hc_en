@@ -8,16 +8,13 @@
  * 
  */
 
-// Reset CSS
-@import "base/reset.scss";
-
 // Import Sass Utils
-@import "sass-utils/variables.scss";
 @import "sass-utils/mixins.scss";
 @import "sass-utils/functions.scss";
-
+@import "sass-utils/variables.scss";
 
 // Import Base
+@import "base/reset.scss";
 @import "base/typography.scss";
 @import "base/general.scss";
 
@@ -34,7 +31,15 @@
 @import "components/card.scss";
 
 
-// Import Pages
+// Import Page - Home
 @import "pages/home/hero.scss";
 @import "pages/home/testimonials.scss";
 @import "pages/home/follow-us.scss";
+
+
+// Import Page - About
+@import "pages/about.scss";
+
+
+// Import Page - Contact
+@import "pages/contact.scss";

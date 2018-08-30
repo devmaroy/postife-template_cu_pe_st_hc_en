@@ -7,6 +7,40 @@
  * License: All rights reserved. Do not copy. Do not sell or distribute this file.
  * 
  */
+/*------------------------------------*    # Simple Typography Settings
+\*------------------------------------*/
+/*------------------------------------*    # General Settings
+\*------------------------------------*/
+/* limit container fluid width, we don't want to go too wide */
+/*------------------------------------*    # Color Settings
+\*------------------------------------*/
+/*------------------------------------*    # Card Settings
+\*------------------------------------*/
+/* border-radius */
+/* 2/16 */
+/*------------------------------------*    # Form Settings
+\*------------------------------------*/
+/*------------------------------------*    # Logo Settings
+\*------------------------------------*/
+/*------------------------------------*    # Navigation Settings
+\*------------------------------------*/
+/* 1/16 */
+/*------------------------------------*    # Header Settings
+\*------------------------------------*/
+/* 1/16 */
+/*------------------------------------*    # Home | Hero Settings
+\*------------------------------------*/
+/* border-radius */
+/*------------------------------------*    # Home | Testimonials Settings
+\*------------------------------------*/
+/*------------------------------------*    # Home | Follow Us Settings
+\*------------------------------------*/
+/*------------------------------------*    # About Settings
+\*------------------------------------*/
+/*------------------------------------*    # Contact Settings
+\*------------------------------------*/
+/*------------------------------------*    # Footer Settings
+\*------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,36 +84,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*------------------------------------*    # Simple Typography Settings
-\*------------------------------------*/
-/*------------------------------------*    # General Settings
-\*------------------------------------*/
-/* limit container fluid width, we don't want to go too wide */
-/*------------------------------------*    # Color Settings
-\*------------------------------------*/
-/*------------------------------------*    # Card Settings
-\*------------------------------------*/
-/* border-radius */
-/* 2/16 */
-/*------------------------------------*    # Form Settings
-\*------------------------------------*/
-/*------------------------------------*    # Logo Settings
-\*------------------------------------*/
-/*------------------------------------*    # Navigation Settings
-\*------------------------------------*/
-/* 1/16 */
-/*------------------------------------*    # Header Settings
-\*------------------------------------*/
-/* 1/16 */
-/*------------------------------------*    # Home | Hero Settings
-\*------------------------------------*/
-/* border-radius */
-/*------------------------------------*    # Home | Testimonials Settings
-\*------------------------------------*/
-/*------------------------------------*    # Home | Follow Us Settings
-\*------------------------------------*/
-/*------------------------------------*    # Footer Settings
-\*------------------------------------*/
 /*------------------------------------*    # Typography Settings
 \*------------------------------------*/
 *, html, body {
@@ -91,44 +95,47 @@ table {
   -ms-text-size-adjust: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 36px;
-  color: #000000;
+  margin-top: 2.25em;
+  color: #333;
   line-height: 1.25em;
   font-weight: 700; }
   h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0; }
 
 h1 {
-  font-size: rem(40px);
-  margin-bottom: 24px; }
+  font-size: 2.5em;
+  margin-bottom: 1.5em; }
 
 h2 {
-  font-size: rem(40px)/1.3;
-  margin-bottom: 18.46154px; }
+  font-size: 1.92308em;
+  margin-bottom: 1.15385em; }
 
 h3 {
-  font-size: rem(40px)/1.5;
-  margin-bottom: 16px; }
+  font-size: 1.66667em;
+  margin-bottom: 1em; }
 
 h4 {
-  font-size: rem(40px)/1.7;
-  margin-bottom: 14.11765px; }
+  font-size: 1.47059em;
+  margin-bottom: 0.88235em; }
 
 h5 {
-  font-size: rem(40px)/1.8;
-  margin-bottom: 13.33333px; }
+  font-size: 1.38889em;
+  margin-bottom: 0.83333em; }
 
 h6 {
-  font-size: rem(40px)/2;
-  margin-bottom: 12px; }
+  font-size: 1.25em;
+  margin-bottom: 0.75em; }
 
 p {
-  margin-bottom: 20px;
-  font-size: rem(17px);
+  margin-bottom: 1.25em;
+  font-size: 1.0625em;
   line-height: 1.5em;
   color: #505050; }
   p:last-of-type {
     margin-bottom: 0; }
+
+small {
+  font-size: 0.81731em; }
 
 a {
   color: #459bd9;
@@ -140,7 +147,7 @@ a {
 
 ul,
 ol {
-  margin: 20px 0 0 20px; }
+  margin: 1.25em 0 0 20px; }
   ul li,
   ol li {
     margin-top: 10px;
@@ -163,13 +170,13 @@ ol li {
 
 hr {
   height: 1px;
-  margin: 30px 0;
+  margin: 1.875em 0;
   border: none;
   background-color: #DADADA; }
 
 blockquote {
-  margin: 30px 0;
-  font-size: rem(23px);
+  margin: 1.875em 0;
+  font-size: 1.4375em;
   line-height: 1.5em;
   color: #505050;
   text-align: center;
@@ -177,7 +184,7 @@ blockquote {
 
 table {
   width: 100%;
-  margin: 30px 0;
+  margin: 1.875em 0;
   border-collapse: collapse; }
 
 table, td, th {
@@ -191,14 +198,14 @@ th, td {
   padding: 15px; }
 
 figure {
-  margin: 30px 0; }
+  margin: 1.875em 0; }
   figure img {
     margin: 0; }
 
 figcaption {
   margin-top: 10px;
   color: #6a6a6a;
-  font-size: 16px; }
+  font-size: 1em; }
 
 pre {
   display: block;
@@ -219,7 +226,7 @@ code {
   top: -0.2em;
   padding: 3px;
   font-family: Courier New, Courier, monospace;
-  font-size: rem(17px)/1.2;
+  font-size: 0.88542em;
   color: #282828;
   line-height: 1em;
   pointer-events: none;
@@ -239,7 +246,7 @@ b,
 img {
   display: block;
   max-width: 100%;
-  margin: 30px 0; }
+  margin: 1.875em 0; }
 
 /*------------------------------------*    # General Settings
 \*------------------------------------*/
@@ -290,12 +297,6 @@ html {
 
 .text-center {
   text-align: center; }
-
-section h1 {
-  font-size: 2em; }
-
-section h1, section h2, section h3, section h4, section h5, section h6, section p {
-  color: inherit; }
 
 .list-unstyled {
   padding: 0;
@@ -460,13 +461,16 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
 \*------------------------------------*/
 .form {
   padding: 1.5em 1.5em;
-  border-radius: 0.1em; }
+  border-radius: 0.1em;
+  color: #505050; }
   .form sup {
     color: #6666ce; }
 
+.form-head {
+  margin-bottom: 3em; }
+
 .form-title {
-  text-align: center;
-  margin-bottom: 1em; }
+  text-align: center; }
 
 .form-group label {
   display: block;
@@ -478,6 +482,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   appearance: none;
   display: block;
   width: 100%;
+  resize: vertical;
   border: none;
   outline: none;
   color: inherit;
@@ -486,7 +491,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   padding: 0.7em 0.7em;
   border-radius: 0.1em; }
   .form-control:focus {
-    background-color: white; }
+    background-color: #f5f5fc; }
 
 .form-btn {
   margin: 2em 0;
@@ -510,6 +515,8 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   color: #505050;
   -webkit-box-shadow: 0.125em 0 0.375em 0.0625em #505050;
   box-shadow: 0.125em 0 0.375em 0.0625em #505050; }
+  .form-auth .form-head {
+    margin-bottom: 1em; }
 
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
@@ -617,6 +624,8 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
 .intro {
   margin-bottom: 6em;
   max-width: 55em; }
+  .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6, .intro p {
+    color: #fff; }
 
 .overview-list {
   margin-top: 4em;
@@ -739,3 +748,25 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
 
 .social-icon-google-plus {
   color: #dd4b39; }
+
+/*------------------------------------*    # About Settings
+\*------------------------------------*/
+.about {
+  padding-top: 8em; }
+
+.about-us-img-container {
+  position: relative;
+  margin-bottom: 35%; }
+  .about-us-img-container img {
+    width: 75%;
+    border: 0.0625em solid #6666ce;
+    /* 1/16 */ }
+  .about-us-img-container img:nth-child(2) {
+    position: absolute;
+    top: 35%;
+    right: 0; }
+
+/*------------------------------------*    # Contact Settings
+\*------------------------------------*/
+.contact {
+  padding-top: 8em; }
