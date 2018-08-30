@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 36px;
   color: #000000;
   line-height: 1.25em;
-  font-weight: 800; }
+  font-weight: 700; }
   h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0; }
 
@@ -185,7 +185,7 @@ table, td, th {
   text-align: left; }
 
 th {
-  font-weight: 800; }
+  font-weight: 700; }
 
 th, td {
   padding: 15px; }
@@ -234,7 +234,7 @@ i,
 strong,
 b,
 .bold {
-  font-weight: 800; }
+  font-weight: 700; }
 
 img {
   display: block;
@@ -393,7 +393,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
     text-transform: uppercase;
     text-decoration: none;
     color: #505050;
-    font-weight: 800;
+    font-weight: 700;
     -webkit-transition: all ease-in-out 0.25s;
     -o-transition: all ease-in-out 0.25s;
     transition: all ease-in-out 0.25s; }
@@ -536,7 +536,7 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   .logo a {
     color: #6666ce;
     text-decoration: none;
-    font-weight: 800; }
+    font-weight: 700; }
 
 /*------------------------------------*    # Card Settings
 \*------------------------------------*/
