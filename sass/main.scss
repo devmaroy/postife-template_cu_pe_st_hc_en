@@ -8,6 +8,9 @@
  * 
  */
 
+// Reset CSS
+@import "base/reset.scss";
+
 // Import Sass Utils
 @import "sass-utils/variables.scss";
 @import "sass-utils/mixins.scss";
@@ -15,7 +18,6 @@
 
 
 // Import Base
-@import "base/reset.scss";
 @import "base/typography.scss";
 @import "base/general.scss";
 

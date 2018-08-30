@@ -135,11 +135,23 @@ $card-content-margin-x: 0;
     # Form Settings
 \*------------------------------------*/
 
+// Form Colors
+$form-control-bg: $color-secondary;
+$form-control-hover-bg: lighten( $form-control-bg, 37% );
+
+$form-btn-color: $color-primary;
+$form-btn-hover-color: $light;
+$form-btn-hover-bg: $color-primary;
+
+$form-meta-link-color: $color-primary;
+$form-required-asterisk-color: $color-primary;
+
 // Form Settings
 $form-padding-y: 1.5em;
 $form-padding-x: 1.5em;
 $form-border-radius: .1em;
 
+$form-control-border: 0.0625em solid #BBBBF2;
 $form-title-margin-bottom: 1em;
 
 $form-label-margin-y: 1.3em;
@@ -157,17 +169,9 @@ $form-btn-transition: $transition-base;
 // Form Auth Colors
 $form-auth-bg: $color-secondary;
 $form-auth-color: $dark;
-$form-auth-control-bg: $color-secondary;
-$form-auth-control-hover-bg: lighten( $form-auth-control-bg, 37% );
-$form-auth-btn-color: $color-primary;
-$form-auth-btn-hover-color: $light;
-$form-auth-btn-hover-bg: $color-primary;
-$form-meta-link-color: $color-primary;
-$form-required-asterisk-color: $color-primary;
 
 // Form Auth Settings
 $form-auth-box-shadow: 0.125em 0 0.375em 0.0625em $dark;
-$form-auth-control-border: 0.0625em solid #BBBBF2;
 
 
 
@@ -195,7 +199,8 @@ $logo-font-weight: $font-weight-bold;
 
 // Navigation Colors
 $navigation-link-color: $dark;
-$navigation-link-hover-color: $color-primary;
+$navigation-link-active-color: $color-primary;
+$navigation-link-hover-color: $navigation-link-active-color;
 $hamburger-bar-bg-color: $dark;
 
 // Navigation Settings

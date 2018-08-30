@@ -5,6 +5,10 @@
 .form {	
 	padding: $form-padding-y $form-padding-x;
 	border-radius: $form-border-radius;
+
+	sup {
+		color: $form-required-asterisk-color;
+	}
 }
 
 .form-title {
@@ -29,8 +33,15 @@
 	outline: none;
 	color: inherit;
 
+	background-color: $form-control-bg;
+	border: $form-control-border;
+
 	padding: $form-control-padding-y $form-control-padding-x;
 	border-radius: $form-control-border-radius;
+
+	&:focus {
+		background-color: $form-control-hover-bg;
+	}
 }
 
 .form-btn {
@@ -38,10 +49,21 @@
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: $form-btn-transition;
+	color: $form-btn-color;
+
+	&:hover,
+	&:focus {
+		color: $form-btn-hover-color;
+		background-color: $form-btn-hover-bg;
+	}
 }
 
 .form-meta {
 	text-align: center;
+
+	a {
+		color: $form-meta-link-color;
+	}
 }
 
 
@@ -51,31 +73,4 @@
 	background-color: $form-auth-bg;
 	color: $form-auth-color;
 	box-shadow: $form-auth-box-shadow;
-
-	sup {
-		color: $form-required-asterisk-color;
-	}
-
-	.form-control {
-		background-color: $form-auth-control-bg;
-		border: $form-auth-control-border;
-
-		&:focus {
-			background-color: $form-auth-control-hover-bg;
-		}
-	}
-	
-	.form-btn {
-		color: $form-auth-btn-color;
-
-		&:hover,
-		&:focus {
-			color: $form-auth-btn-hover-color;
-			background-color: $form-auth-btn-hover-bg;
-		}
-	}
-	
-	.form-meta a {
-		color: $form-meta-link-color;
-	}
 }

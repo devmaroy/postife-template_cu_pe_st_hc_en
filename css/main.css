@@ -7,36 +7,6 @@
  * License: All rights reserved. Do not copy. Do not sell or distribute this file.
  * 
  */
-/*------------------------------------*    # Simple Typography Settings
-\*------------------------------------*/
-/*------------------------------------*    # General Settings
-\*------------------------------------*/
-/* limit container fluid width, we don't want to go too wide */
-/*------------------------------------*    # Color Settings
-\*------------------------------------*/
-/*------------------------------------*    # Card Settings
-\*------------------------------------*/
-/* border-radius */
-/* 2/16 */
-/*------------------------------------*    # Form Settings
-\*------------------------------------*/
-/*------------------------------------*    # Logo Settings
-\*------------------------------------*/
-/*------------------------------------*    # Navigation Settings
-\*------------------------------------*/
-/* 1/16 */
-/*------------------------------------*    # Header Settings
-\*------------------------------------*/
-/* 1/16 */
-/*------------------------------------*    # Home | Hero Settings
-\*------------------------------------*/
-/* border-radius */
-/*------------------------------------*    # Home | Testimonials Settings
-\*------------------------------------*/
-/*------------------------------------*    # Home | Follow Us Settings
-\*------------------------------------*/
-/*------------------------------------*    # Footer Settings
-\*------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -80,6 +50,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/*------------------------------------*    # Simple Typography Settings
+\*------------------------------------*/
+/*------------------------------------*    # General Settings
+\*------------------------------------*/
+/* limit container fluid width, we don't want to go too wide */
+/*------------------------------------*    # Color Settings
+\*------------------------------------*/
+/*------------------------------------*    # Card Settings
+\*------------------------------------*/
+/* border-radius */
+/* 2/16 */
+/*------------------------------------*    # Form Settings
+\*------------------------------------*/
+/*------------------------------------*    # Logo Settings
+\*------------------------------------*/
+/*------------------------------------*    # Navigation Settings
+\*------------------------------------*/
+/* 1/16 */
+/*------------------------------------*    # Header Settings
+\*------------------------------------*/
+/* 1/16 */
+/*------------------------------------*    # Home | Hero Settings
+\*------------------------------------*/
+/* border-radius */
+/*------------------------------------*    # Home | Testimonials Settings
+\*------------------------------------*/
+/*------------------------------------*    # Home | Follow Us Settings
+\*------------------------------------*/
+/*------------------------------------*    # Footer Settings
+\*------------------------------------*/
 /*------------------------------------*    # Typography Settings
 \*------------------------------------*/
 *, html, body {
@@ -403,6 +403,8 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
         padding: 0 2em; } }
     .site-navigation a:hover, .site-navigation a:focus {
       color: #6666ce; }
+  .site-navigation .active a {
+    color: #6666ce; }
   .site-navigation.is-open {
     display: block; }
   @media (min-width: 768px) {
@@ -459,6 +461,8 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
 .form {
   padding: 1.5em 1.5em;
   border-radius: 0.1em; }
+  .form sup {
+    color: #6666ce; }
 
 .form-title {
   text-align: center;
@@ -477,8 +481,12 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   border: none;
   outline: none;
   color: inherit;
+  background-color: #fff;
+  border: 0.0625em solid #BBBBF2;
   padding: 0.7em 0.7em;
   border-radius: 0.1em; }
+  .form-control:focus {
+    background-color: white; }
 
 .form-btn {
   margin: 2em 0;
@@ -486,30 +494,22 @@ section h1, section h2, section h3, section h4, section h5, section h6, section 
   cursor: pointer;
   -webkit-transition: all ease-in-out 0.25s;
   -o-transition: all ease-in-out 0.25s;
-  transition: all ease-in-out 0.25s; }
+  transition: all ease-in-out 0.25s;
+  color: #6666ce; }
+  .form-btn:hover, .form-btn:focus {
+    color: #fff;
+    background-color: #6666ce; }
 
 .form-meta {
   text-align: center; }
+  .form-meta a {
+    color: #6666ce; }
 
 .form-auth {
   background-color: #fff;
   color: #505050;
   -webkit-box-shadow: 0.125em 0 0.375em 0.0625em #505050;
   box-shadow: 0.125em 0 0.375em 0.0625em #505050; }
-  .form-auth sup {
-    color: #6666ce; }
-  .form-auth .form-control {
-    background-color: #fff;
-    border: 0.0625em solid #BBBBF2; }
-    .form-auth .form-control:focus {
-      background-color: white; }
-  .form-auth .form-btn {
-    color: #6666ce; }
-    .form-auth .form-btn:hover, .form-auth .form-btn:focus {
-      color: #fff;
-      background-color: #6666ce; }
-  .form-auth .form-meta a {
-    color: #6666ce; }
 
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
