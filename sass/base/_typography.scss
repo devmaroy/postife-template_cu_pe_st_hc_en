@@ -125,6 +125,13 @@ ol {
     }
 }
 
+dl {
+    dt, dd {
+        line-height: $paragraph-line-height;
+        color: $paragraph-color;
+    }
+}
+
 
 // hr
 hr {

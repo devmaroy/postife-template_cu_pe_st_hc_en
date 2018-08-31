@@ -39,6 +39,8 @@
 \*------------------------------------*/
 /*------------------------------------*    # Contact Settings
 \*------------------------------------*/
+/*------------------------------------*    # FAQ Settings
+\*------------------------------------*/
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
 html, body, div, span, applet, object, iframe,
@@ -167,6 +169,10 @@ ul ul li {
 
 ol li {
   list-style: decimal; }
+
+dl dt, dl dd {
+  line-height: 1.5em;
+  color: #505050; }
 
 hr {
   height: 1px;
@@ -758,9 +764,7 @@ html {
   position: relative;
   margin-bottom: 35%; }
   .about-us-img-container img {
-    width: 75%;
-    border: 0.0625em solid #6666ce;
-    /* 1/16 */ }
+    width: 75%; }
   .about-us-img-container img:nth-child(2) {
     position: absolute;
     top: 35%;
@@ -770,3 +774,34 @@ html {
 \*------------------------------------*/
 .contact {
   padding-top: 8em; }
+
+/*------------------------------------*    # FAQ Settings
+\*------------------------------------*/
+.faq {
+  padding-top: 8em;
+  padding-bottom: 6em; }
+
+.faq-list {
+  margin-bottom: 2em; }
+  .faq-list dt, .faq-list dd {
+    padding: 1em 1em; }
+  .faq-list dt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url("../../../img/stripes-light.png") center center, -webkit-radial-gradient(#5353c8, #3f3fc2);
+    background: url("../../../img/stripes-light.png") center center, -o-radial-gradient(#5353c8, #3f3fc2);
+    background: url("../../../img/stripes-light.png") center center, radial-gradient(#5353c8, #3f3fc2);
+    color: #fff;
+    cursor: pointer; }
+    .faq-list dt:not(:first-child) {
+      margin-top: 2em; }
+  .faq-list dd {
+    margin-left: 0;
+    background-color: #ededf9; }

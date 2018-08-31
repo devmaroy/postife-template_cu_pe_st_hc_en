@@ -321,6 +321,8 @@ $social-icon-opacity-hover: .7;
 /*------------------------------------*\
     # About Settings
 \*------------------------------------*/
+
+// About Settings
 $about-padding-top: 8em;
 
 
@@ -330,8 +332,33 @@ $about-padding-top: 8em;
 /*------------------------------------*\
     # Contact Settings
 \*------------------------------------*/
+
+// Contact Settings
 $contact-padding-top: 8em;
 
+
+
+
+
+/*------------------------------------*\
+    # FAQ Settings
+\*------------------------------------*/
+
+// FAQ Colors
+$faq-list-item-term-bg: $bg-primary;
+$faq-list-item-description-bg: lighten( $color-primary, 35% );
+$faq-list-item-term-color: $light;
+
+// FAQ Settings
+$faq-padding-top: 8em;
+$faq-padding-bottom: 6em;
+
+$faq-list-margin-bottom: 2em;
+
+$faq-list-item-padding-y: 1em;
+$faq-list-item-padding-x: 1em;
+
+$faq-list-item-term-margin-top: 2em;
 
 
 

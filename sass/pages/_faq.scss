@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    # FAQ Settings
+\*------------------------------------*/
+
+.faq {
+    padding-top: $faq-padding-top;
+    padding-bottom: $faq-padding-bottom;
+}
+
+.faq-list {
+    margin-bottom: $faq-list-margin-bottom;
+    
+    dt, dd {
+        padding: $faq-list-item-padding-y $faq-list-item-padding-x;
+    }
+
+    dt {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+       background: $faq-list-item-term-bg;
+       color: $faq-list-item-term-color;
+       cursor: pointer;
+
+       &:not(:first-child) {
+           margin-top: $faq-list-item-term-margin-top;
+       } 
+    }
+
+    dd {
+        margin-left: 0;
+        background-color: $faq-list-item-description-bg;
+    }
+}
