@@ -40,9 +40,14 @@
 		&:focus {
 			color: $navigation-link-hover-color;
 		}
+
+		.upload-file-icon {
+			margin-right: .5em;
+		}
 	}
 
-	.active a {
+	.active a,
+	.upload-file a {
 		color: $navigation-link-active-color;
 	}
 

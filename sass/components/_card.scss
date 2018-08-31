@@ -11,13 +11,9 @@
 	margin-bottom: $card-margin-bottom;
 	padding: $card-padding-y $card-padding-x;
 
-	background: $card-bg;
-	background-size: cover;
-
-	box-shadow: $card-box-shadow;
 	border-radius: $card-border-radius;
 
-	p {
+	li, p {
 		color: $card-text-color;
 	}
 }
@@ -43,7 +39,6 @@
 
 .card-title {
 	color: $card-title-color;
-	text-align: center;
 	font-size: $card-title-font-size;
 
 	position: relative;
@@ -62,15 +57,81 @@
 
 .card-content {
 	margin: $card-content-margin-y $card-content-margin-x;
-	text-align: center;
 }
 
 .card-meta {
-	text-align: center;
 	margin-top: auto;
 
 	a {
 		color: $card-meta-link-color;
 		font-weight: $card-meta-link-weight;
+	}
+}
+
+
+
+// Card Testimonial
+
+.card-testimonial {
+	background: $card-testimonial-bg;
+	background-size: cover;
+	box-shadow: $card-testimonial-box-shadow;
+	text-align: center;
+}
+
+
+
+// Card Overview
+
+.card-overview {
+	background: $card-overview-bg;
+	box-shadow: $card-overview-box-shadow;
+	text-align: center;
+
+	@media ( min-width: 1200px ) {
+		text-align: left;
+	}
+
+	li, p {
+		color: $card-overview-text-color;
+	}
+
+	.card-title {
+		color: $card-overview-title-color;
+
+		&::after {
+			background-color: $card-overview-title-underline-color;
+		}
+	}
+	
+	.card-meta {
+		text-align: center;
+
+		a {
+			color: $card-overview-meta-link-color;
+
+			&::after {
+				background-color: $card-overview-meta-link-underline-color;
+			}
+		}
+	}
+
+	.overview-list {
+		margin-top: 0;
+	}
+
+	.overview-list-item {
+		flex-basis: 100%;
+	}
+
+	.overview-icon {
+		width: $card-overview-icon-width;
+		height: $card-overview-icon-height;
+		background-color: $card-overview-icon-bg;
+		color: $card-overview-icon-color;
+
+		span {
+			font-size: $card-overview-icon-font-size;
+		}
 	}
 }

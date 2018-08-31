@@ -99,15 +99,12 @@ $bg-primary: url('../../../img/stripes-light.png') center center,
     # Card Settings
 \*------------------------------------*/
 
-// Card Colors
-$card-bg: $bg-primary;
 $card-text-color: $light;
 $card-title-color: $light;
 $card-title-underline-color: $light;
 $card-meta-link-color: $light;
 
 // Card Settings
-$card-box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
 $card-border-radius: .1em;
 
 $card-margin-top: 6em;
@@ -121,13 +118,38 @@ $card-image-shape: 50%; /* border-radius */
 $card-image-border: 0.125em solid $light; /* 2/16 */
 
 $card-title-font-size: 1.3em;
-//$card-title-underline-transition: $transition-base;
 
 $card-meta-link-weight: 700;
 
 $card-content-margin-y: 2em;
 $card-content-margin-x: 0;
 
+
+// Card Testimonial Colors
+$card-testimonial-bg: $bg-primary;
+
+// Card Testimonial Settings
+$card-testimonial-box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
+
+
+// Card Overview Colors
+$card-overview-bg: url('../../../img/stripes-light.png'), #f5f8fa;
+$card-overview-text-color: $dark;
+
+$card-overview-title-color: $dark;
+$card-overview-title-underline-color: $color-primary;
+
+$card-overview-meta-link-color: $color-primary;
+$card-overview-meta-link-underline-color: $color-primary;
+
+$card-overview-icon-bg: $color-primary;
+$card-overview-icon-color: $light;
+
+// Card Overview Settings
+$card-overview-icon-font-size: 1.5em;
+$card-overview-icon-width: 3em;
+$card-overview-icon-height: 3em;
+$card-overview-box-shadow: 0.125em 0 0.375em 0.0625em $dark;
 
 
 
