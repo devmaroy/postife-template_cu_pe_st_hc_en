@@ -24,7 +24,7 @@
 		var panelIcon = dt.find( '.panel-icon' );
 
 		// Expand or collapse panel
-		dd.slideToggle();
+		dd.stop().slideToggle();
 
 		// Toggle '+' and '-'
 		panelIcon.toggleClass( 'fa-plus' )

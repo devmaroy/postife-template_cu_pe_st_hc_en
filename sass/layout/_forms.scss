@@ -6,7 +6,7 @@
 	padding: $form-padding-y $form-padding-x;
 	border-radius: $form-border-radius;
 	color: $form-color;
-
+	
 	sup {
 		color: $form-required-asterisk-color;
 	}
@@ -74,7 +74,7 @@
 // Form variants
 
 .form-auth {
-	background-color: $form-auth-bg;
+	background: $form-auth-bg;
 	color: $form-auth-color;
 	box-shadow: $form-auth-box-shadow;
 
