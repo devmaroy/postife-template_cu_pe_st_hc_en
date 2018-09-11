@@ -680,7 +680,7 @@ html {
   color: #fff;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%; }
-  @media (min-width: 380px) {
+  @media (min-width: 335px) {
     .overview-list-item {
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%; } }
@@ -809,6 +809,9 @@ html {
 \*------------------------------------*/
 .contact {
   padding-top: 8em; }
+
+.contact-head {
+  margin-bottom: 1em; }
 
 /*------------------------------------*    # FAQ Settings
 \*------------------------------------*/

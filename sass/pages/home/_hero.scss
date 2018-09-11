@@ -11,7 +11,6 @@
 
 .intro {
 	margin-bottom: $intro-margin-bottom;
-	// max-width: $intro-max-width;
 
 	h1, h2, h3, h4, h5, h6, p {
 		color: $light;
@@ -28,7 +27,7 @@
 	color: $overview-list-item-color;
 	flex-basis: 100%;
 
-	@media ( min-width: 380px ) {
+	@media ( min-width: 335px ) {
 		flex-basis: 50%;
 	}
 
