@@ -107,9 +107,6 @@ $card-meta-link-color: $light;
 // Card Settings
 $card-border-radius: .1em;
 
-$card-margin-top: 6em;
-$card-margin-bottom: 2em;
-
 $card-padding-y: 1.5em; 
 $card-padding-x: 1.5em; 
 
@@ -130,6 +127,8 @@ $card-testimonial-bg: $bg-primary;
 
 // Card Testimonial Settings
 $card-testimonial-box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
+$card-testimonial-margin-top: 3em;
+$card-testimonial-margin-bottom: 3em;
 
 
 // Card Overview Colors
@@ -284,10 +283,17 @@ $overview-list-item-color: $light;
 $overview-icon-color: $color-primary;
 
 // Hero Settings
-$hero-padding-y: 6em;
+$hero-padding-y: 3em;
 $hero-padding-x: 0;
 
-$intro-margin-bottom: 6em;
+$hero-padding-y--xl: 6em;
+$hero-padding-x--xl: 0;
+
+$intro-margin-bottom: 3em;
+
+$intro-margin-bottom--xl: 6em;
+
+$intro-title-margin-bottom: 1em;
 
 $overview-list-margin-top: 4em;
 
@@ -310,11 +316,9 @@ $overview-icon-font-size: 2em;
     # Home | Testimonials Settings
 \*------------------------------------*/
 
-// Hero Settings
-//$testimonials-padding-top: 6em;
-$testimonials-padding-top: 8em;
-//$testimonials-padding-bottom: 4em;
-$testimonials-padding-bottom: 6em;
+// Testimonials Settings
+$testimonials-padding-top: 4em;
+$testimonials-padding-top--xl: 8em;
 
 
 
@@ -325,7 +329,11 @@ $testimonials-padding-bottom: 6em;
 \*------------------------------------*/
 
 // Follow Us Settings
-$latest-tweets-margin-top: 3em;
+$follow-us-padding-top: 0;
+$follow-us-padding-bottom: 2em;
+
+$follow-us-padding-top--xl: 8em;
+$follow-us-padding-bottom--xl: 6em;
 
 $social-margin-top: 4em;
 $social-list-margin-top: 2em;
@@ -345,7 +353,11 @@ $social-icon-opacity-hover: .7;
 \*------------------------------------*/
 
 // About Settings
-$about-padding-top: 8em;
+$about-padding-top: 4em;
+$about-padding-bottom: 2em;
+
+$about-padding-top--xl: 8em;
+$about-padding-bottom--xl: 6em;
 
 
 
@@ -356,7 +368,12 @@ $about-padding-top: 8em;
 \*------------------------------------*/
 
 // Contact Settings
-$contact-padding-top: 8em;
+$contact-padding-top: 4em;
+$contact-padding-bottom: 2em;
+
+$contact-padding-top--xl: 8em;
+$contact-padding-bottom--xl: 6em;
+
 $contact-head-margin-bottom: 1em;
 
 
@@ -373,8 +390,11 @@ $faq-list-item-description-bg: lighten( $color-primary, 35% );
 $faq-list-item-term-color: $light;
 
 // FAQ Settings
-$faq-padding-top: 8em;
-$faq-padding-bottom: 6em;
+$faq-padding-top: 4em;
+$faq-padding-bottom: 2em;
+
+$faq-padding-top--xl: 8em;
+$faq-padding-bottom--xl: 6em;
 
 $faq-list-margin-bottom: 2em;
 

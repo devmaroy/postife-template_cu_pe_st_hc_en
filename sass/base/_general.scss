@@ -6,6 +6,10 @@ html {
 	@include box-sizing( border-box );
 }
 
+* {
+	-webkit-tap-highlight-color: lighten( $color-primary, 15% );
+}
+
 *,
 *:before,
 *:after {

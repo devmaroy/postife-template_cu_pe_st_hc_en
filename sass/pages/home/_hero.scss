@@ -7,14 +7,26 @@
 	background-size: cover;
 	color: color-yiq( $color-primary );
 	padding: $hero-padding-y $hero-padding-x;
+
+	@media ( min-width: 1200px ) {
+		padding: $hero-padding-y--xl $hero-padding-x--xl;
+	}
 }
 
 .intro {
 	margin-bottom: $intro-margin-bottom;
 
+	@media (min-width: 1200px) {
+		margin-bottom: $intro-margin-bottom--xl;
+	}
+
 	h1, h2, h3, h4, h5, h6, p {
 		color: $light;
 	}
+}
+
+.intro-title {
+	margin-bottom: $intro-title-margin-bottom;
 }
 
 .overview-list {

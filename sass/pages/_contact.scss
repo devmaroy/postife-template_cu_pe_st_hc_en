@@ -4,6 +4,12 @@
 
 .contact {
 	padding-top: $contact-padding-top;
+	padding-bottom: $contact-padding-bottom;
+
+	@media ( min-width: 1200px ) {
+		padding-top: $contact-padding-top--xl;
+		padding-bottom: $contact-padding-bottom--xl;
+	}
 }
 
 .contact-head {

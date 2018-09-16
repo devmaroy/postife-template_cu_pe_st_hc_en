@@ -260,6 +260,9 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+* {
+  -webkit-tap-highlight-color: #a0a0e1; }
+
 *,
 *:before,
 *:after {
@@ -479,7 +482,8 @@ html {
   margin-bottom: 3em; }
 
 .form-title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1em; }
 
 .form-group label {
   display: block;
@@ -527,6 +531,11 @@ html {
   .form-auth .form-head {
     margin-bottom: 1em; }
 
+.form-contact {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
 .site-footer {
@@ -567,8 +576,6 @@ html {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  margin-top: 6em;
-  margin-bottom: 2em;
   padding: 1.5em 1.5em;
   border-radius: 0.1em; }
   .card li, .card p {
@@ -618,7 +625,9 @@ html {
   background-size: cover;
   -webkit-box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
   box-shadow: 0.125em 0em 0.375em 0.0625em #bdbdbd;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em; }
 
 .card-overview {
   background: url("../../../img/stripes-light.png"), #f5f8fa;
@@ -661,12 +670,21 @@ html {
   background: url("../../../img/stripes-light.png") center center, radial-gradient(#5353c8, #3f3fc2);
   background-size: cover;
   color: #fff;
-  padding: 6em 0; }
+  padding: 3em 0; }
+  @media (min-width: 1200px) {
+    .hero {
+      padding: 6em 0; } }
 
 .intro {
-  margin-bottom: 6em; }
+  margin-bottom: 3em; }
+  @media (min-width: 1200px) {
+    .intro {
+      margin-bottom: 6em; } }
   .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6, .intro p {
     color: #fff; }
+
+.intro-title {
+  margin-bottom: 1em; }
 
 .overview-list {
   margin-top: 4em;
@@ -719,13 +737,20 @@ html {
 /*------------------------------------*    # Testimonials Settings
 \*------------------------------------*/
 .testimonials {
-  padding-top: 8em;
-  padding-bottom: 6em; }
+  padding-top: 4em; }
+  @media (min-width: 1200px) {
+    .testimonials {
+      padding-top: 8em; } }
 
 /*------------------------------------*    # Follow Us Settings
 \*------------------------------------*/
-.latest-tweets {
-  margin-top: 3em; }
+.follow-us {
+  padding-top: 0;
+  padding-bottom: 2em; }
+  @media (min-width: 1200px) {
+    .follow-us {
+      padding-top: 8em;
+      padding-bottom: 6em; } }
 
 .social {
   text-align: center;
@@ -793,7 +818,12 @@ html {
 /*------------------------------------*    # About Settings
 \*------------------------------------*/
 .about {
-  padding-top: 8em; }
+  padding-top: 4em;
+  padding-bottom: 2em; }
+  @media (min-width: 1200px) {
+    .about {
+      padding-top: 8em;
+      padding-bottom: 6em; } }
 
 .about-us-img-container {
   position: relative;
@@ -808,7 +838,12 @@ html {
 /*------------------------------------*    # Contact Settings
 \*------------------------------------*/
 .contact {
-  padding-top: 8em; }
+  padding-top: 4em;
+  padding-bottom: 2em; }
+  @media (min-width: 1200px) {
+    .contact {
+      padding-top: 8em;
+      padding-bottom: 6em; } }
 
 .contact-head {
   margin-bottom: 1em; }
@@ -816,8 +851,12 @@ html {
 /*------------------------------------*    # FAQ Settings
 \*------------------------------------*/
 .faq {
-  padding-top: 8em;
-  padding-bottom: 6em; }
+  padding-top: 4em;
+  padding-bottom: 2em; }
+  @media (min-width: 1200px) {
+    .faq {
+      padding-top: 8em;
+      padding-bottom: 6em; } }
 
 .faq-list {
   margin-bottom: 2em; }
