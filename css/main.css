@@ -628,6 +628,9 @@ html {
   text-align: center;
   margin-top: 3em;
   margin-bottom: 3em; }
+  @media (min-width: 1200px) {
+    .card-testimonial {
+      margin-bottom: 0; } }
 
 .card-overview {
   background: url("../../../img/stripes-light.png"), #f5f8fa;

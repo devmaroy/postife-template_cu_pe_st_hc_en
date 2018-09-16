@@ -75,7 +75,11 @@
 	text-align: center;
 
 	margin-top: $card-testimonial-margin-top;
-	margin-bottom: $card-testimonial-margin-bottom
+	margin-bottom: $card-testimonial-margin-bottom;
+
+	@media ( min-width: 1200px ) {
+		margin-bottom: 0;
+	}
 }
 
 
