@@ -535,6 +535,8 @@ html {
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0; }
+  .form-contact .form-btn {
+    margin-bottom: 0; }
 
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
@@ -743,19 +745,20 @@ html {
 /*------------------------------------*    # Testimonials Settings
 \*------------------------------------*/
 .testimonials {
-  padding-top: 4em; }
+  padding-top: 3em;
+  padding-bottom: 0; }
   @media (min-width: 1200px) {
     .testimonials {
-      padding-top: 8em; } }
+      padding-top: 6em;
+      padding-bottom: 6em; } }
 
 /*------------------------------------*    # Follow Us Settings
 \*------------------------------------*/
 .follow-us {
   padding-top: 0;
-  padding-bottom: 2em; }
+  padding-bottom: 3em; }
   @media (min-width: 1200px) {
     .follow-us {
-      padding-top: 8em;
       padding-bottom: 6em; } }
 
 .social {
@@ -824,11 +827,14 @@ html {
 /*------------------------------------*    # About Settings
 \*------------------------------------*/
 .about {
-  padding-top: 4em;
-  padding-bottom: 2em; }
+  padding-top: 3em;
+  padding-bottom: 1em; }
+  @media (min-width: 768px) {
+    .about {
+      padding-bottom: 3em; } }
   @media (min-width: 1200px) {
     .about {
-      padding-top: 8em;
+      padding-top: 6em;
       padding-bottom: 6em; } }
 
 .about-us-img-container {
@@ -844,11 +850,11 @@ html {
 /*------------------------------------*    # Contact Settings
 \*------------------------------------*/
 .contact {
-  padding-top: 4em;
-  padding-bottom: 2em; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
   @media (min-width: 1200px) {
     .contact {
-      padding-top: 8em;
+      padding-top: 6em;
       padding-bottom: 6em; } }
 
 .contact-head {
@@ -857,11 +863,11 @@ html {
 /*------------------------------------*    # FAQ Settings
 \*------------------------------------*/
 .faq {
-  padding-top: 4em;
-  padding-bottom: 2em; }
+  padding-top: 3em;
+  padding-bottom: 1em; }
   @media (min-width: 1200px) {
     .faq {
-      padding-top: 8em;
+      padding-top: 6em;
       padding-bottom: 6em; } }
 
 .faq-list {

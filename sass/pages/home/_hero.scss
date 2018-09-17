@@ -6,6 +6,7 @@
 	background: $hero-bg;
 	background-size: cover;
 	color: color-yiq( $color-primary );
+	
 	padding: $hero-padding-y $hero-padding-x;
 
 	@media ( min-width: 1200px ) {

@@ -317,8 +317,10 @@ $overview-icon-font-size: 2em;
 \*------------------------------------*/
 
 // Testimonials Settings
-$testimonials-padding-top: 4em;
-$testimonials-padding-top--xl: 8em;
+$testimonials-padding-top: 3em;
+
+$testimonials-padding-top--xl: 6em;
+$testimonials-padding-bottom--xl: 6em;
 
 
 
@@ -329,10 +331,7 @@ $testimonials-padding-top--xl: 8em;
 \*------------------------------------*/
 
 // Follow Us Settings
-$follow-us-padding-top: 0;
-$follow-us-padding-bottom: 2em;
-
-$follow-us-padding-top--xl: 8em;
+$follow-us-padding-bottom: 3em;
 $follow-us-padding-bottom--xl: 6em;
 
 $social-margin-top: 4em;
@@ -353,10 +352,12 @@ $social-icon-opacity-hover: .7;
 \*------------------------------------*/
 
 // About Settings
-$about-padding-top: 4em;
-$about-padding-bottom: 2em;
+$about-padding-top: 3em;
+$about-padding-bottom: 1em;
 
-$about-padding-top--xl: 8em;
+$about-padding-bottom--md: 3em;
+
+$about-padding-top--xl: 6em;
 $about-padding-bottom--xl: 6em;
 
 
@@ -368,10 +369,10 @@ $about-padding-bottom--xl: 6em;
 \*------------------------------------*/
 
 // Contact Settings
-$contact-padding-top: 4em;
-$contact-padding-bottom: 2em;
+$contact-padding-top: 3em;
+$contact-padding-bottom: 3em;
 
-$contact-padding-top--xl: 8em;
+$contact-padding-top--xl: 6em;
 $contact-padding-bottom--xl: 6em;
 
 $contact-head-margin-bottom: 1em;
@@ -390,10 +391,10 @@ $faq-list-item-description-bg: lighten( $color-primary, 35% );
 $faq-list-item-term-color: $light;
 
 // FAQ Settings
-$faq-padding-top: 4em;
-$faq-padding-bottom: 2em;
+$faq-padding-top: 3em;
+$faq-padding-bottom: 1em;
 
-$faq-padding-top--xl: 8em;
+$faq-padding-top--xl: 6em;
 $faq-padding-bottom--xl: 6em;
 
 $faq-list-margin-bottom: 2em;

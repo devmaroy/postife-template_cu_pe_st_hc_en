@@ -3,11 +3,10 @@
 \*------------------------------------*/
 
 .follow-us {
-	padding-top: $follow-us-padding-top;
+	padding-top: 0;
 	padding-bottom: $follow-us-padding-bottom;
-
+	
 	@media ( min-width: 1200px ) {
-		padding-top: $follow-us-padding-top--xl;
 		padding-bottom: $follow-us-padding-bottom--xl;
 	}
 }

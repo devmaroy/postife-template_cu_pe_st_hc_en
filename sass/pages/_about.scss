@@ -6,6 +6,10 @@
 	padding-top: $about-padding-top;
 	padding-bottom: $about-padding-bottom;
 
+	@media ( min-width: 768px ) {
+		padding-bottom: $about-padding-bottom--md;
+	}
+
 	@media ( min-width: 1200px ) {
 		padding-top: $about-padding-top--xl;
 		padding-bottom: $about-padding-bottom--xl;

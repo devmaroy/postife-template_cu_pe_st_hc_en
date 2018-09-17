@@ -4,8 +4,10 @@
 
 .testimonials {
 	padding-top: $testimonials-padding-top;
+	padding-bottom: 0;
 
 	@media ( min-width: 1200px ) {
 		padding-top: $testimonials-padding-top--xl;
+		padding-bottom: $testimonials-padding-bottom--xl;
 	}
 }
