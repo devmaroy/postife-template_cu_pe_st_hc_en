@@ -16,7 +16,11 @@
 .intro {
 	margin-bottom: $intro-margin-bottom;
 
-	@media (min-width: 1200px) {
+	@media ( min-width: 768px ) {
+		margin-bottom: $intro-margin-bottom--md;
+	}
+
+	@media ( min-width: 1200px ) {
 		margin-bottom: $intro-margin-bottom--xl;
 	}
 

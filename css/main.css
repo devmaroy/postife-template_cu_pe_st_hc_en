@@ -680,6 +680,9 @@ html {
 
 .intro {
   margin-bottom: 3em; }
+  @media (min-width: 768px) {
+    .intro {
+      margin-bottom: 0; } }
   @media (min-width: 1200px) {
     .intro {
       margin-bottom: 6em; } }
