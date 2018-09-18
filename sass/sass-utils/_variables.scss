@@ -135,6 +135,8 @@ $card-testimonial-margin-bottom: 3em;
 $card-overview-bg: url('../../../img/stripes-light.png'), #f5f8fa;
 $card-overview-text-color: $dark;
 
+$card-overview-margin-top: 3em;
+
 $card-overview-title-color: $dark;
 $card-overview-title-underline-color: $color-primary;
 
@@ -235,8 +237,8 @@ $navigation-link-padding-y: 2em;
 $navigation-link-padding-x: 2em;
 
 // Media Breakpoint
-$navigation-link-padding-y--md: 0;
-$navigation-link-padding-x--md: 2em;
+$navigation-link-padding-y--lg: 0;
+$navigation-link-padding-x--lg: 2em;
 
 $navigation-link-transition: $transition-base;
 

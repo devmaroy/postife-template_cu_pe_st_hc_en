@@ -91,6 +91,8 @@
 	box-shadow: $card-overview-box-shadow;
 	text-align: center;
 
+	margin-top: $card-overview-margin-top;
+
 	@media ( min-width: 1200px ) {
 		text-align: left;
 	}

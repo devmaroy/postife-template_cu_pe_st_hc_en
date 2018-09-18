@@ -370,7 +370,7 @@ html {
   .site-header.is-open {
     padding-bottom: 0; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .site-header-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -388,13 +388,13 @@ html {
   display: none;
   margin-top: 2em;
   text-align: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .site-navigation li {
       border-bottom: none;
       display: inline-block; } }
   .site-navigation li:not(:last-child) {
     border-bottom: 0.0625em solid #d9d9d9; }
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       .site-navigation li:not(:last-child) {
         border-bottom: none; } }
   .site-navigation a {
@@ -407,7 +407,7 @@ html {
     -webkit-transition: all ease-in-out 0.25s;
     -o-transition: all ease-in-out 0.25s;
     transition: all ease-in-out 0.25s; }
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       .site-navigation a {
         display: inline-block;
         padding: 0 2em; } }
@@ -420,7 +420,7 @@ html {
     color: #6666ce; }
   .site-navigation.is-open {
     display: block; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .site-navigation {
       display: block;
       margin-top: 0; } }
@@ -432,7 +432,7 @@ html {
   position: absolute;
   top: 1.6em;
   right: 1em; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .nav-toggle {
       display: none; } }
 
@@ -638,7 +638,8 @@ html {
   background: url("../../../img/stripes-light.png"), #f5f8fa;
   -webkit-box-shadow: 0.125em 0 0.375em 0.0625em #505050;
   box-shadow: 0.125em 0 0.375em 0.0625em #505050;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3em; }
   @media (min-width: 1200px) {
     .card-overview {
       text-align: left; } }
