@@ -259,6 +259,7 @@ $hamburger-bar-transition: $transition-base;
 /*------------------------------------*\
     # Header Settings
 \*------------------------------------*/
+
 // Header Colors
 $header-bg: $color-secondary;
 $header-color: #333;
@@ -420,3 +421,27 @@ $copyright-brand-hover-color: darken( $copyright-brand-color, 15% );
 // Footer Settings
 $site-footer-margin-top: 4em;
 $site-footer-margin-bottom: 2em;
+
+
+
+
+
+/*------------------------------------*\
+    # Administration Navigation Settings
+\*------------------------------------*/
+
+// Administration Navigation Colors
+//$admin-nav-bg: url('../../../img/stripes-light.png') center center, radial-gradient( darken( $color-primary, 12% ), darken( $color-primary, 12% ) );
+$admin-nav-bg: lighten( #3c3cbb, 9% );
+
+$admin-nav-list-item-link-color: $light;
+
+$admin-nav-icon-color: color-yiq( $admin-nav-bg );
+
+// Administration Navigation Settings
+$admin-nav-border-top: 0.0625em solid darken($admin-nav-bg, 5%); /* 1/16 */
+
+$admin-nav-padding-y: 1.5em;
+$admin-nav-padding-x: 0;
+
+$admin-nav-list-item-margin-bottom: 1em;

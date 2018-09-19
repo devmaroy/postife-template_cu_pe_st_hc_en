@@ -43,6 +43,9 @@
 \*------------------------------------*/
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
+/*------------------------------------*    # Administration Navigation Settings
+\*------------------------------------*/
+/* 1/16 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -689,7 +692,7 @@ html {
   @media (min-width: 1200px) {
     .intro {
       margin-bottom: 6em; } }
-  .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6, .intro p {
+  .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6, .intro p, .intro a {
     color: #fff; }
 
 .intro-title {
@@ -895,3 +898,55 @@ html {
   .faq-list dd {
     margin-left: 0;
     background-color: #ededf9; }
+
+/*------------------------------------*    # Administration Navigation Settings
+\*------------------------------------*/
+.administration-navigation {
+  background-color: #5b5bca;
+  padding: 1.5em 0;
+  border-top: 0.0625em solid #4747c4; }
+
+@media (min-width: 768px) {
+  .administration-navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+@media (min-width: 1200px) {
+  .administration-navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; } }
+
+.administration-navigation-list-item:not(:last-child) {
+  margin-bottom: 1em; }
+  @media (min-width: 1200px) {
+    .administration-navigation-list-item:not(:last-child) {
+      margin-bottom: 0; } }
+
+.administration-navigation-list-item a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: .5em;
+  padding-bottom: 0; }
+
+@media (min-width: 768px) {
+  .administration-navigation-list-item {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%; } }
+
+@media (min-width: 1200px) {
+  .administration-navigation-list-item {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto; } }
+
+.administration-navigation-icon {
+  color: #fff; }

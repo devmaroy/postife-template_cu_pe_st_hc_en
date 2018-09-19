@@ -36,13 +36,15 @@
 @import "pages/home/testimonials.scss";
 @import "pages/home/follow-us.scss";
 
-
 // Import Page - About
 @import "pages/about.scss";
-
 
 // Import Page - Contact
 @import "pages/contact.scss";
 
 // Import Page - FAQ
 @import "pages/faq.scss";
+
+
+// Import Administration Pages
+@import "pages/administration/navigation";

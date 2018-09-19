@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    # Administration Navigation Settings
+\*------------------------------------*/
+
+.administration-navigation {
+	background-color: $admin-nav-bg;
+	padding: $admin-nav-padding-y $admin-nav-padding-x;
+	border-top: $admin-nav-border-top;
+}
+
+.administration-navigation-list {	
+	@media ( min-width: 768px ) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	@media ( min-width: 1200px ) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+.administration-navigation-list-item {
+	&:not(:last-child) {
+		margin-bottom: $admin-nav-list-item-margin-bottom;
+
+		@media ( min-width: 1200px ) {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		text-transform: uppercase;
+		color: $admin-nav-list-item-link-color;
+		padding: .5em;
+		padding-bottom: 0;
+	}
+
+	@media ( min-width: 768px ) {
+		flex-basis: 50%;
+	}
+
+	@media ( min-width: 1200px ) {
+		flex-basis: auto;
+	}
+}
+
+.administration-navigation-icon {
+	color: $admin-nav-icon-color;
+}
