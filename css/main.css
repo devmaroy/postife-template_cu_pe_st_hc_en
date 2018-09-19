@@ -919,7 +919,7 @@ html {
 \*------------------------------------*/
 .administration-navigation {
   background-color: #5b5bca;
-  padding: 1.5em 0;
+  padding: 1em 0;
   border-top: 0.0625em solid #4747c4; }
 
 @media (min-width: 768px) {
@@ -942,27 +942,22 @@ html {
     -ms-flex-pack: distribute;
     justify-content: space-around; } }
 
-.administration-navigation-list-item:not(:last-child) {
-  margin-bottom: 1em; }
+.administration-navigation-list-item {
+  margin-bottom: 1em;
+  padding: .5em 0; }
+  .administration-navigation-list-item a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: .5em;
+    padding-bottom: 0; }
+  @media (min-width: 768px) {
+    .administration-navigation-list-item {
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; } }
   @media (min-width: 1200px) {
-    .administration-navigation-list-item:not(:last-child) {
-      margin-bottom: 0; } }
-
-.administration-navigation-list-item a {
-  text-transform: uppercase;
-  color: #fff;
-  padding: .5em;
-  padding-bottom: 0; }
-
-@media (min-width: 768px) {
-  .administration-navigation-list-item {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%; } }
-
-@media (min-width: 1200px) {
-  .administration-navigation-list-item {
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto; } }
+    .administration-navigation-list-item {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto; } }
 
 .administration-navigation-icon {
   color: #fff; }
