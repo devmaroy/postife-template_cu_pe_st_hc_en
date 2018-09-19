@@ -99,6 +99,10 @@
 }
 
 .form-administration {
+	.form-btn {
+		margin-bottom: 0;
+	}
+	
 	@media ( min-width: 768px ) {
 		padding-top: $form-administration-padding-top--md;
 	}

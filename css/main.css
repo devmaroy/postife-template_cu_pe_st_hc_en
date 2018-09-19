@@ -544,6 +544,9 @@ html {
   .form-contact .form-btn {
     margin-bottom: 0; }
 
+.form-administration .form-btn {
+  margin-bottom: 0; }
+
 @media (min-width: 768px) {
   .form-administration {
     padding-top: 4em; } }
