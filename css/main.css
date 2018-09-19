@@ -948,6 +948,8 @@ html {
 .administration-navigation-list-item {
   margin-bottom: 1em;
   padding: .5em 0; }
+  .administration-navigation-list-item.active a::after {
+    width: 90%; }
   .administration-navigation-list-item a {
     text-transform: uppercase;
     color: #fff;

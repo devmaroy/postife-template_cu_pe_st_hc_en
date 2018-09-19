@@ -25,6 +25,12 @@
 	margin-bottom: $admin-nav-list-item-margin-bottom;
 	padding: .5em 0;
 
+	&.active {
+		a::after {
+			width: 90%; 
+		}
+	}
+
 	a {
 		text-transform: uppercase;
 		color: $admin-nav-list-item-link-color;
