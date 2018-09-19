@@ -20,6 +20,7 @@
 /* 2/16 */
 /*------------------------------------*    # Form Settings
 \*------------------------------------*/
+/* 2/16 */
 /*------------------------------------*    # Logo Settings
 \*------------------------------------*/
 /*------------------------------------*    # Navigation Settings
@@ -490,7 +491,7 @@ html {
 
 .form-group label {
   display: block;
-  margin: 1.3em 0; }
+  margin: 1.5em 0; }
 
 .form-control {
   -webkit-appearance: none;
@@ -508,6 +509,8 @@ html {
   border-radius: 0.1em; }
   .form-control:focus {
     background-color: #f5f5fc; }
+  .form-control[type="file"] {
+    line-height: 0; }
 
 .form-btn {
   margin: 2em 0;
@@ -540,6 +543,19 @@ html {
   padding-bottom: 0; }
   .form-contact .form-btn {
     margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .form-administration {
+    padding-top: 4em; } }
+
+.form-group-upload {
+  margin-bottom: 2em; }
+
+.form-upload-user-image {
+  width: 240px;
+  border: 0.125em solid #6666ce;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
@@ -950,3 +966,11 @@ html {
 
 .administration-navigation-icon {
   color: #fff; }
+
+/*------------------------------------*    # Administration My Account Settings
+\*------------------------------------*/
+.administration-my-account {
+  padding: 3em 0; }
+  @media (min-width: 1200px) {
+    .administration-my-account {
+      padding: 6em 0; } }

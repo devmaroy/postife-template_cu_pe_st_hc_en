@@ -179,7 +179,7 @@ $form-border-radius: .1em;
 $form-control-border: 0.0625em solid #BBBBF2;
 $form-head-margin-bottom: 3em;
 
-$form-label-margin-y: 1.3em;
+$form-label-margin-y: 1.5em;
 $form-label-margin-x: 0;
 
 $form-control-padding-y: .7em;
@@ -199,6 +199,16 @@ $form-auth-color: $dark;
 // Form Auth Settings
 $form-auth-box-shadow: 0.125em 0 0.375em 0.0625em $dark;
 $form-auth-head-margin-bottom: 1em;
+
+
+// Form Administration Settings
+$form-administration-padding-top--md: 4em;
+
+$form-group-upload-margin-bottom: 2em;
+
+$form-upload-user-image-width: 240px;
+$form-upload-user-image-border: 0.125em solid $color-primary; /* 2/16 */
+
 
 
 

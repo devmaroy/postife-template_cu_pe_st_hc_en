@@ -47,6 +47,10 @@
 	&:focus {
 		background-color: $form-control-hover-bg;
 	}
+
+	&[type="file"] {
+		line-height: 0;
+	}
 }
 
 .form-btn {
@@ -92,4 +96,21 @@
 	.form-btn {
 		margin-bottom: 0;
 	}
+}
+
+.form-administration {
+	@media ( min-width: 768px ) {
+		padding-top: $form-administration-padding-top--md;
+	}
+}
+
+.form-group-upload {
+	margin-bottom: $form-group-upload-margin-bottom;
+}
+
+.form-upload-user-image {
+	width: $form-upload-user-image-width;
+	border: $form-upload-user-image-border;
+	margin-left: auto;
+	margin-right: auto;
 }
