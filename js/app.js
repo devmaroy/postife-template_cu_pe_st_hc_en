@@ -31,4 +31,6 @@
 			.toggleClass( 'fa-minus' );
 	});
 
+	FastClick.attach(document.body);
+	
 })(jQuery)
