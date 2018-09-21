@@ -77,11 +77,12 @@
 
 .all-users-controls {
 	margin-top: $all-users-controls-margin-top;
-}
+	
 
-.all-users-controls-link {
 	@media ( min-width: 768px ) {
-		margin-right: $all-users-controls-link-margin-right;
+		a {
+			margin-right: $all-users-controls-link-margin-right;
+		}
 	}
 }
 

@@ -1097,10 +1097,9 @@ select.form-control {
 
 .all-users-controls {
   margin-top: 2em; }
-
-@media (min-width: 768px) {
-  .all-users-controls-link {
-    margin-right: 0.5em; } }
+  @media (min-width: 768px) {
+    .all-users-controls a {
+      margin-right: 1em; } }
 
 .user-edit-icon {
   display: block;
