@@ -75,7 +75,7 @@
 	margin-right: $all-users-icon-margin-right;
 }
 
-.all-users-controls {
+.user-controls {
 	margin-top: $all-users-controls-margin-top;
 	
 
@@ -118,5 +118,13 @@
 
 	@media ( min-width: 768px ) {
 		margin-right: 0;
+	}
+}
+
+.all-users-load-more {
+	margin-top: $all-users-load-more-margin-top;
+
+	@media ( min-width: 768px ) {
+		margin-top: $all-users-load-more-margin-top--md;
 	}
 }

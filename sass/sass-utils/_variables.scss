@@ -59,7 +59,7 @@ $text-alignment: (
     # General Settings
 \*------------------------------------*/
 
-$container-fluid-max-width: 1920px; /* limit container fluid width, we don't want to go too wide */
+$container-fluid-max-width: 1700px; /* limit container fluid width, we don't want to go too wide */
 
 $transition-base: all ease-in-out 0.25s;
 $transition-no-boring: 0.4s ease-out all 0.1s;
@@ -471,6 +471,8 @@ $admin-my-account-padding-x: 0;
 $admin-my-account-padding-y--xl: 6em;
 $admin-my-account-padding-x--xl: 0;
 
+$admin-my-account-user-controls-margin-bottom: 1em;
+
 
 
 
@@ -514,6 +516,9 @@ $all-users-icon-margin-right: .5em;
 $all-users-controls-margin-top: 2em;
 
 $all-users-controls-link-margin-right: 1em;
+
+$all-users-load-more-margin-top: 4em;
+$all-users-load-more-margin-top--md: 6em;
 
 $user-edit-icon-width: 75%;
 $user-edit-icon-margin-top: 0;

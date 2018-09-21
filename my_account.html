@@ -53,7 +53,7 @@
 			<!-- Site Navigation -->
 			<div class="site-navigation">
 				<ul class="list-unstyled site-navigation-list">
-					<li class="active">
+					<li>
 						<a href="index.html">Home</a>
 					</li>
 					<li>
@@ -165,7 +165,7 @@
 
 								<div class="card-meta">
 									<p>
-										<a href="administration.html" class="no-boring-link"><i class="fas fa-sign-out-alt"></i> Sign out</a>
+										<a href="index_auth.html" class="no-boring-link"><i class="fas fa-sign-out-alt"></i> Sign out</a>
 									</p>
 								</div>
 							</div>
@@ -232,6 +232,12 @@
 								     class="img-fluid form-upload-user-image">
 								<input type="file" name="name" id="name" class="form-control">
 							</div>
+
+							<div class="user-controls">
+								<a href="#" class="all-users-controls-link"><i class="fas fa-ban user-danger-icon"></i></a>
+
+								<a href="#" class="all-users-controls-link"><i class="far fa-trash-alt user-danger-icon"></i></a>
+							</div>
 						</div>
 						
 						<div class="col-md offset-md-1">
@@ -263,6 +269,15 @@
 							<div class="form-group">
 								<label for="user_new_password">Your new password:</label>
 								<input type="password" name="user_new_password" id="user_new_password" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label>Account settings:</label>
+
+								<label>
+									Hide my email
+									<input type="checkbox" name="hide_email" value="1"> 
+								</label>
 							</div>
 
 							<input type="submit" value="Send" class="form-control form-btn">

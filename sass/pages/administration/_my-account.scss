@@ -8,4 +8,9 @@
 	@media ( min-width: 1200px ) {
 		padding: $admin-my-account-padding-y--xl $admin-my-account-padding-x--xl;
 	}
+
+	.user-controls {
+		text-align: center;
+		margin-bottom: $admin-my-account-user-controls-margin-bottom;
+	}
 }
