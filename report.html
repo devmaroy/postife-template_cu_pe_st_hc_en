@@ -189,11 +189,11 @@
 						<i class="fas fa-file-alt fa-fw administration-navigation-icon"></i> 
 						<a href="my_files.html" class="no-boring-link">My Files</a>
 					</li>
-					<li class="administration-navigation-list-item active">
+					<li class="administration-navigation-list-item">
 						<i class="fas fa-users fa-fw administration-navigation-icon"></i> 
 						<a href="users.html" class="no-boring-link">Users</a>
 					</li>
-					<li class="administration-navigation-list-item">
+					<li class="administration-navigation-list-item active">
 						<i class="fas fa-flag fa-fw administration-navigation-icon"></i> 
 						<a href="report.html" class="no-boring-link">Report a bug</a>
 					</li>
@@ -213,14 +213,26 @@
 						Here you can report a bug.
 					</p>
 					<p>
-						You can report a bug via this form. Please provide as much information as possible.
+						Please provide as much information as possible.
 					</p>
 				</header>
 				<!-- END Administration Report Head -->
 
 				<!-- Report Bug -->
 				<div class="report-bug">
+					<form class="form form-report">
+						<div class="form-group">
+							<label for="name">Title: <sup>*</sup></label>
+							<input type="text" name="name" id="name" class="form-control">
+						</div>
 
+						<div class="form-group">
+							<label for="message">Describe your issue: <sup>*</sup></label>
+							<textarea name="message" id="message" class="form-control" rows="10"></textarea>
+						</div>
+
+						<input type="submit" value="Send" class="form-control form-btn">
+					</form>
 				</div>
 				<!-- END Report Bug -->
 			</div>

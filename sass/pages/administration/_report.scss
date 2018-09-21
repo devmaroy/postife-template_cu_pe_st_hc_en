@@ -1,3 +1,15 @@
 /*------------------------------------*\
     # Administration Report Settings
 \*------------------------------------*/
+
+.administration-report {
+	padding: $admin-report-padding-y $admin-report-padding-x;
+
+	@media ( min-width: 1200px ) {
+		padding: $admin-report-padding-y--xl $admin-report-padding-x--xl;
+	}
+}
+
+.report-bug {
+	margin-top: $report-bug-margin-top;
+}

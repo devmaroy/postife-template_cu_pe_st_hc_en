@@ -52,6 +52,8 @@
 /*------------------------------------*    # Administration Users Settings
 \*------------------------------------*/
 /* 1/16 */
+/*------------------------------------*    # Administration Report Settings
+\*------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -545,11 +547,13 @@ select.form-control {
   .form-auth .form-head {
     margin-bottom: 1em; }
 
-.form-contact {
+.form-contact,
+.form-report {
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0; }
-  .form-contact .form-btn {
+  .form-contact .form-btn,
+  .form-report .form-btn {
     margin-bottom: 0; }
 
 .form-administration .form-btn {
@@ -1128,3 +1132,11 @@ select.form-control {
 
 /*------------------------------------*    # Administration Report Settings
 \*------------------------------------*/
+.administration-report {
+  padding: 3em 0; }
+  @media (min-width: 1200px) {
+    .administration-report {
+      padding: 6em 0; } }
+
+.report-bug {
+  margin-top: 2em; }
