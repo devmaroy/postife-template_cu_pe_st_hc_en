@@ -512,6 +512,9 @@ html {
   .form-control[type="file"] {
     line-height: 0; }
 
+select.form-control {
+  background: url("data:image/svg+xml,%3Csvg id=%22Layer_1%22 data-name=%22Layer 1%22 xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4.95 10%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%236666ce;%7D.cls-2%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Earrows%3C/title%3E%3Crect class=%22cls-1%22 width=%224.95%22 height=%2210%22/%3E%3Cpolygon class=%22cls-2%22 points=%221.41 4.67 2.48 3.18 3.54 4.67 1.41 4.67%22/%3E%3Cpolygon class=%22cls-2%22 points=%223.54 5.33 2.48 6.82 1.41 5.33 3.54 5.33%22/%3E%3C/svg%3E") no-repeat 100% 50%; }
+
 .form-btn {
   margin: 2em 0;
   text-transform: uppercase;
@@ -689,6 +692,54 @@ html {
     color: #fff; }
     .card-overview .overview-icon span {
       font-size: 1.5em; }
+
+/*------------------------------------*    # Buttons
+\*------------------------------------*/
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .375em .75em;
+  -webkit-transition: all ease-in-out 0.25s;
+  -o-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s;
+  text-align: center;
+  display: inline-block;
+  margin-right: .5em; }
+
+.btn-block {
+  display: block; }
+
+.btn-primary {
+  background: #6666ce;
+  border: 1px solid #5353c8;
+  color: #fff; }
+  .btn-primary:hover, .btn-primary:focus {
+    color: #fff;
+    background: #5a5aca; }
+
+.btn-primary-outline {
+  background: transparent;
+  border: 1px solid #5353c8;
+  color: #6666ce; }
+  .btn-primary-outline:hover, .btn-primary-outline:focus {
+    color: #fff;
+    background: #5a5aca; }
+
+.btn-danger {
+  background: #e40404;
+  border: 1px solid #cb0404;
+  color: #fff; }
+  .btn-danger:hover, .btn-danger:focus {
+    color: #fff;
+    background: #d50404; }
+
+.btn-danger-outline {
+  background: transparent;
+  border: 1px solid #cb0404;
+  color: #e40404; }
+  .btn-danger-outline:hover, .btn-danger-outline:focus {
+    color: #fff;
+    background: #d50404; }
 
 /*------------------------------------*    # Hero Settings
 \*------------------------------------*/
@@ -974,3 +1025,100 @@ html {
   @media (min-width: 1200px) {
     .administration-my-account {
       padding: 6em 0; } }
+
+/*------------------------------------*    # Administration Users Settings
+\*------------------------------------*/
+.administration-users {
+  padding: 3em 0; }
+  @media (min-width: 1200px) {
+    .administration-users {
+      padding: 6em 0; } }
+
+.all-users {
+  text-align: center;
+  margin-top: 1em; }
+  @media (min-width: 768px) {
+    .all-users {
+      text-align: left;
+      margin-top: 5em; } }
+
+.all-users-list-item {
+  padding-top: 3em; }
+  .all-users-list-item:not(:last-child) {
+    padding-bottom: 3em;
+    border-bottom: 1px solid #e2e2f6; }
+
+.all-users-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 240px;
+  border: 0.125em solid #6666ce; }
+  @media (min-width: 768px) {
+    .all-users-image {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+@media (min-width: 768px) {
+  .all-users-content {
+    margin-left: 2em; } }
+
+.all-users-content-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .all-users-content-info {
+      display: block; } }
+
+.all-users-content-list {
+  margin-top: .5em; }
+
+.all-users-content-list-item {
+  margin-bottom: .5em;
+  text-align: left; }
+
+.all-users-icon {
+  color: #6666ce;
+  margin-right: .5em; }
+
+.all-users-content-list-item:not(:last-child) {
+  margin-bottom: 1em; }
+
+.all-users-controls {
+  margin-top: 2em; }
+  @media (min-width: 768px) {
+    .all-users-controls a {
+      margin-right: .5em; } }
+
+.user-edit-icon {
+  display: block;
+  width: 75%;
+  margin: 0 auto 2em; }
+  @media (min-width: 768px) {
+    .user-edit-icon {
+      display: inline;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      width: auto; } }
+
+.user-delete-icon,
+.user-block-icon {
+  color: #e40404;
+  margin-right: .5em;
+  -webkit-transition: all ease-in-out 0.25s;
+  -o-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s;
+  font-size: 1.2em; }
+  .user-delete-icon:hover, .user-delete-icon:focus,
+  .user-block-icon:hover,
+  .user-block-icon:focus {
+    color: #c10303; }
+  @media (min-width: 768px) {
+    .user-delete-icon,
+    .user-block-icon {
+      margin-right: 0; } }

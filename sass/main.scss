@@ -29,6 +29,7 @@
 // Import Components
 @import "components/logo.scss";
 @import "components/card.scss";
+@import "components/buttons.scss";
 
 
 // Import Page - Home
@@ -49,3 +50,4 @@
 // Import Administration Pages
 @import "pages/administration/navigation";
 @import "pages/administration/my-account";
+@import "pages/administration/users";

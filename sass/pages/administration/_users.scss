@@ -1,0 +1,135 @@
+/*------------------------------------*\
+    # Administration Users Settings
+\*------------------------------------*/
+
+.administration-users {
+	padding: 3em 0;
+
+	@media ( min-width: 1200px ) {
+		padding: 6em 0;
+	}
+}
+
+.all-users {
+	text-align: center;
+	margin-top: 1em;
+
+	@media ( min-width: 768px ) {
+		text-align: left;
+		margin-top: 5em;
+	}
+	
+
+	// background: purple;
+}
+
+.all-users-list-item {
+	padding-top: 3em;
+
+	&:not(:last-child) {
+		padding-bottom: 3em;
+		border-bottom: 1px solid lighten( $color-primary, 32% );
+	}
+}
+
+
+.all-users-head {
+	// background: pink;
+}
+
+.all-users-content {
+	// background: black;
+}
+
+.all-users-image {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 240px;
+
+	border: $form-upload-user-image-border;
+
+	@media ( min-width: 768px ) {
+		margin-top: 0;
+		margin-bottom: 0;
+		// margin-right: 0;
+	}
+}
+
+.all-users-content {
+	@media ( min-width: 768px ) {
+		margin-left: 2em;
+	}
+}
+
+.all-users-content-info {
+	display: flex;
+	justify-content: center;
+
+	@media ( min-width: 768px ) {
+		display: block;
+	}
+}
+
+.all-users-content-list {
+	margin-top: .5em;
+}
+
+.all-users-content-list-item {
+	margin-bottom: .5em;
+	text-align: left;
+}
+
+.all-users-icon {
+	color: $color-primary;
+
+	margin-right: .5em;
+}
+
+.all-users-content-list-item {
+	&:not(:last-child) {
+		margin-bottom: 1em;
+	}
+}
+
+.all-users-controls {
+	margin-top: 2em;
+
+	@media ( min-width: 768px ) {
+		a {
+			margin-right: .5em;
+		}
+	}
+}
+
+.user-edit-icon {
+	display: block;
+	width: 75%;
+	margin: 0 auto 2em;
+
+	@media ( min-width: 768px ) {
+		display: inline;
+		//margin: 0 .5em 0 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		width: auto;
+	}
+}
+
+.user-delete-icon,
+.user-block-icon {
+	color: $red;
+	margin-right: .5em;
+	transition: $transition-base;
+	font-size: 1.2em;
+
+	&:hover,
+	&:focus {
+		color: darken( $red, 7% );
+	}
+
+	@media ( min-width: 768px ) {
+		margin-right: 0;
+	}
+}

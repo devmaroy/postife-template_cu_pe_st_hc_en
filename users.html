@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | My Account</title>
+	<title>Postife | Administration | Users</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -181,7 +181,7 @@
 		<section class="administration-navigation">
 			<div class="container-fluid">
 				<ul class="list-unstyled administration-navigation-list">
-					<li class="administration-navigation-list-item active">
+					<li class="administration-navigation-list-item">
 						<i class="fas fa-user fa-fw administration-navigation-icon"></i> 
 						<a href="my_account.html" class="no-boring-link">My Account</a>
 					</li>
@@ -189,7 +189,7 @@
 						<i class="fas fa-file-alt fa-fw administration-navigation-icon"></i> 
 						<a href="my_files.html" class="no-boring-link">My Files</a>
 					</li>
-					<li class="administration-navigation-list-item">
+					<li class="administration-navigation-list-item active">
 						<i class="fas fa-users fa-fw administration-navigation-icon"></i> 
 						<a href="users.html" class="no-boring-link">Users</a>
 					</li>
@@ -202,77 +202,175 @@
 		</section>
 		<!-- END Administration Navigation Section -->
 
-		<!-- Administration My Account Section -->
-		<section class="administration-my-account">
+		<!-- Administration Users Section -->
+		<section class="administration-users">
 			<div class="container">
-				<!-- Administration My Account Head -->
-				<header class="administration-my-account-head text-center">
-					<h1 class="no-boring-title">My Account</h1>
+				<!-- Administration Users Head -->
+				<header class="administration-users-head text-center">
+					<h1 class="no-boring-title">Users</h1>
 
 					<p>
-						Here you can manage your account settings.
+						Here you can manage users.
 					</p>
 					<p>
-						You can change passwords here. Just enter old and new. Leave empty if you don't want to change.
+						You can change their information, ban them and much more.
 					</p>
 				</header>
-				<!-- END Administration My Account Head -->
+				<!-- END Administration Users Head -->
 
-				<!-- Administration Form -->
-				<form class="form form-administration">
-					<div class="row">
-						<div class="col-md-4 col-lg-3">
-							<div class="form-group form-group-upload">
-								<img src="img/users/user-01.jpg" 
-									 srcset="img/users/user-01@1x.jpg 1x, 
-									 		 img/users/user-01@2x.jpg 2x,
-								             img/users/user-01@3x.jpg 3x, 
-								             img/users/user-01@4x.jpg 4x"
-								     alt="User image" 
-								     class="img-fluid form-upload-user-image">
-								<input type="file" name="name" id="name" class="form-control">
+				<!-- All Users -->
+				<div class="all-users">
+					<ul class="list-unstyled all-users-list">
+						<li class="all-users-list-item">
+							<div class="row">
+								<!-- All Users Image -->
+								<div class="all-users-head col-md-4 col-lg-3">
+									<img src="img/users/user-01.jpg" 
+										 srcset="img/users/user-01@1x.jpg 1x, 
+										 		 img/users/user-01@2x.jpg 2x,
+									             img/users/user-01@3x.jpg 3x, 
+									             img/users/user-01@4x.jpg 4x"
+									     alt="User image" 
+									     class="img-fluid all-users-image">
+								</div>
+								<!-- END All Users Image -->
+								
+								<!-- All Users Content -->
+								<div class="all-users-content col-md">
+									<h3 class="no-boring-title">
+										Richard Taylor
+									</h3>
+									
+									<div class="all-users-content-info">
+										<ul class="list-unstyled all-users-content-list">
+											<li class="all-users-content-list-item">
+												<i class="fas fa-envelope fa-fw all-users-icon"></i> rtaylor@gmail.com
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-file-alt fa-fw all-users-icon"></i> 114 uploaded files
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-user-shield fa-fw all-users-icon"></i> Administrator
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-users fa-fw all-users-icon"></i> <time datetime="2018-10-11 10:37:15">October 11, 2018 at 10:37:15</time>
+											</li>
+										</ul>
+									</div>
+
+									<div class="all-users-controls">
+										<a href="my_account.html" class="btn btn-primary-outline user-edit-icon">Edit</a>
+
+										<a href="#"><i class="fas fa-ban user-block-icon"></i></a>
+
+										<a href="#"><i class="far fa-trash-alt user-delete-icon"></i></a>
+									</div>
+								</div>
+								<!-- END All Users Content -->
 							</div>
-						</div>
-						
-						<div class="col-md offset-md-1">
-							<div class="form-group">
-								<label for="user_name">Your name: <sup>*</sup></label>
-								<input type="text" name="user_name" id="user_name" class="form-control" value="Richard Taylor">
+						</li>
+						<li class="all-users-list-item">
+							<div class="row">
+								<!-- All Users Image -->
+								<div class="all-users-head col-md-4 col-lg-3">
+									<img src="img/users/user-02.jpg" 
+										 srcset="img/users/user-02@1x.jpg 1x, 
+										 		 img/users/user-02@2x.jpg 2x,
+									             img/users/user-02@3x.jpg 3x, 
+									             img/users/user-02@4x.jpg 4x"
+									     alt="User image" 
+									     class="img-fluid all-users-image">
+								</div>
+								<!-- END All Users Image -->
+								
+								<!-- All Users Content -->
+								<div class="all-users-content col-md">
+									<h3 class="no-boring-title">
+										Jessica Simpson
+									</h3>
+
+									<div class="all-users-content-info">
+										<ul class="list-unstyled all-users-content-list">
+											<li class="all-users-content-list-item">
+												<i class="fas fa-envelope fa-fw all-users-icon"></i> simpsonjess@gmail.com
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-file-alt fa-fw all-users-icon"></i> 46 uploaded files
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-user-shield fa-fw all-users-icon"></i> Moderator
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-users fa-fw all-users-icon"></i> <time datetime="2018-10-17 16:03:55">October 17, 2018 at 16:03:55</time>
+											</li>
+										</ul>
+									</div>
+
+									<div class="all-users-controls">
+										<a href="my_account.html" class="btn btn-primary-outline user-edit-icon">Edit</a>
+
+										<a href="#"><i class="fas fa-ban user-block-icon"></i></a>
+
+										<a href="#"><i class="far fa-trash-alt user-delete-icon"></i></a>
+									</div>
+								</div>
+								<!-- END All Users Content -->
 							</div>
+						</li>
+						<li class="all-users-list-item">
+							<div class="row">
+								<!-- All Users Image -->
+								<div class="all-users-head col-md-4 col-lg-3">
+									<img src="img/users/user-03.jpg" 
+										 srcset="img/users/user-03@1x.jpg 1x, 
+										 		 img/users/user-03@2x.jpg 2x,
+									             img/users/user-03@3x.jpg 3x, 
+									             img/users/user-03@4x.jpg 4x"
+									     alt="User image" 
+									     class="img-fluid all-users-image">
+								</div>
+								<!-- END All Users Image -->
+								
+								<!-- All Users Content -->
+								<div class="all-users-content col-md">
+									<h3 class="no-boring-title">
+										Michael A. Snyder
+									</h3>
 
+									<div class="all-users-content-info">
+										<ul class="list-unstyled all-users-content-list">
+											<li class="all-users-content-list-item">
+												<i class="fas fa-envelope fa-fw all-users-icon"></i> snyderma@gmail.com
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-file-alt fa-fw all-users-icon"></i> 11 uploaded files
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-user-shield fa-fw all-users-icon"></i> User
+											</li>
+											<li class="all-users-content-list-item">
+												<i class="fas fa-users fa-fw all-users-icon"></i> <time datetime="2018-10-25 04:28:13">October 25, 2018 at 04:28:13</time>
+											</li>
+										</ul>
+									</div>
 
-							<div class="form-group">
-								<label for="user_email">Your email: <sup>*</sup></label>
-								<input type="email" name="user_email" id="user_email" class="form-control" value="rtaylor@gmail.com">
+									<div class="all-users-controls">
+										<a href="my_account.html" class="btn btn-primary-outline user-edit-icon">Edit</a>
+
+										<a href="#"><i class="fas fa-ban user-block-icon"></i></a>
+
+										<a href="#"><i class="far fa-trash-alt user-delete-icon"></i></a>
+									</div>
+								</div>
+								<!-- END All Users Content -->
 							</div>
-
-							<div class="form-group">
-								<label for="user_role">Role: <sup>*</sup></label>
-								<select name="roles" id="user_role" class="form-control">
-									<option value="administrator" selected>Administrator</option> 
-									<option value="moderator">Moderator</option> 
-									<option value="user">User</option> 
-								</select>
-							</div>
-
-							<div class="form-group">
-								<label for="user_password">Your old password:</label>
-								<input type="password" name="user_password" id="user_password" class="form-control">
-							</div>
-
-							<div class="form-group">
-								<label for="user_new_password">Your new password:</label>
-								<input type="password" name="user_new_password" id="user_new_password" class="form-control">
-							</div>
-
-							<input type="submit" value="Send" class="form-control form-btn">
-						</div>
-					</div>
-				</form>
-				<!-- END Administration Form -->
+						</li>
+					</ul>
+				</div>
+				<!-- END All Users -->
 			</div>
 		</section>
-		<!-- END Administration My Account Section -->
+		<!-- END Administration Users Section -->
 	</main>
 	<!-- END Site Main -->
 

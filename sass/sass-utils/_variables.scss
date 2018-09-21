@@ -79,6 +79,7 @@ $color-selection: lighten( #6666ce, 32% );
 
 $dark: #505050;
 $light: #fff;
+$red: #e40404;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 150;
@@ -449,7 +450,7 @@ $admin-nav-list-item-link-color: $light;
 $admin-nav-icon-color: color-yiq( $admin-nav-bg );
 
 // Administration Navigation Settings
-$admin-nav-border-top: 0.0625em solid darken($admin-nav-bg, 5%); /* 1/16 */
+$admin-nav-border-top: 0.0625em solid darken( $admin-nav-bg, 5% ); /* 1/16 */
 
 $admin-nav-padding-y: 1em;
 $admin-nav-padding-x: 0;
