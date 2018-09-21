@@ -3,9 +3,9 @@
 \*------------------------------------*/
 
 .administration-my-account {
-	padding: 3em 0;
+	padding: $admin-my-account-padding-y $admin-my-account-padding-x;
 
 	@media ( min-width: 1200px ) {
-		padding: 6em 0;
+		padding: $admin-my-account-padding-y--xl $admin-my-account-padding-x--xl;
 	}
 }

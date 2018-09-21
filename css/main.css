@@ -47,6 +47,11 @@
 /*------------------------------------*    # Administration Navigation Settings
 \*------------------------------------*/
 /* 1/16 */
+/*------------------------------------*    # Administration My Account Settings
+\*------------------------------------*/
+/*------------------------------------*    # Administration Users Settings
+\*------------------------------------*/
+/* 1/16 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1046,7 +1051,7 @@ select.form-control {
   padding-top: 3em; }
   .all-users-list-item:not(:last-child) {
     padding-bottom: 3em;
-    border-bottom: 1px solid #e2e2f6; }
+    border-bottom: 0.0625em solid #e2e2f6; }
 
 .all-users-image {
   margin-left: auto;
@@ -1075,50 +1080,48 @@ select.form-control {
       display: block; } }
 
 .all-users-content-list {
-  margin-top: .5em; }
+  margin-top: 0.5em; }
 
 .all-users-content-list-item {
-  margin-bottom: .5em;
   text-align: left; }
+  .all-users-content-list-item:not(:last-child) {
+    margin-bottom: 1em; }
 
 .all-users-icon {
   color: #6666ce;
-  margin-right: .5em; }
-
-.all-users-content-list-item:not(:last-child) {
-  margin-bottom: 1em; }
+  margin-right: 0.5em; }
 
 .all-users-controls {
   margin-top: 2em; }
-  @media (min-width: 768px) {
-    .all-users-controls a {
-      margin-right: .5em; } }
+
+@media (min-width: 768px) {
+  .all-users-controls-link {
+    margin-right: 0.5em; } }
 
 .user-edit-icon {
   display: block;
   width: 75%;
-  margin: 0 auto 2em; }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 2em; }
   @media (min-width: 768px) {
     .user-edit-icon {
       display: inline;
+      width: auto;
       margin-left: 0;
       margin-right: 0;
-      margin-bottom: 0;
-      width: auto; } }
+      margin-bottom: 0; } }
 
-.user-delete-icon,
-.user-block-icon {
+.user-danger-icon {
   color: #e40404;
-  margin-right: .5em;
+  margin-right: 0.5em;
+  font-size: 1.2em;
   -webkit-transition: all ease-in-out 0.25s;
   -o-transition: all ease-in-out 0.25s;
-  transition: all ease-in-out 0.25s;
-  font-size: 1.2em; }
-  .user-delete-icon:hover, .user-delete-icon:focus,
-  .user-block-icon:hover,
-  .user-block-icon:focus {
+  transition: all ease-in-out 0.25s; }
+  .user-danger-icon:hover, .user-danger-icon:focus {
     color: #c10303; }
   @media (min-width: 768px) {
-    .user-delete-icon,
-    .user-block-icon {
+    .user-danger-icon {
       margin-right: 0; } }

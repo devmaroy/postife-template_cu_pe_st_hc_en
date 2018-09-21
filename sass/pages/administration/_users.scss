@@ -3,62 +3,49 @@
 \*------------------------------------*/
 
 .administration-users {
-	padding: 3em 0;
+	padding: $admin-users-padding-y $admin-users-padding-x;
 
 	@media ( min-width: 1200px ) {
-		padding: 6em 0;
+		padding: $admin-users-padding-y--xl $admin-users-padding-x--xl;
 	}
 }
 
 .all-users {
 	text-align: center;
-	margin-top: 1em;
+	margin-top: $all-users-margin-top;
 
 	@media ( min-width: 768px ) {
 		text-align: left;
-		margin-top: 5em;
+		margin-top: $all-users-margin-top--md;
 	}
-	
-
-	// background: purple;
 }
 
 .all-users-list-item {
-	padding-top: 3em;
+	padding-top: $all-users-list-item-padding-top;
 
 	&:not(:last-child) {
-		padding-bottom: 3em;
-		border-bottom: 1px solid lighten( $color-primary, 32% );
+		padding-bottom: $all-users-list-item-padding-bottom;
+		border-bottom: $all-users-list-item-border;
 	}
-}
-
-
-.all-users-head {
-	// background: pink;
-}
-
-.all-users-content {
-	// background: black;
 }
 
 .all-users-image {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-	width: 240px;
 
-	border: $form-upload-user-image-border;
+	width: $all-users-image-width;
+	border: $all-users-image-border;
 
 	@media ( min-width: 768px ) {
 		margin-top: 0;
 		margin-bottom: 0;
-		// margin-right: 0;
 	}
 }
 
 .all-users-content {
 	@media ( min-width: 768px ) {
-		margin-left: 2em;
+		margin-left: $all-users-content-margin-left--md;
 	}
 }
 
@@ -72,61 +59,60 @@
 }
 
 .all-users-content-list {
-	margin-top: .5em;
+	margin-top: $all-users-content-list-margin-top;
 }
 
 .all-users-content-list-item {
-	margin-bottom: .5em;
 	text-align: left;
-}
 
-.all-users-icon {
-	color: $color-primary;
-
-	margin-right: .5em;
-}
-
-.all-users-content-list-item {
 	&:not(:last-child) {
-		margin-bottom: 1em;
+		margin-bottom: $all-users-content-list-item-margin-bottom;
 	}
 }
 
-.all-users-controls {
-	margin-top: 2em;
+.all-users-icon {
+	color: $all-users-icon-color;
+	margin-right: $all-users-icon-margin-right;
+}
 
+.all-users-controls {
+	margin-top: $all-users-controls-margin-top;
+}
+
+.all-users-controls-link {
 	@media ( min-width: 768px ) {
-		a {
-			margin-right: .5em;
-		}
+		margin-right: $all-users-controls-link-margin-right;
 	}
 }
 
 .user-edit-icon {
 	display: block;
-	width: 75%;
-	margin: 0 auto 2em;
+	width: $user-edit-icon-width;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: $user-edit-icon-margin-top;
+	margin-bottom: $user-edit-icon-margin-bottom;
 
 	@media ( min-width: 768px ) {
 		display: inline;
-		//margin: 0 .5em 0 0;
+		width: auto;
+
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 0;
-		width: auto;
 	}
 }
 
-.user-delete-icon,
-.user-block-icon {
-	color: $red;
-	margin-right: .5em;
-	transition: $transition-base;
-	font-size: 1.2em;
+.user-danger-icon {
+	color: $user-danger-icon-color;
+	margin-right: $user-danger-icon-margin-right;
+	font-size: $user-danger-icon-font-size;
+	transition: $user-danger-icon-transition;
 
 	&:hover,
 	&:focus {
-		color: darken( $red, 7% );
+		color: $user-danger-icon-color-hover;
 	}
 
 	@media ( min-width: 768px ) {

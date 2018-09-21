@@ -442,7 +442,6 @@ $site-footer-margin-bottom: 2em;
 \*------------------------------------*/
 
 // Administration Navigation Colors
-//$admin-nav-bg: url('../../../img/stripes-light.png') center center, radial-gradient( darken( $color-primary, 12% ), darken( $color-primary, 12% ) );
 $admin-nav-bg: lighten( #3c3cbb, 9% );
 
 $admin-nav-list-item-link-color: $light;
@@ -456,3 +455,70 @@ $admin-nav-padding-y: 1em;
 $admin-nav-padding-x: 0;
 
 $admin-nav-list-item-margin-bottom: 1em;
+
+
+
+
+
+/*------------------------------------*\
+    # Administration My Account Settings
+\*------------------------------------*/
+
+// Administration My Account Settings
+$admin-my-account-padding-y: 3em;
+$admin-my-account-padding-x: 0;
+
+$admin-my-account-padding-y--xl: 6em;
+$admin-my-account-padding-x--xl: 0;
+
+
+
+
+
+/*------------------------------------*\
+    # Administration Users Settings
+\*------------------------------------*/
+
+// Administration Users Colors
+$all-users-icon-color: $color-primary;
+$user-danger-icon-color: $red;
+$user-danger-icon-color-hover: darken( $red, 7% );
+
+
+// Administration Users Settings
+$admin-users-padding-y: 3em;
+$admin-users-padding-x: 0;
+
+$admin-users-padding-y--xl: 6em;
+$admin-users-padding-x--xl: 0;
+
+$all-users-margin-top: 1em;
+$all-users-margin-top--md: 5em;
+
+$all-users-list-item-padding-top: 3em;
+$all-users-list-item-padding-bottom: 3em;
+
+$all-users-list-item-border: 0.0625em solid lighten( $color-primary, 32% ); /* 1/16 */
+
+$all-users-image-width: 240px;
+$all-users-image-border: 0.125em solid $color-primary;
+
+$all-users-content-margin-left--md: 2em;
+
+$all-users-content-list-margin-top: .5em;
+
+$all-users-content-list-item-margin-bottom: 1em;
+
+$all-users-icon-margin-right: .5em;
+
+$all-users-controls-margin-top: 2em;
+
+$all-users-controls-link-margin-right: .5em;
+
+$user-edit-icon-width: 75%;
+$user-edit-icon-margin-top: 0;
+$user-edit-icon-margin-bottom: 2em;
+
+$user-danger-icon-margin-right: .5em;
+$user-danger-icon-transition: $transition-base;
+$user-danger-icon-font-size: 1.2em;
