@@ -8,10 +8,6 @@
 	color: color-yiq( $color-primary );
 	
 	padding: $hero-padding-y $hero-padding-x;
-
-	@media ( min-width: 1200px ) {
-		padding: $hero-padding-y--xl $hero-padding-x--xl;
-	}
 }
 
 .intro {

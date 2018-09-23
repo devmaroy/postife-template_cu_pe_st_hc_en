@@ -4,11 +4,10 @@
 
 .faq {
     padding-top: $faq-padding-top;
-    padding-bottom: $faq-padding-bottom;
 
     @media ( min-width: 1200px ) {
-        padding-top: $faq-padding-top--xl;
-        padding-bottom: $faq-padding-bottom--xl;
+      padding-top: $faq-padding-top--xl;
+      padding-bottom: $faq-padding-bottom--xl;
     }
 }
 

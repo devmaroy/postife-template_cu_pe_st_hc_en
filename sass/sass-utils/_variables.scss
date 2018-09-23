@@ -300,9 +300,6 @@ $overview-icon-color: $color-primary;
 $hero-padding-y: 3em;
 $hero-padding-x: 0;
 
-$hero-padding-y--xl: 6em;
-$hero-padding-x--xl: 0;
-
 $intro-margin-bottom: 3em;
 $intro-margin-bottom--md: 0;
 $intro-margin-bottom--xl: 6em;
@@ -333,8 +330,8 @@ $overview-icon-font-size: 2em;
 // Testimonials Settings
 $testimonials-padding-top: 3em;
 
-$testimonials-padding-top--xl: 6em;
-$testimonials-padding-bottom--xl: 6em;
+$testimonials-padding-top--xl: 5em;
+$testimonials-padding-bottom--xl: 5em;
 
 
 
@@ -345,8 +342,7 @@ $testimonials-padding-bottom--xl: 6em;
 \*------------------------------------*/
 
 // Follow Us Settings
-$follow-us-padding-bottom: 3em;
-$follow-us-padding-bottom--xl: 6em;
+$follow-us-padding-bottom--xl: 5em;
 
 $social-margin-top: 4em;
 $social-list-margin-top: 2em;
@@ -355,7 +351,7 @@ $social-list-item-font-size: 2.5em;
 $social-list-item-margin-right: 1em;
 
 $social-icon-transition: $transition-no-boring;
-$social-icon-opacity-hover: .7;
+$social-icon-opacity-hover: .8;
 
 
 
@@ -367,12 +363,9 @@ $social-icon-opacity-hover: .7;
 
 // About Settings
 $about-padding-top: 3em;
-$about-padding-bottom: 1em;
 
-$about-padding-bottom--md: 3em;
-
-$about-padding-top--xl: 6em;
-$about-padding-bottom--xl: 6em;
+$about-padding-top--xl: 5em;
+$about-padding-bottom--xl: 5em;
 
 
 
@@ -384,10 +377,9 @@ $about-padding-bottom--xl: 6em;
 
 // Contact Settings
 $contact-padding-top: 3em;
-$contact-padding-bottom: 3em;
 
-$contact-padding-top--xl: 6em;
-$contact-padding-bottom--xl: 6em;
+$contact-padding-top--xl: 5em;
+$contact-padding-bottom--xl: 5em;
 
 $contact-head-margin-bottom: 1em;
 
@@ -406,10 +398,9 @@ $faq-list-item-term-color: $light;
 
 // FAQ Settings
 $faq-padding-top: 3em;
-$faq-padding-bottom: 1em;
 
-$faq-padding-top--xl: 6em;
-$faq-padding-bottom--xl: 6em;
+$faq-padding-top--xl: 5em;
+$faq-padding-bottom--xl: 5em;
 
 $faq-list-margin-bottom: 2em;
 
@@ -465,10 +456,9 @@ $admin-nav-list-item-margin-bottom: 1em;
 \*------------------------------------*/
 
 // Administration My Account Settings
-$admin-my-account-padding-y: 3em;
-$admin-my-account-padding-x: 0;
+$admin-my-account-padding-top: 3em;
 
-$admin-my-account-padding-y--xl: 6em;
+$admin-my-account-padding-y--xl: 5em;
 $admin-my-account-padding-x--xl: 0;
 
 $admin-my-account-user-controls-margin-bottom: 1em;
@@ -488,10 +478,9 @@ $user-danger-icon-color-hover: darken( $red, 7% );
 
 
 // Administration Users Settings
-$admin-users-padding-y: 3em;
-$admin-users-padding-x: 0;
+$admin-users-padding-top: 3em;
 
-$admin-users-padding-y--xl: 6em;
+$admin-users-padding-y--xl: 5em;
 $admin-users-padding-x--xl: 0;
 
 $all-users-margin-top: 1em;
@@ -517,8 +506,7 @@ $all-users-controls-margin-top: 2em;
 
 $all-users-controls-link-margin-right: 1em;
 
-$all-users-load-more-margin-top: 4em;
-$all-users-load-more-margin-top--md: 6em;
+$all-users-load-more-margin-top: 6em;
 
 $user-edit-icon-width: 75%;
 $user-edit-icon-margin-top: 0;
@@ -540,10 +528,9 @@ $user-danger-icon-font-size: 1.2em;
 
 
 // Administration Report Settings
-$admin-report-padding-y: 3em;
-$admin-report-padding-x: 0;
+$admin-report-padding-top: 3em;
 
-$admin-report-padding-y--xl: 6em;
+$admin-report-padding-y--xl: 5em;
 $admin-report-padding-x--xl: 0;
 
 $report-bug-margin-top: 2em;

@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .administration-my-account {
-	padding: $admin-my-account-padding-y $admin-my-account-padding-x;
+	padding-top: $admin-my-account-padding-top;
 
 	@media ( min-width: 1200px ) {
 		padding: $admin-my-account-padding-y--xl $admin-my-account-padding-x--xl;

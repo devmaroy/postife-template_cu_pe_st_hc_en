@@ -765,9 +765,6 @@ select.form-control {
   background-size: cover;
   color: #fff;
   padding: 3em 0; }
-  @media (min-width: 1200px) {
-    .hero {
-      padding: 6em 0; } }
 
 .intro {
   margin-bottom: 3em; }
@@ -834,21 +831,17 @@ select.form-control {
 /*------------------------------------*    # Testimonials Settings
 \*------------------------------------*/
 .testimonials {
-  padding-top: 3em;
-  padding-bottom: 0; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .testimonials {
-      padding-top: 6em;
-      padding-bottom: 6em; } }
+      padding-top: 5em;
+      padding-bottom: 5em; } }
 
 /*------------------------------------*    # Follow Us Settings
 \*------------------------------------*/
-.follow-us {
-  padding-top: 0;
-  padding-bottom: 3em; }
-  @media (min-width: 1200px) {
-    .follow-us {
-      padding-bottom: 6em; } }
+@media (min-width: 1200px) {
+  .follow-us {
+    padding-bottom: 5em; } }
 
 .social {
   text-align: center;
@@ -870,7 +863,7 @@ select.form-control {
 
 .social-icon:hover,
 .social-icon:focus {
-  opacity: 0.7; }
+  opacity: 0.8; }
 
 .social-icon-brand {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)) 10px 84%/10px 9px no-repeat, -webkit-radial-gradient(center, circle, #fff 61%, transparent 0);
@@ -916,15 +909,11 @@ select.form-control {
 /*------------------------------------*    # About Settings
 \*------------------------------------*/
 .about {
-  padding-top: 3em;
-  padding-bottom: 1em; }
-  @media (min-width: 768px) {
-    .about {
-      padding-bottom: 3em; } }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .about {
-      padding-top: 6em;
-      padding-bottom: 6em; } }
+      padding-top: 5em;
+      padding-bottom: 5em; } }
 
 .about-us-img-container {
   position: relative;
@@ -939,12 +928,11 @@ select.form-control {
 /*------------------------------------*    # Contact Settings
 \*------------------------------------*/
 .contact {
-  padding-top: 3em;
-  padding-bottom: 3em; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .contact {
-      padding-top: 6em;
-      padding-bottom: 6em; } }
+      padding-top: 5em;
+      padding-bottom: 5em; } }
 
 .contact-head {
   margin-bottom: 1em; }
@@ -952,12 +940,11 @@ select.form-control {
 /*------------------------------------*    # FAQ Settings
 \*------------------------------------*/
 .faq {
-  padding-top: 3em;
-  padding-bottom: 1em; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .faq {
-      padding-top: 6em;
-      padding-bottom: 6em; } }
+      padding-top: 5em;
+      padding-bottom: 5em; } }
 
 .faq-list {
   margin-bottom: 2em; }
@@ -1036,10 +1023,10 @@ select.form-control {
 /*------------------------------------*    # Administration My Account Settings
 \*------------------------------------*/
 .administration-my-account {
-  padding: 3em 0; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .administration-my-account {
-      padding: 6em 0; } }
+      padding: 5em 0; } }
   .administration-my-account .user-controls {
     text-align: center;
     margin-bottom: 1em; }
@@ -1047,10 +1034,10 @@ select.form-control {
 /*------------------------------------*    # Administration Users Settings
 \*------------------------------------*/
 .administration-users {
-  padding: 3em 0; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .administration-users {
-      padding: 6em 0; } }
+      padding: 5em 0; } }
 
 .all-users {
   text-align: center;
@@ -1139,18 +1126,15 @@ select.form-control {
       margin-right: 0; } }
 
 .all-users-load-more {
-  margin-top: 4em; }
-  @media (min-width: 768px) {
-    .all-users-load-more {
-      margin-top: 6em; } }
+  margin-top: 6em; }
 
 /*------------------------------------*    # Administration Report Settings
 \*------------------------------------*/
 .administration-report {
-  padding: 3em 0; }
+  padding-top: 3em; }
   @media (min-width: 1200px) {
     .administration-report {
-      padding: 6em 0; } }
+      padding: 5em 0; } }
 
 .report-bug {
   margin-top: 2em; }

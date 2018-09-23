@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .administration-users {
-	padding: $admin-users-padding-y $admin-users-padding-x;
+	padding-top: $admin-users-padding-top;
 
 	@media ( min-width: 1200px ) {
 		padding: $admin-users-padding-y--xl $admin-users-padding-x--xl;
@@ -123,8 +123,4 @@
 
 .all-users-load-more {
 	margin-top: $all-users-load-more-margin-top;
-
-	@media ( min-width: 768px ) {
-		margin-top: $all-users-load-more-margin-top--md;
-	}
 }

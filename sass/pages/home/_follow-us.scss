@@ -3,9 +3,6 @@
 \*------------------------------------*/
 
 .follow-us {
-	padding-top: 0;
-	padding-bottom: $follow-us-padding-bottom;
-	
 	@media ( min-width: 1200px ) {
 		padding-bottom: $follow-us-padding-bottom--xl;
 	}

@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .administration-report {
-	padding: $admin-report-padding-y $admin-report-padding-x;
+	padding-top: $admin-report-padding-top;
 
 	@media ( min-width: 1200px ) {
 		padding: $admin-report-padding-y--xl $admin-report-padding-x--xl;
