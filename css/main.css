@@ -572,6 +572,15 @@ select.form-control {
   margin-left: auto;
   margin-right: auto; }
 
+.form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0; }
+  .form-search .form-control {
+    display: inline-block;
+    width: auto; }
+
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
 .site-footer {
@@ -1046,6 +1055,20 @@ select.form-control {
     .all-users {
       text-align: left;
       margin-top: 5em; } }
+  .all-users .form-search {
+    padding-top: 3em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media (min-width: 768px) {
+      .all-users .form-search {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-top: 0; } }
+    @media (min-width: 1200px) {
+      .all-users .form-search {
+        padding-left: .5em; } }
 
 .all-users-list-item {
   padding-top: 3em; }

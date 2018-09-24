@@ -18,6 +18,20 @@
 		text-align: left;
 		margin-top: $all-users-margin-top--md;
 	}
+
+	.form-search {
+		padding-top: 3em;
+		justify-content: center;
+
+		@media ( min-width: 768px ) {
+			justify-content: flex-start;
+			padding-top: 0;
+		}
+
+		@media ( min-width: 1200px ) {
+			padding-left: .5em;
+		}
+	}
 }
 
 .all-users-list-item {
