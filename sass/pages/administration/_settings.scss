@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    # Administration Website Settings
+\*------------------------------------*/
+
+.administration-settings {
+	padding-top: $admin-settings-padding-top;
+
+	@media ( min-width: 1200px ) {
+		padding: $admin-settings-padding-y--xl $admin-settings-padding-x--xl;
+	}
+}
+
+.administration-settings-manage {
+	margin-top: $administration-settings-manage-margin-top;
+}
+
+.settings-image {
+	margin-bottom: $settings-image-margin-bottom;
+}
+
+.settings-manage-list-item {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: $settings-manage-list-item-padding-bottom;
+
+	a {
+		color: $settings-manage-list-item-link-color;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $settings-manage-list-item-link-color-hover;
+		}
+	}
+}
+
+.manage-pages {
+	margin-bottom: $manage-pages-margin-bottom;
+}
+
+.sortable-navigation-controls {
+	text-align: right;
+	margin-top: $sortable-navigation-controls-margin-top;
+
+	a {
+		margin: 0;
+	}
+}

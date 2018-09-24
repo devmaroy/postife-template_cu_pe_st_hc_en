@@ -536,6 +536,32 @@ $admin-my-account-user-controls-margin-bottom: 1em;
 
 
 
+/*------------------------------------*\
+    # Administration Website Settings Settings
+\*------------------------------------*/
+
+// Administration Website Settings Settings
+$admin-settings-padding-top: 3em;
+
+$admin-settings-padding-y--xl: 5em;
+$admin-settings-padding-x--xl: 0;
+
+$administration-settings-manage-margin-top: 4em;
+
+$settings-image-margin-bottom: 2em;
+
+$settings-manage-list-item-padding-bottom: 1em;
+
+$settings-manage-list-item-link-color: $color-primary;
+$settings-manage-list-item-link-color-hover: darken( $settings-manage-list-item-link-color, 7% );
+
+$manage-pages-margin-bottom: 2em;
+
+$sortable-navigation-controls-margin-top: 1em;
+
+
+
+
 
 /*------------------------------------*\
     # Administration Users Settings

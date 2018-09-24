@@ -51,6 +51,8 @@
 /* 1/16 */
 /*------------------------------------*    # Administration My Account Settings
 \*------------------------------------*/
+/*------------------------------------*    # Administration Website Settings Settings
+\*------------------------------------*/
 /*------------------------------------*    # Administration Users Settings
 \*------------------------------------*/
 /* 1/16 */
@@ -1163,3 +1165,40 @@ select.form-control {
 
 .report-bug {
   margin-top: 2em; }
+
+/*------------------------------------*    # Administration Website Settings
+\*------------------------------------*/
+.administration-settings {
+  padding-top: 3em; }
+  @media (min-width: 1200px) {
+    .administration-settings {
+      padding: 5em 0; } }
+
+.administration-settings-manage {
+  margin-top: 4em; }
+
+.settings-image {
+  margin-bottom: 2em; }
+
+.settings-manage-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1em; }
+  .settings-manage-list-item a {
+    color: #6666ce;
+    text-decoration: none; }
+    .settings-manage-list-item a:hover, .settings-manage-list-item a:focus {
+      color: #4b4bc5; }
+
+.manage-pages {
+  margin-bottom: 2em; }
+
+.sortable-navigation-controls {
+  text-align: right;
+  margin-top: 1em; }
+  .sortable-navigation-controls a {
+    margin: 0; }

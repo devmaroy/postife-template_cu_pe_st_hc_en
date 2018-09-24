@@ -32,5 +32,8 @@
 	});
 
 	FastClick.attach(document.body);
+
+	$( "#sortable" ).sortable();
+	$( "#sortable" ).disableSelection();
 	
 })(jQuery)
