@@ -5,19 +5,20 @@
 .btn {
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: .375em .75em;
-	transition: $transition-base;
 	text-align: center;
 	display: inline-block;
-	margin-right: .5em;
+	padding: $btn-padding-y $btn-padding-x;
+	margin-right: $btn-margin-right;
+
+	transition: $btn-transition;
 }
 
 .btn-md {
-	padding: .5em 1em;
+	padding: $btn-md-padding-y $btn-md-padding-x;
 }
 
 .btn-lg {
-	padding: 1em 1.5em;
+	padding: $btn-lg-padding-y $btn-lg-padding-x;
 }
 
 .btn-block {
@@ -25,50 +26,49 @@
 }
 
 .btn-primary {
-	background: $color-primary;
-	border: 1px solid darken( $color-primary, 5% );
-	color: color-yiq( $color-primary );
+	background: $btn-primary-bg;
+	color: $btn-primary-color;
+	border: $btn-primary-border;
 
 	&:hover,
 	&:focus {
-		color: color-yiq( $color-primary );
-		background: darken( $color-primary, 3% );
+		color: $btn-primary-color-hover;
+		background: $btn-primary-bg-hover;
 	}
 }
 
 .btn-primary-outline {
-	background: transparent;
-	border: 1px solid darken( $color-primary, 5% );
-	color: $color-primary;
+	background: $btn-primary-outline-bg;
+	color: $btn-primary-outline-color;
+	border: $btn-primary-outline-border;
 
 	&:hover,
 	&:focus {
-		color: color-yiq( $color-primary );
-		background: darken( $color-primary, 3% );
+		color: $btn-primary-outline-color-hover;
+		background: $btn-primary-outline-bg-hover;
 	}
 }
 
 .btn-danger {
-	background: $red;
-	border: 1px solid darken( $red, 5% );
-	color: color-yiq( $red );
+	background: $btn-danger-bg;
+	color: $btn-danger-color;
+	border: $btn-danger-border;
 
 	&:hover,
 	&:focus {
-		color: color-yiq( $red );
-		background: darken( $red, 3% );
+		color: $btn-danger-color-hover;
+		background: $btn-danger-bg-hover;
 	}
 }
 
-
 .btn-danger-outline {
-	background: transparent;
-	border: 1px solid darken( $red, 5% );
-	color: $red;
+	background: $btn-danger-outline-bg;
+	color: $btn-danger-outline-color;
+	border: $btn-danger-outline-border;
 
 	&:hover,
 	&:focus {
-		color: color-yiq( $red );
-		background: darken( $red, 3% );
+		color: $btn-danger-outline-color-hover;
+		background: $btn-danger-outline-bg-hover;
 	}
 }

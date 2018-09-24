@@ -16,6 +16,8 @@
 \*------------------------------------*/
 /*------------------------------------*    # Card Settings
 \*------------------------------------*/
+/*------------------------------------*    # Card Settings
+\*------------------------------------*/
 /* border-radius */
 /* 2/16 */
 /*------------------------------------*    # Form Settings
@@ -716,16 +718,16 @@ select.form-control {
 .btn {
   text-transform: uppercase;
   text-decoration: none;
-  padding: .375em .75em;
-  -webkit-transition: all ease-in-out 0.25s;
-  -o-transition: all ease-in-out 0.25s;
-  transition: all ease-in-out 0.25s;
   text-align: center;
   display: inline-block;
-  margin-right: .5em; }
+  padding: 0.375em 0.75em;
+  margin-right: 0.5em;
+  -webkit-transition: all ease-in-out 0.25s;
+  -o-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s; }
 
 .btn-md {
-  padding: .5em 1em; }
+  padding: 0.5em 1em; }
 
 .btn-lg {
   padding: 1em 1.5em; }
@@ -735,32 +737,32 @@ select.form-control {
 
 .btn-primary {
   background: #6666ce;
-  border: 1px solid #5353c8;
-  color: #fff; }
+  color: #fff;
+  border: 0.0625em solid #5353c8; }
   .btn-primary:hover, .btn-primary:focus {
     color: #fff;
     background: #5a5aca; }
 
 .btn-primary-outline {
   background: transparent;
-  border: 1px solid #5353c8;
-  color: #6666ce; }
+  color: #6666ce;
+  border: 0.0625em solid #5353c8; }
   .btn-primary-outline:hover, .btn-primary-outline:focus {
     color: #fff;
     background: #5a5aca; }
 
 .btn-danger {
   background: #e40404;
-  border: 1px solid #cb0404;
-  color: #fff; }
+  color: #fff;
+  border: 0.0625em solid #cb0404; }
   .btn-danger:hover, .btn-danger:focus {
     color: #fff;
     background: #d50404; }
 
 .btn-danger-outline {
   background: transparent;
-  border: 1px solid #cb0404;
-  color: #e40404; }
+  color: #e40404;
+  border: 0.0625em solid #cb0404; }
   .btn-danger-outline:hover, .btn-danger-outline:focus {
     color: #fff;
     background: #d50404; }

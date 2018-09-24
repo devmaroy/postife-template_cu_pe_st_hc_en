@@ -100,6 +100,76 @@ $bg-primary: url('../../../img/stripes-light.png') center center,
     # Card Settings
 \*------------------------------------*/
 
+// Buttons Colors
+
+// Buttons Colors - Primary
+$btn-primary-bg: $color-primary;
+$btn-primary-bg-hover: darken( $btn-primary-bg, 3% );
+
+$btn-primary-color: color-yiq( $btn-primary-bg );
+$btn-primary-color-hover: $btn-primary-color;
+
+
+// Buttons Colors - Primary Outline
+$btn-primary-outline-bg: transparent;
+$btn-primary-outline-bg-hover: $btn-primary-bg-hover;
+
+$btn-primary-outline-color: $color-primary;
+$btn-primary-outline-color-hover: color-yiq( $btn-primary-outline-color );
+
+
+// Buttons Colors - Danger
+$btn-danger-bg: $red;
+$btn-danger-bg-hover: darken( $btn-danger-bg, 3% );
+
+$btn-danger-color: color-yiq( $red );
+$btn-danger-color-hover: $btn-danger-color;
+
+
+// Buttons Colors - Danger Outline
+$btn-danger-outline-bg: transparent;
+$btn-danger-outline-bg-hover: darken( $red, 3% );
+
+$btn-danger-outline-color: $red;
+$btn-danger-outline-color-hover: color-yiq( $btn-danger-outline-color );
+
+
+// Buttons Settings
+$btn-padding-y: .375em;
+$btn-padding-x: .75em;
+$btn-margin-right: .5em;
+$btn-transition: $transition-base;
+
+
+// Buttons - Medium
+$btn-md-padding-y: .5em;
+$btn-md-padding-x: 1em;
+
+
+// Buttons - Large
+$btn-lg-padding-y: 1em;
+$btn-lg-padding-x: 1.5em;
+
+// Buttons - Primary
+$btn-primary-border: 0.0625em solid darken( $btn-primary-bg, 5% );
+
+// Buttons - Primary Outline
+$btn-primary-outline-border: 0.0625em solid darken( $btn-primary-bg, 5% );
+
+// Buttons - Danger
+$btn-danger-border: 0.0625em solid darken( $red, 5% );
+
+// Buttons - Danger Outline
+$btn-danger-outline-border: 0.0625em solid darken( $red, 5% );
+
+
+
+
+/*------------------------------------*\
+    # Card Settings
+\*------------------------------------*/
+
+// Card Colors
 $card-text-color: $light;
 $card-title-color: $light;
 $card-title-underline-color: $light;
