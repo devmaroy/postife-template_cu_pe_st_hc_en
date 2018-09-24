@@ -35,6 +35,10 @@ html {
 	max-width: $container-fluid-max-width;
 }
 
+#editor-container {
+	height: 375px;
+}
+
 // Generate text alignment classes -> e.g. .text-center
 @each $align in $text-alignment {
 	.text-#{$align} {

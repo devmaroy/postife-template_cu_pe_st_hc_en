@@ -35,5 +35,20 @@
 
 	$( "#sortable" ).sortable();
 	$( "#sortable" ).disableSelection();
+
+
+
+	var quill = new Quill('#editor-container', {
+	  modules: {
+	    toolbar: [
+	   	  [{ header: [1, 2, false] }],
+	      ['bold', 'italic'],
+	      ['link', 'blockquote', 'code-block', 'image'],
+	      [{ list: 'ordered' }, { list: 'bullet' }]
+	    ]
+	  },
+	  placeholder: 'Compose an epic...',
+	  theme: 'snow'
+	});
 	
 })(jQuery)

@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    # Administration Edit Page Settings
+\*------------------------------------*/
+
+.administration-edit-page {
+	padding-top: $admin-edit-page-padding-top;
+
+	@media ( min-width: 1200px ) {
+		padding: $admin-edit-page-padding-y--xl $admin-edit-page-padding-x--xl;
+	}
+}
