@@ -570,7 +570,7 @@ select.form-control {
 .form-group-upload {
   margin-bottom: 2em; }
 
-.form-upload-user-image {
+.form-upload-image {
   width: 240px;
   border: 0.125em solid #6666ce;
   margin-left: auto;
