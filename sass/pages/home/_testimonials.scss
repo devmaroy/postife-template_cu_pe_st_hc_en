@@ -4,19 +4,14 @@
 
 .testimonials {
 	padding-top: $testimonials-padding-top;
-
-	// @media ( min-width: 1200px ) {
-	// 	padding-top: $testimonials-padding-top--xl;
-	// 	padding-bottom: $testimonials-padding-bottom--xl;
-	// }
 }
 
 
 // called in media-queries.scss
 
-// @mixin testimonials--xl() {
-// 	.testimonials {
-// 		padding-top: $testimonials-padding-top--xl;
-// 		padding-bottom: $testimonials-padding-bottom--xl;
-// 	}
-// }
+@mixin testimonials--xl() {
+	.testimonials {
+		padding-top: $testimonials-padding-top--xl;
+		padding-bottom: $testimonials-padding-bottom--xl;
+	}
+}
