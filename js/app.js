@@ -33,7 +33,7 @@
 
 	FastClick.attach(document.body);
 
-	$( "#sortable" ).sortable();
+	$( "#sortable" ).sortable({ handle: '.sortable-handle' });
 	$( "#sortable" ).disableSelection();
 
 	var quill = new Quill('#editor-container', {
