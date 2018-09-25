@@ -157,12 +157,12 @@ small {
   font-size: 0.81731em; }
 
 a {
-  color: #459bd9;
+  color: #6666ce;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   a:hover {
-    color: #1f6699; }
+    color: #32329c; }
 
 ul,
 ol {
@@ -531,6 +531,10 @@ html {
 select.form-control {
   background: url("data:image/svg+xml,%3Csvg id=%22Layer_1%22 data-name=%22Layer 1%22 xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4.95 10%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%236666ce;%7D.cls-2%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Earrows%3C/title%3E%3Crect class=%22cls-1%22 width=%224.95%22 height=%2210%22/%3E%3Cpolygon class=%22cls-2%22 points=%221.41 4.67 2.48 3.18 3.54 4.67 1.41 4.67%22/%3E%3Cpolygon class=%22cls-2%22 points=%223.54 5.33 2.48 6.82 1.41 5.33 3.54 5.33%22/%3E%3C/svg%3E") no-repeat 100% 50%; }
 
+textarea.form-control {
+  resize: vertical;
+  white-space: pre-wrap; }
+
 .form-btn {
   margin: 2em 0;
   text-transform: uppercase;
@@ -591,6 +595,9 @@ select.form-control {
   .form-search .form-control {
     display: inline-block;
     width: auto; }
+
+.form-edit-page-head {
+  padding-bottom: 4em; }
 
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
@@ -1217,3 +1224,27 @@ select.form-control {
   @media (min-width: 1200px) {
     .administration-edit-page {
       padding: 5em 0; } }
+
+.edit-page-settings {
+  margin: 3em 0; }
+
+.faq-edit-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .faq-edit-list-item:not(:last-child) {
+    margin-bottom: 2em; }
+
+.faq-edit-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.faq-edit-controls {
+  font-size: 1.2em;
+  margin-top: 3.6em; }
+  .faq-edit-controls a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 1em; }

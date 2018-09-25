@@ -9,3 +9,31 @@
 		padding: $admin-edit-page-padding-y--xl $admin-edit-page-padding-x--xl;
 	}
 }
+
+.edit-page-settings {
+	margin: $edit-page-settings-margin-y $edit-page-settings-margin-x; 
+}
+
+.faq-edit-list-item {
+	display: flex;
+
+	&:not(:last-child) {
+		margin-bottom: $faq-edit-list-item-margin-bottom;
+	}
+}
+
+.faq-edit-content {
+	flex: 1;
+}
+
+.faq-edit-controls {
+	font-size: $faq-edit-controls-font-size;
+	margin-top: $faq-edit-controls-margin-top;
+
+	a {
+		text-decoration: none;
+		display: block;
+		margin-bottom: $faq-edit-controls-link-margin-bottom;
+		margin-left: $faq-edit-controls-link-margin-left;
+	}
+}

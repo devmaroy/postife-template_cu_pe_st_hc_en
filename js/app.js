@@ -36,8 +36,6 @@
 	$( "#sortable" ).sortable();
 	$( "#sortable" ).disableSelection();
 
-
-
 	var quill = new Quill('#editor-container', {
 	  modules: {
 	    toolbar: [
@@ -50,5 +48,7 @@
 	  placeholder: 'Compose an epic...',
 	  theme: 'snow'
 	});
+
+	autosize($('textarea'));
 	
 })(jQuery)
