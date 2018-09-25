@@ -4,13 +4,8 @@
 
 .testimonials {
 	padding-top: $testimonials-padding-top;
-}
 
-
-// called in media-queries.scss
-
-@mixin testimonials--xl() {
-	.testimonials {
+	@media ( min-width: 1200px ) {
 		padding-top: $testimonials-padding-top--xl;
 		padding-bottom: $testimonials-padding-bottom--xl;
 	}

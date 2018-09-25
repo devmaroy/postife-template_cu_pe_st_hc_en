@@ -795,12 +795,6 @@ textarea.form-control {
 
 .intro {
   margin-bottom: 3em; }
-  @media (min-width: 768px) {
-    .intro {
-      margin-bottom: 0; } }
-  @media (min-width: 1200px) {
-    .intro {
-      margin-bottom: 6em; } }
   .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6, .intro p, .intro a {
     color: #fff; }
 
@@ -859,6 +853,10 @@ textarea.form-control {
 \*------------------------------------*/
 .testimonials {
   padding-top: 3em; }
+  @media (min-width: 1200px) {
+    .testimonials {
+      padding-top: 5em;
+      padding-bottom: 5em; } }
 
 /*------------------------------------*    # Follow Us Settings
 \*------------------------------------*/
@@ -1244,10 +1242,3 @@ textarea.form-control {
     display: block;
     margin-bottom: 1em;
     margin-left: 1em; }
-
-/*------------------------------------*    # Media Queries
-\*------------------------------------*/
-@media (min-width: 1200px) {
-  .testimonials {
-    padding-top: 5em;
-    padding-bottom: 5em; } }
