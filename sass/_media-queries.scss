@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    # Media Queries
+\*------------------------------------*/
+
+// Small Screen Size (sm)
+@media ( min-width: $breakpoint-sm ) {
+	
+}
+
+// Medium Screen Size (md)
+@media ( min-width: $breakpoint-md ) {
+
+}
+
+// Large Screen Size (lg)
+@media ( min-width: $breakpoint-lg ) {
+	
+}
+
+// Extra Large Screen Size (xl)
+@media ( min-width: $breakpoint-xl ) {
+	@include testimonials--xl();
+}

@@ -64,7 +64,10 @@ $container-fluid-max-width: 1700px; /* limit container fluid width, we don't wan
 $transition-base: all ease-in-out 0.25s;
 $transition-no-boring: 0.4s ease-out all 0.1s;
 
-
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
 
 
 
