@@ -31,23 +31,39 @@
 			.toggleClass( 'fa-minus' );
 	});
 
-	FastClick.attach(document.body);
-
 	$( "#sortable" ).sortable({ handle: '.sortable-handle' });
 	$( "#sortable" ).disableSelection();
+
+	FastClick.attach(document.body);
+
 
 	var quill = new Quill('#editor-container', {
 	  modules: {
 	    toolbar: [
-	   	  [{ header: [1, 2, false] }],
-	      ['bold', 'italic'],
-	      ['link', 'blockquote', 'code-block', 'image'],
-	      [{ list: 'ordered' }, { list: 'bullet' }]
+	      [{ header: [1, 2, false] }],
+	      ['bold', 'italic', 'underline'],
+	      ['image', 'code-block']
 	    ]
 	  },
 	  placeholder: 'Compose an epic...',
-	  theme: 'snow'
+	  theme: 'snow'  // or 'bubble'
 	});
+
+	// var quill = new Quill('#editor-container', {
+	//   modules: {
+	//     toolbar: [
+	//    	  [{ header: [1, 2, false] }],
+	//       ['bold', 'italic'],
+	//       ['link', 'blockquote', 'code-block', 'image'],
+	//       [{ list: 'ordered' }, { list: 'bullet' }]
+	//     ]
+	//   },
+	//   placeholder: 'Compose an epic...',
+	//   theme: 'snow'
+	// });
+
+	$("#editor-container *").addClass("needsclick");
+
 
 	autosize($('textarea'));
 	
