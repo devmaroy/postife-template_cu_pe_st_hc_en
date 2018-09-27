@@ -14,6 +14,43 @@
 	margin: $edit-page-settings-margin-y $edit-page-settings-margin-x; 
 }
 
+.edit-page {
+	margin-top: $edit-page-margin-top;
+}
+
+.manage-items {
+	margin-bottom: $manage-items-margin-bottom;
+}
+
+.manage-items-list-item {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: $manage-items-list-item-padding-bottom;
+
+	a {
+		color: $manage-items-list-item-link-color;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $manage-items-list-item-link-color-hover;
+		}
+	}
+}
+
+.manage-items-controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: $manage-items-controls-margin-top;
+
+	a {
+		text-decoration: none;
+		margin: 0;
+	}
+}
+
+
 .faq-edit-list-item {
 	display: flex;
 
@@ -37,3 +74,4 @@
 		margin-left: $faq-edit-controls-link-margin-left;
 	}
 }
+

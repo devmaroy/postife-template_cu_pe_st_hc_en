@@ -554,12 +554,14 @@ $administration-settings-manage-margin-top: 4em;
 
 $settings-image-margin-bottom: 2em;
 
-$settings-manage-list-item-padding-bottom: 1em;
+$manage-items-list-item-padding-bottom: 1em;
 
-$settings-manage-list-item-link-color: $color-primary;
-$settings-manage-list-item-link-color-hover: darken( $settings-manage-list-item-link-color, 7% );
+$manage-items-list-item-link-color: $color-primary;
+$manage-items-list-item-link-color-hover: darken( $settings-manage-list-item-link-color, 7% );
 
-$manage-pages-margin-bottom: 2em;
+$manage-items-margin-bottom: 2em;
+
+$manage-items-controls-margin-top: 1em;
 
 $sortable-navigation-controls-margin-top: 1em;
 
@@ -649,6 +651,8 @@ $admin-edit-page-padding-top: 3em;
 
 $admin-edit-page-padding-y--xl: 5em;
 $admin-edit-page-padding-x--xl: 0;
+
+$edit-page-margin-top: 4em;
 
 $edit-page-settings-margin-y: 3em;
 $edit-page-settings-margin-x: 0;

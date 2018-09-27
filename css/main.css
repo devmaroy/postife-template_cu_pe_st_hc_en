@@ -571,6 +571,9 @@ textarea.form-control {
   .form-edit-page .form-btn {
     margin-bottom: 0; }
 
+.form-edit-page {
+  padding-top: 0; }
+
 .form-administration .form-btn {
   margin-bottom: 0; }
 
@@ -1188,29 +1191,6 @@ textarea.form-control {
 .settings-image {
   margin-bottom: 2em; }
 
-.settings-manage-list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-bottom: 1em; }
-  .settings-manage-list-item a {
-    color: #6666ce;
-    text-decoration: none; }
-    .settings-manage-list-item a:hover, .settings-manage-list-item a:focus {
-      color: #4b4bc5; }
-
-.manage-pages {
-  margin-bottom: 2em; }
-
-.sortable-navigation-controls {
-  text-align: right;
-  margin-top: 1em; }
-  .sortable-navigation-controls a {
-    margin: 0; }
-
 /*------------------------------------*    # Administration Edit Page Settings
 \*------------------------------------*/
 .administration-edit-page {
@@ -1221,6 +1201,41 @@ textarea.form-control {
 
 .edit-page-settings {
   margin: 3em 0; }
+
+.edit-page {
+  margin-top: 4em; }
+
+.manage-items {
+  margin-bottom: 2em; }
+
+.manage-items-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1em; }
+  .manage-items-list-item a {
+    color: #6666ce;
+    text-decoration: none; }
+    .manage-items-list-item a:hover, .manage-items-list-item a:focus {
+      color: #4b4bc5; }
+
+.manage-items-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1em; }
+  .manage-items-controls a {
+    text-decoration: none;
+    margin: 0; }
 
 .faq-edit-list-item {
   display: -webkit-box;

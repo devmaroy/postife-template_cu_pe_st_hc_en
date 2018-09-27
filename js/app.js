@@ -31,8 +31,8 @@
 			.toggleClass( 'fa-minus' );
 	});
 
-	$( "#sortable" ).sortable({ handle: '.sortable-handle' });
-	$( "#sortable" ).disableSelection();
+	$( ".sortable" ).sortable({ handle: '.sortable-handle' });
+	// $( "#sortable" ).disableSelection();
 
 	FastClick.attach(document.body);
 

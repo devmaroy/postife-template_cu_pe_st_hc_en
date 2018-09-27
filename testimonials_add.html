@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | Settings</title>
+	<title>Postife | Administration | Testimonials</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -31,6 +31,7 @@
 
 	<!-- Import CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.min.css">
+	<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- END Import CSS -->
 </head>
@@ -197,7 +198,7 @@
 						<i class="fas fa-flag fa-fw administration-navigation-icon"></i> 
 						<a href="report.html" class="no-boring-link">Report a bug</a>
 					</li>
-					<li class="administration-navigation-list-item active">
+					<li class="administration-navigation-list-item">
 						<i class="fas fa-cog fa-fw administration-navigation-icon"></i> 
 						<a href="settings.html" class="no-boring-link">Settings</a>
 					</li>
@@ -206,232 +207,57 @@
 		</section>
 		<!-- END Administration Navigation Section -->
 
-		<!-- Administration Settings Section -->
-		<section class="administration-settings">
+		<!-- Administration Edit Page Section -->
+		<section class="administration-edit-page">
 			<div class="container">
-				<!-- Administration Settings Head -->
-				<header class="administration-settings-head text-center">
-					<h1 class="no-boring-title">Settings</h1>
+				<!-- Administration Edit Page Head -->
+				<header class="administration-edit-page-head text-center">
+					<h1 class="no-boring-title">Add Testimonial</h1>
 
 					<p>
-						Here you can manage website settings and pages content.
+						Here you can add new <strong>testimonial</strong>.
+					</p>
+					<p>
+						Please provide as much information as possible.
+					</p>
+					<p>
+						Back to <a href="home_edit.html">edit home page</a>
 					</p>
 				</header>
-				<!-- END Administration Settings Head -->
-				
-				<!-- Administration Settings Manage -->
-				<div class="administration-settings-manage">
-					<div class="row">
-						<div class="col-md-5">
-							<div class="manage-items">
-								<h6>Manage Pages</h6>
+				<!-- END Administration Edit Page Head -->
 
-								<ul class="list-unstyled manage-items-list">
-									<li class="manage-items-list-item">
-										<a href="index.html">Hero area</a>
+				<!-- Edit Page -->
+				<div class="edit-page">
+					<form class="form form-edit-page">
+						<div class="form-group">
+							<label for="website_name">Name: <sup>*</sup></label>
 
-										<div class="manage-items-list-controls">
-											<a href="heroarea_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="index.html">Home</a>
+							<input type="text" name="website_name" id="website_name" class="form-control">
+						</div>
 
-										<div class="manage-items-list-controls">
-											<a href="home_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="about.html">About Us</a>
-
-										<div class="manage-items-list-controls">
-											<a href="about_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="contact.html">Contact</a>
-
-										<div class="manage-items-list-controls">
-											<a href="contact_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="faq.html">FAQ</a>
-
-										<div class="manage-items-list-controls">
-											<a href="faq_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-										</div>
-									</li>
-								</ul>
+						<div class="form-group">
+							<label for="message">Text: <sup>*</sup></label>
+							<div id="editor-container">
+								
 							</div>
 						</div>
-						<div class="col-md-5 offset-md-2">
-							<div class="manage-items">
-								<h6>Navigation</h6>
 
-								<ul class="list-unstyled manage-items-list sortable">
-									<li class="manage-items-list-item">
-										<a href="#">Home</a>
+						<div class="form-group edit-page-settings">
+							<label>Other settings:</label>
 
-										<div class="manage-items-list-controls">
-											<a href="about_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-
-											<a href="#" class="sortable-handle">
-												<i class="fas fa-fw fa-bars"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="#">About Us</a>
-
-										<div class="manage-items-list-controls">
-											<a href="about_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-
-											<a href="#" class="sortable-handle">
-												<i class="fas fa-fw fa-bars"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="#">Contact</a>
-
-										<div class="manage-items-list-controls">
-											<a href="about_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-
-											<a href="#" class="sortable-handle">
-												<i class="fas fa-fw fa-bars"></i>
-											</a>
-										</div>
-									</li>
-									<li class="manage-items-list-item">
-										<a href="#">FAQ</a>
-
-										<div class="manage-items-list-controls">
-											<a href="about_edit.html">
-												<i class="fas fa-fw fa-edit"></i>
-											</a>
-											
-											<a href="#">
-												<i class="fas fa-fw fa-trash-alt"></i>
-											</a>
-
-											<a href="#" class="sortable-handle">
-												<i class="fas fa-fw fa-bars"></i>
-											</a>
-										</div>
-									</li>
-								</ul>
-
-								<div class="manage-items-controls">
-									<a href="#" class="add-new-link">
-										<i class="fa fa-plus"></i>
-										add new
-									</a>
-									<a href="#" class="btn btn-primary-outline sortable-navigation-btn">save</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- END Administration Settings Manage -->
-
-				<!-- Administration Form -->
-				<form class="form form-administration">
-					<div class="row">
-						<div class="col-md-4 col-lg-3 settings-image">
-							<div class="form-group form-group-upload">
-								<img src="img/no-image-placeholder.jpg" 
-									 srcset="img/no-image-placeholder@1x.jpg 1x, 
-									 		 img/no-image-placeholder@2x.jpg 2x,
-								             img/no-image-placeholder@3x.jpg 3x, 
-								             img/no-image-placeholder@4x.jpg 4x"
-								     alt="Website logo image" 
-								     class="img-fluid form-upload-image">
-								<input type="file" name="logo" id="logo" class="form-control">
-							</div>
-
-							<div class="form-group">
-								<label for="logo_fa">or use font-awesome: </label>
-								<input type="text" name="logo_fa" id="logo_fa" class="form-control" value="fas fa-cloud-upload-alt">
-							</div>
+							<label>
+								<input type="checkbox" name="maintenance_mode" value="0"> 
+								Add to navigation
+							</label>
 						</div>
 						
-						<div class="col-md offset-md-1">
-							<div class="form-group">
-								<label for="website_name">Website name: <sup>*</sup></label>
-								<input type="text" name="website_name" id="website_name" class="form-control" value="Postife">
-							</div>
-							
-							<div class="form-group">
-								<label>Other settings:</label>
-
-								<label>
-									<input type="checkbox" name="maintenance_mode" value="0"> 
-									Maintenance mode
-								</label>
-
-								<label>
-									<input type="checkbox" name="enable_registration" value="1" checked> 
-									Enable registration
-								</label>
-							</div>
-
-							<input type="submit" value="Send" class="form-control form-btn">
-						</div>
-					</div>
-				</form>
-				<!-- END Administration Form -->
+						<input type="submit" value="Send" class="form-control form-btn">
+					</form>
+				</div>
+				<!-- END Edit Page -->
 			</div>
 		</section>
-		<!-- END Administration Settings Section -->
+		<!-- END Administration Edit Page Section -->
 	</main>
 	<!-- END Site Main -->
 
