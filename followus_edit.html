@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | Social</title>
+	<title>Postife | Administration | Follow Us</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -212,38 +212,111 @@
 			<div class="container">
 				<!-- Administration Edit Page Head -->
 				<header class="administration-edit-page-head text-center">
-					<h1 class="no-boring-title">Edit Social</h1>
+					<h1 class="no-boring-title">Edit Follow Us</h1>
 
 					<p>
-						Here you can edit a <strong>social</strong> links.
+						Here you can edit a <strong>testimonials</strong> page.
 					</p>
 					<p>
 						Please provide as much information as possible.
 					</p>
 					<p>
-						Back to <a href="followus_edit.html">edit follow us</a>
+						Back to <a href="home_edit.html">edit home page</a>
 					</p>
 				</header>
 				<!-- END Administration Edit Page Head -->
 
 				<!-- Edit Page -->
 				<div class="edit-page">
+					<div class="manage-items">
+						<h6>Manage Social</h6>
+
+						<ul class="list-unstyled manage-items-list sortable">
+							<li class="manage-items-list-item">
+								<a href="index.html">Facebook</a>
+
+								<div class="manage-items-list-controls">
+									<a href="social_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="index.html">Twitter</a>
+
+								<div class="manage-items-list-controls">
+									<a href="social_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="about.html">Instagram</a>
+
+								<div class="manage-items-list-controls">
+									<a href="social_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="contact.html">Youtube</a>
+
+								<div class="manage-items-list-controls">
+									<a href="social_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<div class="manage-items-controls">
+							<a href="social_add.html" class="manage-items-controls-add">
+								<i class="fa fa-plus"></i>
+								add new
+							</a>
+
+							<a href="#" class="btn btn-primary-outline">save</a>
+						</div>
+					</div>
+
 					<form class="form form-edit-page">
 						<div class="form-group">
-							<label for="social_name">Name: <sup>*</sup></label>
-							<select name="social_name" id="social_name" class="form-control">
-								<option value="facebook" selected>Facebook</option> 
-								<option value="twitter">Twitter</option> 
-								<option value="instagram">Instagram</option> 
-								<option value="googleplus">Google +</option> 
-								<option value="linkedin">Linkedin</option> 
-								<option value="youtube">Youtube</option> 
-							</select>
-						</div>
-
-						<div class="form-group">
-							<label for="social_url">Url: <sup>*</sup></label>
-							<input type="text" name="social_url" id="social_url" class="form-control" value="https://facebook.com/joshfrederik">
+							<label for="message">Twitter widget (code): <sup>*</sup></label>
+							
+							<textarea type="text" name="page_title" id="page_title" class="form-control"><a class="twitter-timeline" data-width="800" data-theme="light" href="https://twitter.com/Postifeglobal?ref_src=twsrc%5Etfw">Tweets by Postifeglobal</a></textarea>
 						</div>
 						
 						<input type="submit" value="Send" class="form-control form-btn">

@@ -212,7 +212,7 @@
 			<div class="container">
 				<!-- Administration Edit Page Head -->
 				<header class="administration-edit-page-head text-center">
-					<h1 class="no-boring-title">Edit Testimonial</h1>
+					<h1 class="no-boring-title">Edit Testimonials</h1>
 
 					<p>
 						Here you can edit a <strong>testimonials</strong> page.
@@ -228,45 +228,89 @@
 
 				<!-- Edit Page -->
 				<div class="edit-page">
-					<form class="form form-edit-page">
-						<div class="form-group">
-							<label for="website_name">Name: <sup>*</sup></label>
+					<div class="manage-items">
+						<h6>Manage Testimonials</h6>
 
-							<input type="text" name="website_name" id="website_name" class="form-control" value="Josh Frederik">
+						<ul class="list-unstyled manage-items-list sortable">
+							<li class="manage-items-list-item">
+								<a href="index.html">Josh Frederik</a>
+
+								<div class="manage-items-list-controls">
+									<a href="testimonial_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="index.html">Lucy Smith</a>
+
+								<div class="manage-items-list-controls">
+									<a href="testimonial_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="about.html">George Sanders</a>
+
+								<div class="manage-items-list-controls">
+									<a href="testimonial_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+							<li class="manage-items-list-item">
+								<a href="contact.html">Michael A. Webster</a>
+
+								<div class="manage-items-list-controls">
+									<a href="testimonial_edit.html">
+										<i class="fas fa-fw fa-edit"></i>
+									</a>
+									
+									<a href="#">
+										<i class="fas fa-fw fa-trash-alt"></i>
+									</a>
+
+									<a href="#" class="sortable-handle">
+										<i class="fas fa-fw fa-bars"></i>
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<div class="manage-items-controls">
+							<a href="testimonial_add.html" class="manage-items-controls-add">
+								<i class="fa fa-plus"></i>
+								add new
+							</a>
+
+							<a href="#" class="btn btn-primary-outline">save</a>
 						</div>
-
-						<div class="form-group">
-							<label for="message">Text: <sup>*</sup></label>
-							<div id="editor-container">
-								<p>
-									Postife is absolutely awesome service!
-								</p>
-
-								<p>
-									As a professional web designer I need a place to store all my images.
-								</p>
-
-								<p>
-									I recommend this service to everybody!
-								</p>
-
-								<p>
-									Web designer at <a href="#" class="no-boring-link">Wrien Inc</a>
-								</p>
-							</div>
-						</div>
-
-						<div class="form-group edit-page-settings">
-							<label>Other settings:</label>
-
-							<label>
-								<input type="checkbox" name="maintenance_mode" value="0"> 
-								Add to navigation
-							</label>
-						</div>
-						
-						<input type="submit" value="Send" class="form-control form-btn">
-					</form>
+					</div>
 				</div>
 				<!-- END Edit Page -->
 			</div>

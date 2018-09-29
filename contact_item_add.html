@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | Testimonials</title>
+	<title>Postife | Administration | Contact</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -212,16 +212,16 @@
 			<div class="container">
 				<!-- Administration Edit Page Head -->
 				<header class="administration-edit-page-head text-center">
-					<h1 class="no-boring-title">Add Testimonial</h1>
+					<h1 class="no-boring-title">Edit Contact</h1>
 
 					<p>
-						Here you can add new <strong>testimonial</strong>.
+						Here you can edit a <strong>contact</strong> page.
 					</p>
 					<p>
 						Please provide as much information as possible.
 					</p>
 					<p>
-						Back to <a href="home_edit.html">edit home page</a>
+						Back to <a href="contact_edit.html">edit contact</a>
 					</p>
 				</header>
 				<!-- END Administration Edit Page Head -->
@@ -230,27 +230,22 @@
 				<div class="edit-page">
 					<form class="form form-edit-page">
 						<div class="form-group">
-							<label for="website_name">Name: <sup>*</sup></label>
+							<label for="website_name">Title: <sup>*</sup></label>
 
-							<input type="text" name="website_name" id="website_name" class="form-control">
+							<input type="text" name="website_name" id="website_name" class="form-control" value="">
 						</div>
 
 						<div class="form-group">
-							<label for="message">Text: <sup>*</sup></label>
-							<div id="editor-container">
-								
-							</div>
+							<label for="user_role">Type: <sup>*</sup></label>
+							<select name="roles" id="contact_type" class="form-control">
+								<option value="text" selected>Text</option> 
+								<option value="email">Email</option> 
+								<option value="user">Tel</option> 
+								<option value="user">Url</option> 
+								<option value="user">Message</option> 
+							</select>
 						</div>
 
-						<div class="form-group edit-page-settings">
-							<label>Other settings:</label>
-
-							<label>
-								<input type="checkbox" name="maintenance_mode" value="0"> 
-								Add to navigation
-							</label>
-						</div>
-						
 						<input type="submit" value="Send" class="form-control form-btn">
 					</form>
 				</div>

@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | Social</title>
+	<title>Postife | Administration | Testimonials</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -212,16 +212,16 @@
 			<div class="container">
 				<!-- Administration Edit Page Head -->
 				<header class="administration-edit-page-head text-center">
-					<h1 class="no-boring-title">Edit Social</h1>
+					<h1 class="no-boring-title">Add Testimonial</h1>
 
 					<p>
-						Here you can edit a <strong>social</strong> links.
+						Here you can add new <strong>testimonial</strong>.
 					</p>
 					<p>
 						Please provide as much information as possible.
 					</p>
 					<p>
-						Back to <a href="followus_edit.html">edit follow us</a>
+						Back to <a href="testimonials_edit.html">edit testimonials</a>
 					</p>
 				</header>
 				<!-- END Administration Edit Page Head -->
@@ -230,20 +230,15 @@
 				<div class="edit-page">
 					<form class="form form-edit-page">
 						<div class="form-group">
-							<label for="social_name">Name: <sup>*</sup></label>
-							<select name="social_name" id="social_name" class="form-control">
-								<option value="facebook" selected>Facebook</option> 
-								<option value="twitter">Twitter</option> 
-								<option value="instagram">Instagram</option> 
-								<option value="googleplus">Google +</option> 
-								<option value="linkedin">Linkedin</option> 
-								<option value="youtube">Youtube</option> 
-							</select>
+							<label for="website_name">Name: <sup>*</sup></label>
+
+							<input type="text" name="website_name" id="website_name" class="form-control">
 						</div>
 
 						<div class="form-group">
-							<label for="social_url">Url: <sup>*</sup></label>
-							<input type="text" name="social_url" id="social_url" class="form-control" value="https://facebook.com/joshfrederik">
+							<label for="message">Text: <sup>*</sup></label>
+							<div id="editor-container">						
+							</div>
 						</div>
 						
 						<input type="submit" value="Send" class="form-control form-btn">
