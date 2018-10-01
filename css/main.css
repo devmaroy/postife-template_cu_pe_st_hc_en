@@ -46,6 +46,8 @@
 \*------------------------------------*/
 /*------------------------------------*    # Footer Settings
 \*------------------------------------*/
+/*------------------------------------*    # Administration General Settings
+\*------------------------------------*/
 /*------------------------------------*    # Administration Navigation Settings
 \*------------------------------------*/
 /* 1/16 */
@@ -55,8 +57,9 @@
 \*------------------------------------*/
 /*------------------------------------*    # Administration Users Settings
 \*------------------------------------*/
-/* 1/16 */
 /*------------------------------------*    # Administration Report Settings
+\*------------------------------------*/
+/*------------------------------------*    # Administration My Files Settings
 \*------------------------------------*/
 /*------------------------------------*    # Administration Edit Page Settings
 \*------------------------------------*/
@@ -598,6 +601,8 @@ textarea.form-control {
   .form-search .form-control {
     display: inline-block;
     width: auto; }
+  .form-search button {
+    margin-left: .5em; }
 
 .form-edit-page-head {
   padding-bottom: 3em; }
@@ -995,6 +1000,111 @@ textarea.form-control {
     margin-left: 0;
     background-color: #ededf9; }
 
+/*------------------------------------*    # Administration General Settings
+\*------------------------------------*/
+.administration-overview {
+  text-align: center;
+  margin-top: 1em; }
+  @media (min-width: 768px) {
+    .administration-overview {
+      text-align: left;
+      margin-top: 5em; } }
+  .administration-overview .form-search {
+    padding-top: 3em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media (min-width: 768px) {
+      .administration-overview .form-search {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-top: 0; } }
+    @media (min-width: 1200px) {
+      .administration-overview .form-search {
+        padding-left: 0.5em; } }
+
+.administration-overview-list-item {
+  padding-top: 3em; }
+  .administration-overview-list-item:not(:last-child) {
+    padding-bottom: 3em;
+    border-bottom: 0.0625em solid #e2e2f6; }
+
+.administration-overview-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 240px;
+  border: 0.125em solid #6666ce; }
+  @media (min-width: 768px) {
+    .administration-overview-image {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+@media (min-width: 768px) {
+  .administration-overview-content {
+    margin-left: 2em; } }
+
+.administration-overview-content-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .administration-overview-content-info {
+      display: block; } }
+
+.administration-overview-content-list {
+  margin-top: 0.5em; }
+
+.administration-overview-content-list-item {
+  text-align: left; }
+  .administration-overview-content-list-item:not(:last-child) {
+    margin-bottom: 1em; }
+
+.administration-overview-icon {
+  color: #6666ce;
+  margin-right: 0.5em; }
+
+.administration-overview-controls {
+  margin-top: 2em; }
+  @media (min-width: 768px) {
+    .administration-overview-controls a {
+      margin-right: 1em; } }
+
+.administration-overview-edit-icon {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 2em; }
+  @media (min-width: 768px) {
+    .administration-overview-edit-icon {
+      display: inline;
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0; } }
+
+.administration-overview-danger-icon {
+  color: #c10303;
+  margin-right: 0.5em;
+  font-size: 1.2em;
+  -webkit-transition: all ease-in-out 0.25s;
+  -o-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s; }
+  .administration-overview-danger-icon:hover, .administration-overview-danger-icon:focus {
+    color: #c10303; }
+  @media (min-width: 768px) {
+    .administration-overview-danger-icon {
+      margin-right: 0; } }
+
+.administration-overview-load-more {
+  margin-top: 6em; }
+
 /*------------------------------------*    # Administration Navigation Settings
 \*------------------------------------*/
 .administration-navigation {
@@ -1063,109 +1173,6 @@ textarea.form-control {
     .administration-users {
       padding: 5em 0; } }
 
-.all-users {
-  text-align: center;
-  margin-top: 1em; }
-  @media (min-width: 768px) {
-    .all-users {
-      text-align: left;
-      margin-top: 5em; } }
-  .all-users .form-search {
-    padding-top: 3em;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    @media (min-width: 768px) {
-      .all-users .form-search {
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        padding-top: 0; } }
-    @media (min-width: 1200px) {
-      .all-users .form-search {
-        padding-left: .5em; } }
-
-.all-users-list-item {
-  padding-top: 3em; }
-  .all-users-list-item:not(:last-child) {
-    padding-bottom: 3em;
-    border-bottom: 0.0625em solid #e2e2f6; }
-
-.all-users-image {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  width: 240px;
-  border: 0.125em solid #6666ce; }
-  @media (min-width: 768px) {
-    .all-users-image {
-      margin-top: 0;
-      margin-bottom: 0; } }
-
-@media (min-width: 768px) {
-  .all-users-content {
-    margin-left: 2em; } }
-
-.all-users-content-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  @media (min-width: 768px) {
-    .all-users-content-info {
-      display: block; } }
-
-.all-users-content-list {
-  margin-top: 0.5em; }
-
-.all-users-content-list-item {
-  text-align: left; }
-  .all-users-content-list-item:not(:last-child) {
-    margin-bottom: 1em; }
-
-.all-users-icon {
-  color: #6666ce;
-  margin-right: 0.5em; }
-
-.user-controls {
-  margin-top: 2em; }
-  @media (min-width: 768px) {
-    .user-controls a {
-      margin-right: 1em; } }
-
-.user-edit-icon {
-  display: block;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 2em; }
-  @media (min-width: 768px) {
-    .user-edit-icon {
-      display: inline;
-      width: auto;
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 0; } }
-
-.user-danger-icon {
-  color: #e40404;
-  margin-right: 0.5em;
-  font-size: 1.2em;
-  -webkit-transition: all ease-in-out 0.25s;
-  -o-transition: all ease-in-out 0.25s;
-  transition: all ease-in-out 0.25s; }
-  .user-danger-icon:hover, .user-danger-icon:focus {
-    color: #c10303; }
-  @media (min-width: 768px) {
-    .user-danger-icon {
-      margin-right: 0; } }
-
-.all-users-load-more {
-  margin-top: 6em; }
-
 /*------------------------------------*    # Administration Report Settings
 \*------------------------------------*/
 .administration-report {
@@ -1176,6 +1183,14 @@ textarea.form-control {
 
 .report-bug {
   margin-top: 2em; }
+
+/*------------------------------------*    # Administration My Files Settings
+\*------------------------------------*/
+.administration-my-files {
+  padding-top: 3em; }
+  @media (min-width: 1200px) {
+    .administration-my-files {
+      padding: 5em 0; } }
 
 /*------------------------------------*    # Administration Website Settings
 \*------------------------------------*/

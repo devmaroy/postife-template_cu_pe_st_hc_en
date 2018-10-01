@@ -276,12 +276,13 @@ $form-auth-head-margin-bottom: 1em;
 
 
 // Form Administration Settings
-$form-administration-padding-top--md: 4em;
+$form-admin-padding-top--md: 4em;
 
 $form-group-upload-margin-bottom: 2em;
 
 $form-upload-user-image-width: 240px;
 $form-upload-user-image-border: 0.125em solid $color-primary; /* 2/16 */
+
 
 $form-edit-page-head: 3em;
 
@@ -503,6 +504,55 @@ $site-footer-margin-bottom: 2em;
 
 
 /*------------------------------------*\
+    # Administration General Settings
+\*------------------------------------*/
+
+// Administration Navigation Colors
+$admin-overview-icon: $color-primary;
+$admin-overview-danger-icon-color: $red;
+$admin-overview-danger-icon-color: darken( $red, 7% );
+
+
+// Administration Navigation Settings
+$admin-overview-margin-top: 1em;
+$admin-overview-margin-top--md: 5em;
+
+$admin-overview-form-search-padding-top: 3em;
+$admin-overview-form-search-padding-top--xl: .5em;
+
+$admin-overview-list-item-padding-top: 3em;
+$admin-overview-list-item-padding-bottom: 3em;
+$admin-overview-list-item-border-bottom: 0.0625em solid lighten( $color-primary, 32% );
+
+$admin-overview-image-width: 240px;
+$admin-overview-image-border: 0.125em solid $color-primary;
+
+$admin-overview-content-margin-left--md: 2em;
+
+$admin-overview-content-list-margin-top: .5em;
+
+$admin-overview-content-list-item-margin-bottom: 1em;
+
+$admin-overview-icon-margin-right: .5em;
+
+$admin-overview-controls-margin-top: 2em;
+$admin-overview-controls-link-margin-right: 1em;
+
+$admin-overview-edit-icon-width: 75%;
+$admin-overview-edit-icon-margin-top: 0;
+$admin-overview-edit-icon-margin-bottom: 2em;
+
+$admin-overview-danger-icon-margin-right: .5em;
+$admin-overview-danger-icon-font-size: 1.2em;
+$admin-overview-danger-icon-transition: $transition-base;
+
+$admin-overview-load-more-margin-top: 6em;
+
+
+
+
+
+/*------------------------------------*\
     # Administration Navigation Settings
 \*------------------------------------*/
 
@@ -574,9 +624,8 @@ $sortable-navigation-controls-margin-top: 1em;
 \*------------------------------------*/
 
 // Administration Users Colors
-$all-users-icon-color: $color-primary;
-$user-danger-icon-color: $red;
-$user-danger-icon-color-hover: darken( $red, 7% );
+
+
 
 
 // Administration Users Settings
@@ -585,38 +634,33 @@ $admin-users-padding-top: 3em;
 $admin-users-padding-y--xl: 5em;
 $admin-users-padding-x--xl: 0;
 
-$all-users-margin-top: 1em;
-$all-users-margin-top--md: 5em;
 
-$all-users-list-item-padding-top: 3em;
-$all-users-list-item-padding-bottom: 3em;
 
-$all-users-list-item-border: 0.0625em solid lighten( $color-primary, 32% ); /* 1/16 */
 
-$all-users-image-width: 240px;
-$all-users-image-border: 0.125em solid $color-primary;
 
-$all-users-content-margin-left--md: 2em;
 
-$all-users-content-list-margin-top: .5em;
 
-$all-users-content-list-item-margin-bottom: 1em;
 
-$all-users-icon-margin-right: .5em;
 
-$all-users-controls-margin-top: 2em;
 
-$all-users-controls-link-margin-right: 1em;
 
-$all-users-load-more-margin-top: 6em;
 
-$user-edit-icon-width: 75%;
-$user-edit-icon-margin-top: 0;
-$user-edit-icon-margin-bottom: 2em;
 
-$user-danger-icon-margin-right: .5em;
-$user-danger-icon-transition: $transition-base;
-$user-danger-icon-font-size: 1.2em;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -636,6 +680,23 @@ $admin-report-padding-y--xl: 5em;
 $admin-report-padding-x--xl: 0;
 
 $report-bug-margin-top: 2em;
+
+
+
+
+/*------------------------------------*\
+    # Administration My Files Settings
+\*------------------------------------*/
+
+// Administration My Files Colors
+
+
+// Administration My Files Settings
+$admin-my-files-padding-top: 3em;
+
+$admin-my-files-padding-y--xl: 5em;
+$admin-my-files-padding-x--xl: 0;
+
 
 
 

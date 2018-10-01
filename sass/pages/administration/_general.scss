@@ -1,0 +1,131 @@
+/*------------------------------------*\
+    # Administration General Settings
+\*------------------------------------*/
+
+.administration-overview {
+	text-align: center;
+	margin-top: $admin-overview-margin-top;
+
+	@media ( min-width: 768px ) {
+		text-align: left;
+		margin-top: $admin-overview-margin-top--md;
+	}
+
+	.form-search {
+		padding-top: $admin-overview-form-search-padding-top;
+		justify-content: center;
+
+		@media ( min-width: 768px ) {
+			justify-content: flex-start;
+			padding-top: 0;
+		}
+
+		@media ( min-width: 1200px ) {
+			padding-left: $admin-overview-form-search-padding-top--xl;
+		}
+	}
+}
+
+.administration-overview-list-item {
+	padding-top: $admin-overview-list-item-padding-top;
+
+	&:not(:last-child) {
+		padding-bottom: $admin-overview-list-item-padding-bottom;
+		border-bottom: $admin-overview-list-item-border-bottom;
+	}
+}
+
+.administration-overview-image {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+
+	width: $admin-overview-image-width;
+	border: $admin-overview-image-border;
+
+	@media ( min-width: 768px ) {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+.administration-overview-content {
+	@media ( min-width: 768px ) {
+		margin-left: $admin-overview-content-margin-left--md;
+	}
+}
+
+.administration-overview-content-info {
+	display: flex;
+	justify-content: center;
+
+	@media ( min-width: 768px ) {
+		display: block;
+	}
+}
+
+.administration-overview-content-list {
+	margin-top: $admin-overview-content-list-margin-top;
+}
+
+.administration-overview-content-list-item {
+	text-align: left;
+
+	&:not(:last-child) {
+		margin-bottom: $admin-overview-content-list-item-margin-bottom;
+	}
+}
+
+.administration-overview-icon {
+	color: $admin-overview-icon;
+	margin-right: $admin-overview-icon-margin-right;
+}
+
+.administration-overview-controls {
+	margin-top: $admin-overview-controls-margin-top;
+	
+
+	@media ( min-width: 768px ) {
+		a {
+			margin-right: $admin-overview-controls-link-margin-right;
+		}
+	}
+}
+
+.administration-overview-edit-icon {
+	display: block;
+	width: $admin-overview-edit-icon-width;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: $admin-overview-edit-icon-margin-top;
+	margin-bottom: $admin-overview-edit-icon-margin-bottom;
+
+	@media ( min-width: 768px ) {
+		display: inline;
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}
+
+.administration-overview-danger-icon {
+	color: $admin-overview-danger-icon-color;
+	margin-right: $admin-overview-danger-icon-margin-right;
+	font-size: $admin-overview-danger-icon-font-size;
+	transition: $admin-overview-danger-icon-transition;
+
+	&:hover,
+	&:focus {
+		color: $admin-overview-danger-icon-color;
+	}
+
+	@media ( min-width: 768px ) {
+		margin-right: 0;
+	}
+}
+
+.administration-overview-load-more {
+	margin-top: $admin-overview-load-more-margin-top;
+}

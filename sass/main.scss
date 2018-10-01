@@ -48,10 +48,12 @@
 
 
 // Import Administration Pages
+@import "pages/administration/general";
 @import "pages/administration/navigation";
 @import "pages/administration/my-account";
 @import "pages/administration/users";
 @import "pages/administration/report";
+@import "pages/administration/my-files";
 @import "pages/administration/settings";
 @import "pages/administration/edit-page";
 

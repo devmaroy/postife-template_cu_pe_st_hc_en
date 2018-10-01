@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    # Administration My Files Settings
+\*------------------------------------*/
+
+.administration-my-files {
+	padding-top: $admin-my-files-padding-top;
+
+	@media ( min-width: 1200px ) {
+		padding: $admin-my-files-padding-y--xl $admin-my-files-padding-x--xl;
+	}
+}

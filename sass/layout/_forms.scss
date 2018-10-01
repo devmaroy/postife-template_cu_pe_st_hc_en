@@ -119,7 +119,7 @@ textarea.form-control {
 	}
 	
 	@media ( min-width: 768px ) {
-		padding-top: $form-administration-padding-top--md;
+		padding-top: $form-admin-padding-top--md;
 	}
 }
 
@@ -141,6 +141,10 @@ textarea.form-control {
 	.form-control {
 		display: inline-block;
 		width: auto;
+	}
+
+	button {
+		margin-left: .5em;
 	}
 }
 
