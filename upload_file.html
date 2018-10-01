@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Upload your files, images and much more.">
 
-	<title>Postife | Administration | Social</title>
+	<title>Postife | Administration | Upload File</title>
 
 	<!-- Import Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -31,7 +31,6 @@
 
 	<!-- Import CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.min.css">
-	<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- END Import CSS -->
 </head>
@@ -66,7 +65,7 @@
 					<li>
 						<a href="faq.html">FAQ</a>
 					</li>
-					<li class="upload-file">
+					<li class="upload-file"> 
 						<a href="upload_file.html">
 							<i class="fas fa-plus upload-file-icon"></i> New File
 						</a>
@@ -207,52 +206,40 @@
 		</section>
 		<!-- END Administration Navigation Section -->
 
-		<!-- Administration Edit Page Section -->
-		<section class="administration-edit-page">
+		<!-- Administration Upload File Section -->
+		<section class="administration-upload-file">
 			<div class="container">
-				<!-- Administration Edit Page Head -->
-				<header class="administration-edit-page-head text-center">
-					<h1 class="no-boring-title">Edit Social</h1>
+				<!-- Administration Upload File Head -->
+				<header class="administration-upload-file-head text-center">
+					<h1 class="no-boring-title">Upload File</h1>
 
 					<p>
-						Here you can edit a <strong>social</strong> links.
+						Here you can upload new file.
 					</p>
 					<p>
-						Please provide as much information as possible.
-					</p>
-					<p>
-						Back to <a href="followus_edit.html">edit follow us</a>
+						Just enter a name and choose which file do you want to upload.
 					</p>
 				</header>
-				<!-- END Administration Edit Page Head -->
+				<!-- END Administration Upload File Head -->
 
-				<!-- Edit Page -->
-				<div class="edit-page">
-					<form class="form form-edit-page">
-						<div class="form-group">
-							<label for="social_name">Name: <sup>*</sup></label>
-							<select name="social_name" id="social_name" class="form-control">
-								<option value="facebook" selected>Facebook</option> 
-								<option value="twitter">Twitter</option> 
-								<option value="instagram">Instagram</option> 
-								<option value="googleplus">Google +</option> 
-								<option value="linkedin">Linkedin</option> 
-								<option value="youtube">Youtube</option> 
-							</select>
-						</div>
+				<!-- Administration Form -->
+				<form class="form form-administration">
+					<div class="form-group">
+						<label for="user_name">File name: <sup>*</sup></label>
+						<input type="text" name="user_name" id="user_name" class="form-control" value="My room">
+					</div>
 
-						<div class="form-group">
-							<label for="social_url">Url: <sup>*</sup></label>
-							<input type="text" name="social_url" id="social_url" class="form-control">
-						</div>
-						
-						<input type="submit" value="Send" class="form-control form-btn">
-					</form>
-				</div>
-				<!-- END Edit Page -->
+					<div class="form-group">
+						<label for="user_name">Choose file: <sup>*</sup></label>
+						<input type="file" name="user_image" id="user_image" class="form-control">
+					</div>
+
+					<input type="submit" value="Send" class="form-control form-btn">
+				</form>
+				<!-- END Administration Form -->
 			</div>
 		</section>
-		<!-- END Administration Edit Page Section -->
+		<!-- END Administration Upload File Section -->
 	</main>
 	<!-- END Site Main -->
 

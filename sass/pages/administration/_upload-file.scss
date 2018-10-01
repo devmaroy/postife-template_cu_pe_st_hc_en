@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    # Administration Upload File Settings
+\*------------------------------------*/
+
+.administration-upload-file {
+	padding-top: $admin-upload-file-padding-top;
+
+	@media ( min-width: 1200px ) {
+		padding: $admin-upload-file-padding-y--xl $admin-upload-file-padding-x--xl;
+	}
+}
