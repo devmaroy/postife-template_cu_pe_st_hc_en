@@ -1032,8 +1032,9 @@ textarea.form-control {
       .administration-overview .form-search {
         padding-left: 0.5em; } }
 
-.administration-overview-list {
-  margin-top: 2em; }
+@media (min-width: 1200px) {
+  .administration-overview-list {
+    margin-top: 2em; } }
 
 .administration-overview-list-item {
   padding-top: 3em; }

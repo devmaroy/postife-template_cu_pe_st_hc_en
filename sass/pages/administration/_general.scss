@@ -27,7 +27,9 @@
 }
 
 .administration-overview-list {
-	margin-top: $admin-overview-list-margin-top;
+	@media ( min-width: 1200px ) {
+		margin-top: $admin-overview-list-margin-top--xl;
+	}
 }
 
 .administration-overview-list-item {
