@@ -574,7 +574,8 @@ textarea.form-control {
   .form-edit-page .form-btn {
     margin-bottom: 0; }
 
-.form-edit-page {
+.form-edit-page,
+.form-my-files-edit {
   padding-top: 0; }
 
 .form-administration .form-btn {
@@ -583,6 +584,9 @@ textarea.form-control {
 @media (min-width: 768px) {
   .form-administration {
     padding-top: 4em; } }
+
+.form-my-files-edit label {
+  margin-top: 0; }
 
 .form-group-upload {
   margin-bottom: 2em; }
@@ -602,7 +606,8 @@ textarea.form-control {
     display: inline-block;
     width: auto; }
   .form-search button {
-    margin-left: .5em; }
+    margin-left: .5em;
+    cursor: pointer; }
 
 .form-edit-page-head {
   padding-bottom: 3em; }
@@ -1023,6 +1028,9 @@ textarea.form-control {
     @media (min-width: 1200px) {
       .administration-overview .form-search {
         padding-left: 0.5em; } }
+
+.administration-overview-list {
+  margin-top: 2em; }
 
 .administration-overview-list-item {
   padding-top: 3em; }

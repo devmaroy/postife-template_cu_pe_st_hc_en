@@ -109,7 +109,8 @@ textarea.form-control {
 	}
 }
 
-.form-edit-page {
+.form-edit-page,
+.form-my-files-edit {
 	padding-top: 0;
 }
 
@@ -120,6 +121,12 @@ textarea.form-control {
 	
 	@media ( min-width: 768px ) {
 		padding-top: $form-admin-padding-top--md;
+	}
+}
+
+.form-my-files-edit {
+	label {
+		margin-top: 0;
 	}
 }
 
@@ -145,6 +152,7 @@ textarea.form-control {
 
 	button {
 		margin-left: .5em;
+		cursor: pointer;
 	}
 }
 
