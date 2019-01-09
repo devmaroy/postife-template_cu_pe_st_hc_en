@@ -1,7 +1,7 @@
 Postife Upload System
 =======================
 
-Custom and simple upload system for images, files and much more.
+Custom and simple upload system for images, files and much more. Only design.
 
 This project is used as a little demonstration of my skills and for evolving my knowledge as a full stack web developer.
 
@@ -17,8 +17,6 @@ Requirements
 ============
 
 * Sass >= 3.5.5 (Bleeding Edge)
-* PHP >= 5.4
-
 
 Meta
 ============
