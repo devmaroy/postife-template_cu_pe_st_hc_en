@@ -56,7 +56,7 @@ A quick look at the top-level files and directories you'll see in my Gatsby proj
 
 <br />
 
-## 🔗 Live Example - [postife-template.netlify.com](postife-template.netlify.com)
+## 🔗 Live Example - [https://postife-template.netlify.com/](https://postife-template.netlify.com/)
 
 <br />
 <br />
