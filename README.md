@@ -7,7 +7,7 @@ Unfinished personal project based on HTML and CSS.
 
 You can modify and use this project or certain components if you wish.
 
-For any questions feel free to contact me at marek@matejovic.cz
+For any questions feel free to contact me at hello@devmaroy.com
 
 <br />
 
@@ -16,7 +16,7 @@ For any questions feel free to contact me at marek@matejovic.cz
 1.  **Clone from Github.**
 
     ```
-    git clone git@github.com:mmatejovic/postife_template.git
+    git clone git@github.com:devmaroy/postife_template.git
     ```
 
   <br />
@@ -56,7 +56,7 @@ A quick look at the top-level files and directories you'll see in my Gatsby proj
 
 <br />
 
-## 🔗 Live Example - [https://postife-template.netlify.com/](https://postife-template.netlify.com/)
+## 🔗 Live Example - [https://postife-template-mmproj.netlify.com/](https://postife-template-mmproj.netlify.com/)
 
 <br />
 <br />
