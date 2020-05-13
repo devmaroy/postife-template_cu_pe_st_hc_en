@@ -1,2 +1,6 @@
-/.idea
-prepros-6.config
+.vscode/
+node_modules/
+public/dist/
+.env.test
+.env.development
+*.log
