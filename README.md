@@ -30,28 +30,45 @@ Use these commands to install the dependencies and start the server.
 A quick look at the top-level files and directories you'll see in my project.
 
     .
+    ├── css
     ├── favicon
-    ├── src
+    ├── files
+    ├── img
+    ├── js
+    ├── sass
     ├── .gitignore
     ├── package-lock.json
     ├── package.json
     ├── screenshot.png
     ├── yarn.lock
+    ├── multiple content files - e.q. about.html, contact.html 
     └── readme.md
 
 <br>
 
-1.  **`/favicon`**: This directory contains favicon files.
+1.  **`/css`**: This directory contains all styles.
+   
+2.  **`/favicon`**: This directory contains favicon files.
+   
+3.  **`/files`**: Directory with other important files.
 
-2.  **`/src`**: This directory contains all of the neccessary files such as scss styles and js.
+4.  **`/img`**: This directory contains images.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+5.  **`/js`**: All javascript files are included here.
+   
+6.  **`/sass`**: Styles written in sass format.
 
-4.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of npm dependencies that were installed for project. **(You won’t change this file directly).**
+7.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-5.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for project.
+8.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of npm dependencies that were installed for project. **(You won’t change this file directly).**
 
-6.  **`readme.md`**: A text file containing useful reference information about project.
+9.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for project.
+
+10. **`*.html`**: Multiple html files with content for each section/page.
+    
+11. **`screenshot.png`**: Screenshot of the final website.
+
+12. **`readme.md`**: A text file containing useful reference information about project.
 
 
 <br>
@@ -61,7 +78,7 @@ A quick look at the top-level files and directories you'll see in my project.
 <br>
 
 ###  Live example: 
-[postife-template-mmproj.netlify.app](https://postife-template-mmproj.netlify.app)
+**[postie-template-mmproj.netlify.app](https://postife-template-mmproj.netlify.app)**
 
 <br>
 
