@@ -1,50 +1,49 @@
-# Postife Upload System - Template
+# **Postife Template**
+
+This project is based on **Flexbox** layout, **HTML5** and modern **CSS3** principes. You can modify and use this project or certain components if you wish
+
+
+<br>
+
 
 ![](screenshot.png)
 
-<br />
-Unfinished personal project based on HTML and CSS.
 
-You can modify and use this project or certain components if you wish.
+<br>
 
-For any questions feel free to contact me at hello@devmaroy.com
+## Installation ##
 
-<br />
+Use these commands to install the dependencies and start the server.
 
-## 🎉 Quick Start
-
-1.  **Clone from Github.**
+1. **Clone from Github**
 
     ```
-    git clone git@github.com:devmaroy/postife_template.git
+    $ git clone git@github.com:devmaroy/postife_template.git
     ```
 
-  <br />
+<br>
 
 
-## 🤔 What's inside?
 
-A quick look at the top-level files and directories you'll see in my Gatsby project.
+## Structure ##
+
+A quick look at the top-level files and directories you'll see in my project.
 
     .
-    ├── css
     ├── favicon
-    ├── files
-    ├── img
-    ├── js
-    ├── html files
+    ├── src
     ├── .gitignore
     ├── package-lock.json
     ├── package.json
     ├── screenshot.png
     ├── yarn.lock
-    └── README.md
+    └── readme.md
 
-<br />
+<br>
 
-1.  **`/css`**: This directory contains all of the neccessary styles for everything on the page.
+1.  **`/favicon`**: This directory contains favicon files.
 
-2.  **`/favicon`**: This directory contains favicon files.
+2.  **`/src`**: This directory contains all of the neccessary files such as scss styles and js.
 
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
@@ -52,11 +51,20 @@ A quick look at the top-level files and directories you'll see in my Gatsby proj
 
 5.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for project.
 
-6.  **`README.md`**: A text file containing useful reference information about project.
+6.  **`readme.md`**: A text file containing useful reference information about project.
 
-<br />
 
-## 🔗 Live Example - [https://postife-template-mmproj.netlify.app/](https://postife-template-mmproj.netlify.app/)
+<br>
 
-<br />
-<br />
+<hr>
+
+<br>
+
+###  Live example: 
+[postife-template-mmproj.netlify.app](https://postife-template-mmproj.netlify.app)
+
+<br>
+
+Created by **[@devmaroy](https://twitter.com/devmaroy)** feel free to contact me 
+
+e-mail: **[hello@devmaroy.com](hello@devmaroy.com)**
