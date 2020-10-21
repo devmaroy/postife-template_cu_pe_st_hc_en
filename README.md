@@ -1,31 +1,36 @@
+<img src="./src/img/logo/logo.png" width="100">
+
 # **Postife Template**
 
-This project is based on **Flexbox** layout, **HTML5** and modern **CSS3** principes. You can modify and use this project or certain components if you wish
-
+This project is created only with HTML &amp; CSS.
 
 <br>
-
 
 ![](screenshot.png)
 
-
 <br>
 
-## Installation ##
+## Installation
 
-Use these commands to install the dependencies and start the server.
+Use these commands to clone repository.
 
 1. **Clone from Github**
 
-    ```
-    $ git clone git@github.com:devmaroy/postife_template.git
-    ```
+   ```
+   $ git clone git@github.com:devmaroy/postife-template_cu_pe_st_hc_en.git
+   ```
+
+2. **Navigate into your directory where you cloned repository**
+
+   ```
+   $ cd my-folder
+   ```
+
+**You can use live-server npm package if you want to serve this website!**
 
 <br>
 
-
-
-## Structure ##
+## Structure
 
 A quick look at the top-level files and directories you'll see in my project.
 
@@ -41,21 +46,21 @@ A quick look at the top-level files and directories you'll see in my project.
     ├── package.json
     ├── screenshot.png
     ├── yarn.lock
-    ├── multiple content files - e.q. about.html, contact.html 
+    ├── multiple content files - e.q. about.html, contact.html
     └── readme.md
 
 <br>
 
 1.  **`/css`**: This directory contains all styles.
-   
+
 2.  **`/favicon`**: This directory contains favicon files.
-   
+
 3.  **`/files`**: Directory with other important files.
 
 4.  **`/img`**: This directory contains images.
 
 5.  **`/js`**: All javascript files are included here.
-   
+
 6.  **`/sass`**: Styles written in sass format.
 
 7.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
@@ -65,11 +70,9 @@ A quick look at the top-level files and directories you'll see in my project.
 9.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for project.
 
 10. **`*.html`**: Multiple html files with content for each section/page.
-    
 11. **`screenshot.png`**: Screenshot of the final website.
 
 12. **`readme.md`**: A text file containing useful reference information about project.
-
 
 <br>
 
@@ -77,11 +80,12 @@ A quick look at the top-level files and directories you'll see in my project.
 
 <br>
 
-###  Live example: 
-**[postife-template-mmproj.netlify.app](https://postife-template-mmproj.netlify.app)**
+### Live example:
+
+**[postife-template.marekmatejovic.com](https://postife-template.marekmatejovic.com)**
 
 <br>
 
-Created by **[@devmaroy](https://twitter.com/devmaroy)** feel free to contact me 
+Created by **[@devmaroy](https://twitter.com/devmaroy)** feel free to contact me
 
-e-mail: **[hello@devmaroy.com](hello@devmaroy.com)**
+e-mail: **[hello@devmaroy.com](mailto:hello@devmaroy.com?subject=[GitHub]%postife-template_cu_pe_st_hc_en)**
