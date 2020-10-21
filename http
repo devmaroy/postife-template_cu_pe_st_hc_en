@@ -273,7 +273,7 @@
 											</li>
 											<li class="administration-overview-content-list-item my-files-content-list-item">
 												<i class="fas fa-share-square fa-fw administration-overview-icon"></i>
-												<a href="#">http://localhost:7887/myroom.jpg</a>
+												<a href="#">http://postife-template.marekmatejovic.com/files/myroom.jpg</a>
 											</li>
 										</ul>
 									</div>
@@ -332,7 +332,7 @@
 											</li>
 											<li class="administration-overview-content-list-item my-files-content-list-item">
 												<i class="fas fa-share-square fa-fw administration-overview-icon"></i>
-												<a href="#">http://localhost:7887/recipe-losos.doc</a>
+												<a href="#">http://postife-template.marekmatejovic.com/files/recipe-losos.doc</a>
 											</li>
 										</ul>
 									</div>
@@ -391,7 +391,7 @@
 											</li>
 											<li class="administration-overview-content-list-item my-files-content-list-item">
 												<i class="fas fa-share-square fa-fw administration-overview-icon"></i>
-												<a href="#">http://localhost:7887/pc-manual.pdf</a>
+												<a href="#">https://postife-template.marekmatejovic.com/files/pc-manual.pdf</a>
 											</li>
 										</ul>
 									</div>
