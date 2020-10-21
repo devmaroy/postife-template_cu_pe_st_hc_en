@@ -1,4 +1,4 @@
-<img src="./src/img/logo/logo.png" width="100">
+<img src="./src/img/logo.png" width="100">
 
 # **Postife Template**
 
